@@ -1,7 +1,12 @@
 {
   "index": {
     "title": "Home",
-    "type": "page"
+    "type": "page",
+    "theme": {
+      "layout": "full",
+      "sidebar": false,
+      "toc": false
+    }
   },
   "examples": {
     "title": "Examples",
@@ -14,7 +19,10 @@
   },
   "GxrApi": {
     "title": "API",
-    "type": "page"
+    "type": "page",
+    "theme": {
+      "layout": "full"
+    }
   },
   "contact": {
     "title": "Contact ↗",
