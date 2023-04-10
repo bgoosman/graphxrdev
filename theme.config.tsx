@@ -2,16 +2,16 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <span>graphxr.dev</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/bgoosman/graphxrdev',
   },
   chat: {
-    link: 'https://discord.com',
+    link: 'https://discord.com/channels/1044303284019666984/1094839827800801381',
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/github/graphxrdev',
   footer: {
-    text: 'Nextra Docs Template',
+    text: 'graphxr.dev',
   },
 }
 

@@ -1,15 +1,19 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
+  "index": {
+    "title": "Home"
   },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://www.kineviz.com/contact",
     "newWindow": true
+  },
+  "examples": {
+    "title": "Examples",
+    "theme": {
+      "layout": "full",
+      "sidebar": false,
+      "toc": false
+    }
   }
 }
