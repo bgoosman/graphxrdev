@@ -1,19 +1,25 @@
 {
   "index": {
-    "title": "Home"
+    "title": "Home",
+    "type": "page"
+  },
+  "examples": {
+    "title": "Examples",
+    "type": "page",
+    "theme": {
+      "layout": "full",
+      "sidebar": false,
+      "toc": false
+    }
+  },
+  "GxrApi": {
+    "title": "API",
+    "type": "page"
   },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
     "href": "https://www.kineviz.com/contact",
     "newWindow": true
-  },
-  "examples": {
-    "title": "Examples",
-    "theme": {
-      "layout": "full",
-      "sidebar": false,
-      "toc": false
-    }
   }
 }
