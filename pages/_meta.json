@@ -17,12 +17,15 @@
       "toc": false
     }
   },
-  "GxrApi": {
+  "graphxr-api": {
     "title": "API",
     "type": "page",
     "theme": {
       "layout": "full"
     }
+  },
+  "user-guides": {
+    "title": "User Guides"
   },
   "contact": {
     "title": "Contact ↗",
