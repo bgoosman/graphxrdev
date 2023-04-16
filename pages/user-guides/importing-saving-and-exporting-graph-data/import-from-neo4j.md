@@ -2,10 +2,10 @@ You can pull data directly from a Neo4j graph database connected to a GraphXR pr
 
 *   Enter and run a Cypher query in the _**Cypher**_ tab of the _**Query**_ panel.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535063/02_03_01_CypherQuery720.png?api=v2)
+    ![](/02_03_01_CypherQuery720.png)
 *   Use the search bar to enter a full text keyword search of indexed node properties and pull the resulting nodes from the database.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535063/01_04_11a_SearchDBGraph.png?api=v2)
+    ![](/01_04_11a_SearchDBGraph.png)
 *   Pull nodes or edges 25 at a time by selecting a category or relationship in the respective tab in the _**Project**_ panel and clicking _**Pull**_.
     
 *   Use _**Expand**_ in the context toolbar to pull data connected by specified relationships to selected nodes in the graph.
@@ -13,7 +13,7 @@ You can pull data directly from a Neo4j graph database connected to a GraphXR pr
 
 GraphXR also includes the [Visual Query Builder](../using-graphxr-extensions/using-visual-query-builder) extension for no-code Cypher queries using visual building blocks. This lets you access Cypher’s most commonly used pattern matching capabilities without needing to learn Cypher code.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719535063/02_03_02_VQB720.png?api=v2)
+![](/02_03_02_VQB720.png)
 
 ## Import using a Cypher query
 
@@ -29,7 +29,7 @@ In GraphXR, the _**Cypher**_ tab of the _**Query**_ panel lets you:
     
 *   Run a saved query by selecting it on the drop down and clicking the _play_ icon.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535063/02_03_03_CypherQuery520.png?api=v2)
+    ![](/02_03_03_CypherQuery520.png)
 
 All GraphXR projects include a basic query that pulls the first 100 connected nodes from the database:
 
@@ -60,7 +60,7 @@ This query will **MATCH** any pattern of _Characters_ and _House_ nodes connecte
 4.  Click the _play_ icon to query the connected database.  
     The data appear in the graph space as nodes and their connecting edges.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535063/02_03_04_CypherQueryRun.png?api=v2)
+    ![](/02_03_04_CypherQueryRun.png)
     
 5.  Click the _**+**_ (plus) icon to save a new query or to save one that you've edited.
     
@@ -75,11 +75,11 @@ To search a Neo4j database, the search terms must first be indexed in the databa
 
 1.  Click the gear icon next to the search bar to display the the _**Database Text Search Index Configuration**_ dialog.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535063/02_03_05a_SearchConfigIcon.png?api=v2)
+    ![](/02_03_05a_SearchConfigIcon.png)
     
     The dialog lists the categories in the connected database, and their properties.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535063/02_03_05b_SearchConfig.png?api=v2)
+    ![](/02_03_05b_SearchConfig.png)
 2.  Click _**Refresh Property**_ to make sure all the properties in the database are listed.
     
 3.  Select properties you want to index. You can either  
@@ -105,10 +105,10 @@ To search a Neo4j database, the search terms must first be indexed in the databa
         Search results are listed beneath the search bar for each category.  
         Nodes matching the search keyword appear below the search field, listed by category in alphabetical order.
         
-        ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535063/02_03_05c_KeywordSearch.png?api=v2)
+        ![](/02_03_05c_KeywordSearch.png)
 2.  Click the arrow to the left of a category to view individual nodes. If more than five nodes are returned for a category, use the arrow selector at the right to navigate through the list and locate nodes you want to import.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535063/02_03_05d_ImportSearchedNodes.png?api=v2)
+    ![](/02_03_05d_ImportSearchedNodes.png)
 3.  Click a list item to add the node to the graph space.  
     OR  
     Click the _**+**_ icon to the right of the category label to import all the matching nodes of that category.  
@@ -127,7 +127,7 @@ However, a graph search works differently than a database search in the followin
 *   AND logic is not recognized. (Any space between search terms is still recognized as OR logic.)
     
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719535063/02_03_05e_SearchGraphNote.png?api=v2)
+![](/02_03_05e_SearchGraphNote.png)
 
 ## Pull data by Category or Relationship
 
@@ -143,7 +143,7 @@ This may be useful for initial data exploration; however a query provides more c
     
 3.  Click _**Pull**_ to pull 25 nodes associated with that category, and any edges that connect the nodes.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535063/02_03_06_PullCategory720.png?api=v2)
+    ![](/02_03_06_PullCategory720.png)
 4.  For added samples, click again, as many times as you want.
     
 
@@ -155,7 +155,7 @@ This may be useful for initial data exploration; however a query provides more c
     
 3.  Click _**Pull**_ to pull 25 edges associated with that relationship, the connected nodes, and all the other edges connected to those nodes.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535063/02_03_07_PullRelationship1320.png?api=v2)
+    ![](/02_03_07_PullRelationship1320.png)
 4.  For added samples, click again, as many times as you want.
     
 
@@ -167,14 +167,14 @@ The _**Expand**_ icon in the context toolbar menu lets you pull additional data 
 
 1.  Select one or more nodes in the graph space, then click the _**Expand**_ icon to display the _**Expand with relationships**_ dialog.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535063/02_03_08_ExpandSelect1320.png?api=v2)
+    ![](/02_03_08_ExpandSelect1320.png)
 2.  Click the checkbox next to a relationship name to pull nodes and edges connected by that relationship.  
     OR  
     Click _**All**_ to pull nodes and edges with all relationships to the selected nodes. To limit the number of nodes, enter a number in the _**Limit**_ field.
     
 3.  Set additional options for expanding the graph:
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535063/02_03_09_ExpandDialog720.png?api=v2)
+    ![](/02_03_09_ExpandDialog720.png)
     
     \- Click the _**Only among selected nodes**_ checkbox to expand relationships only for the selected nodes.  
     \- Specify _**Directional**_ relationships using the dropdown menu. You can choose All directions, only nodes connected by relationships _**From**_ the selected nodes, _**To**_ the selected nodes, or only those with a _**Bidirectional**_ relationship.  
@@ -182,14 +182,14 @@ The _**Expand**_ icon in the context toolbar menu lets you pull additional data 
     
 4.  Click the _**Expand**_ button.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535063/02_03_10_ExpandSpecified720.png?api=v2)
+    ![](/02_03_10_ExpandSpecified720.png)
     
     An _**Expand Next Page**_ dialog indicates the number of items successfully expanded. You can  
     \- Click _**Expand More**_ to pull the next 1000 connected items. This lets you pull in all the data in the database that have the specified connections without needing to return to the _**Expand with relationships**_ dialog.  
     \- Click _**Cancel**_ (or simply click the **X** at the upper right) to close the dialog.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535063/02_03_11_ExpandMore720.png?api=v2)
+    ![](/02_03_11_ExpandMore720.png)
     
     Additional nodes and their relationships are pulled into the graph. In the example below, _**All**_ relationships were selected, and additional nodes with edges connected to the selected _**Character**_ and _**House**_ nodes were pulled from the Neo4j database. Once no additional nodes are connected to the selected nodes by the specified relationships, a message displays that all relationships are expanded.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535063/02_03_12_ExpandResult1320.png?api=v2)
+    ![](/02_03_12_ExpandResult1320.png)

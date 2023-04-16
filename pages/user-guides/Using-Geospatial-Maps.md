@@ -1,10 +1,10 @@
 The _**Map**_ panel lets you work with data positioned on a world map (using [Mapbox](https://www.mapbox.com), Google, or OpenStreetMap servers). When you open the _**Map**_ panel to display the world map, nodes in the graph space that have latitude and longitude property values are automatically dropped onto the map.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538378/09_01_01_MapView.png?api=v2)
+![](/09_01_01_MapView.png)
 
 Nodes with no latitude and longitude coordinates which are connected to those on the map are also displayed, with their connecting edges, positioned above the map. By default, a force-directed layout is used for these nodes, unless they have been arranged using a geometric layout.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538378/09_01_02_PhotoMap1320.png?api=v2)
+![](/09_01_02_PhotoMap1320.png)
 
 Nodes with geospatial coordinates are pinned to the map until you hide the map, at which time they are released and displayed in the default force-directed layout.
 
@@ -21,7 +21,7 @@ The _lat_ and _lng_ values must be floating point, not strings. Most lat-long da
 
 The .KML and .KMZ ([Keyhole Markup Language/Keyhole Markup Zip](https://en.wikipedia.org/wiki/Keyhole_Markup_Language)) files used by mapping applications such as Google Earth contain appropriately encoded coordinates, and you can map these files directly in GraphXR.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538378/09_01_03_LatLong1320.png?api=v2)
+![](/09_01_03_LatLong1320.png)
 
 ## Navigating and working with mapped data
 
@@ -38,7 +38,7 @@ Desktop navigation and data selection is the same as for other layouts. You can:
 
 For example, in the map below, tags have been created to assign regions to sets of nodes.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538378/09_01_03_TaggedMap1320.png?api=v2)
+![](/09_01_03_TaggedMap1320.png)
 
 You can use a tag to select nodes by region then click the _**Center To**_ icon to zoom in to the center point of the selection on the map.
 
@@ -56,7 +56,7 @@ Click the _**Map**_ menu item to display the _**Map**_ panel, which includes
     
 *   _**Setting**_ to select a map server, install custom map servers, and set _**Mode**_ and _**Auto Fitting**_ options.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538378/09_01_04a_MapPanel720.png?api=v2)
+    ![](/09_01_04a_MapPanel720.png)
 
 ### Using Show Map and Hide Map
 
@@ -84,7 +84,7 @@ _**To fly to a named location**_**:**
 2.  In the _**Search Location**_ bar, enter the name of a location (e.g. _United Kingdom_) and click it on the search list.  
     The map centers on the named location.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538378/09_01_04b_SearchMap1320.png?api=v2)
+    ![](/09_01_04b_SearchMap1320.png)
 3.  To reset the map, clear the search by clicking the _**x**_ icon in the search bar, then click _**Show Map**_.
     
 
@@ -99,7 +99,7 @@ When you click _**Map Control**_, 3D navigation is de-activated.
 1.  Open the _**Map**_ panel and click _**Map Control**_.  
     The button turns blue, indicating you are in map control mode.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538378/09_01_06_MapControl1080.png?api=v2)
+    ![](/09_01_06_MapControl1080.png)
 2.  Set the map boundaries with the following mouse controls or their equivalent keyboard shortcuts:  
     • Pan (_l**eft mouse click**_ **drag**)  
     • Zoom (_**mouse scroll**_ or _**2**_+_**left mouse click**_ **drag**)
@@ -121,4 +121,4 @@ Map _**Setting**_ options let you:
     
 *   Select or de-select the _**Auto Fitting**_ option.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538378/09_01_05_MapSetting720.png?api=v2)
+    ![](/09_01_05_MapSetting720.png)

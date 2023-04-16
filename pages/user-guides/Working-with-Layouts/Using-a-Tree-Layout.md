@@ -1,6 +1,6 @@
 A tree layout displays nodes and edges as a hierarchy branching from one or more nodes you select.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538340/08_04_01_TreeLayout1320.png?api=v2)
+![](/08_04_01_TreeLayout1320.png)
 
 The tree is dynamic in that at any time you can change the source nodes and apply the new layout.
 
@@ -23,7 +23,7 @@ If you close the _**Layout**_ Panel without resetting the view, a green _**Reset
     
 3.  Click _**Apply**_ to show the tree hierarchy.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538340/08_04_02_TreeAuthor.png?api=v2)
+    ![](/08_04_02_TreeAuthor.png)
 4.  Now select a different set of nodes as the first level (e.g. all _Location_ nodes) and click _**Apply**_.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538340/08_04_03_TreeLocation.png?api=v2)
+    ![](/08_04_03_TreeLocation.png)

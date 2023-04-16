@@ -35,7 +35,7 @@ In the following example numerical data in the file _ImportSample.csv_ has been 
     
 5.  Choose a preset formula from the dropdown menu, in this case, _**toNumber**,_ to convert the _Score_ text string to a numerical value.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537332/06_01_01_FunctionStart1320.png?api=v2)
+    ![](/06_01_01_FunctionStart1320.png)
 6.  Enter a new property name (e.g. _scoreNumerical_) to save the result. Or you can use the default, which simply adds _\_new_ to the _**Selected Property**_ name.  
     **NOTE:** It is usually best to create a new property and give it a descriptive name. Entering the source property name overwrites the existing data, which may be appropriate in some cases.
     
@@ -53,7 +53,7 @@ In the following example numerical data in the file _ImportSample.csv_ has been 
     The new property will be added to the selected category or relationship and the calculated value will be added to each node (or edge) that includes valid input.  
     Messages appear below the _**Run**_ and _**Test**_ buttons showing the results, including the number of nodes with the new property.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537332/06_01_02_FunctionDone720.png?api=v2)
+    ![](/06_01_02_FunctionDone720.png)
 
 ## Running a custom f(x) formula
 
@@ -88,12 +88,12 @@ We’ll use data from the HBO series Game of Thrones to illustrate using a custo
     
 7.  As you enter a formula, a sample result appears beneath the new property name. If there is a problem with the formula or the source data, a brief message appears (for example, "Invalid input").
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537332/06_01_03_CustomFcnStart1320.png?api=v2)
+    ![](/06_01_03_CustomFcnStart1320.png)
 8.  Click _**Test**_ to test the custom function, or _**Run**_ to run it.  
     In either case a message shows the result of the transformation, including the number of nodes with the new property.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537332/06_01_04_CustomFcnDone1320.png?api=v2)
+    ![](/06_01_04_CustomFcnDone1320.png)
 
 To inspect the new _seasonEpisode_ property and its values, open the _**Table**_ panel and select the _Episodes_ category. You can also see the new property in a node’s information panel.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719537332/06_01_04_CustomFcnTable1320.png?api=v2)
+![](/06_01_04_CustomFcnTable1320.png)

@@ -2,7 +2,7 @@ You can import data in _.CSV_, _.JSON_, GraphXR’s _.graphxr_ and _.graphxrsnap
 
 In the _**Project**_ panel and _**Data**_ tab you can also click _**Import**_ (for _.graphxrsnapshots_, _.CSV_, _.JSON_, etc. files), or _**Load GXRF**_ (for _.graphxr_ files), then navigate to the file and click to load the data.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719534552/02_01_01_ProjectDataLoad720.png?api=v2)
+![](/02_01_01_ProjectDataLoad720.png)
 
 ## Importing tabular data by drag and drop
 
@@ -12,10 +12,10 @@ For example, the following spreadsheet can be dropped onto the project space. It
 
 *   A node representing a single travel event is created for each row. All the nodes are assigned a single category labeled with the name of the file (i.e. _COVID-19 Travel Log - Sheet1)_.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534552/02_01_02_ImportCSVCovid1080.png?api=v2)
+    ![](/02_01_02_ImportCSVCovid1080.png)
 *   The column headings in the file are assigned as property names: _date_, _from\_country_, and _to\_country_, and property values are transferred for the respective nodes. In the _**Table**_ panel, you can inspect the imported nodes and their property values.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534552/02_01_03_CSVImportMapping1080.png?api=v2)
+    ![](/02_01_03_CSVImportMapping1080.png)
 
 Starting with unconnected nodes, you can create connected graph data using GraphXR's navigation, selection, and transformation tools. In particular, the _**Transform**_ panel provides powerful ways to create and/or simplify categories and properties as well as relationships.
 
@@ -31,8 +31,8 @@ When a _.graphxrsnapshots_ snapshot archive is dropped on the graph space, the *
 
 1.  Click the arrow on the left edge of the **Snapshots** window to expand the snapshot archive and locate the snapshot you want.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534552/02_01_04_SnapshotStart720.png?api=v2)
+    ![](/02_01_04_SnapshotStart720.png)
 2.  Click the snapshot’s **cloud** icon to import the data view.  
     For example, the geometric layout of graph data from the Game of Thrones demo shown below was saved as a snapshot, which can now be imported into any other GraphXR project.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534552/02_01_05_SnapshotEnd720.png?api=v2)
+    ![](/02_01_05_SnapshotEnd720.png)

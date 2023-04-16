@@ -17,7 +17,7 @@ Once a path has been successfully traced, you can click _**Spotlight Path**_ to 
 
 1.  Open the _**Algorithm**_ panel and _**Path Finding**_ tab.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537719/07_00_01_AlgorithmPanel720.png?api=v2)
+    ![](/07_00_01_AlgorithmPanel720.png)
 2.  Select one or more starting nodes in the graph, and click _**Add to Start**_.  
     Your selected nodes are listed in _**Start Nodes**_.  
     **Note:** An error message displays if you select too many start and end nodes such that there are more than ten pairs for tracing the shortest path.
@@ -30,10 +30,10 @@ Once a path has been successfully traced, you can click _**Spotlight Path**_ to 
     
 5.  Click _**Trace Path**_ to display and select the nodes and edges for the shortest path(s) between your start and end nodes.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537719/07_01_01_AlgorithmPath1320.png?api=v2)
+    ![](/07_01_01_AlgorithmPath1320.png)
 6.  Once the path has been successfully traced, you can click _**Spotlight Path**_ to display only the nodes and edges involved. The button label changes to _**Un-spotlight Path**_.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537719/07_01_02_AlgorithmSpotlight1320.png?api=v2)
+    ![](/07_01_02_AlgorithmSpotlight1320.png)
     
     At this point, you can save and share a _**Data View**_, save a _**GXRF**_ file, or save and export a _**Snapshot**_.
     
@@ -63,15 +63,15 @@ The numerical results can be displayed (for example, in a scatter plot), accesse
 
 1.  In the _**Algorithm**_ panel, click to open the _**Centrality**_ or _**Community Detection**_ tab.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537719/07_01_04_Centrality1320.png?api=v2)
+    ![](/07_01_04_Centrality1320.png)
 
 2.  Click the button for the algorithm you want to run.  
     A message displays when the calculation is finished. The property and calculated value is added to each node in the graph. To see the results, you can  
     Open a table.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537719/07_01_06_AlgorithmResultsTable.png?api=v2)
+    ![](/07_01_06_AlgorithmResultsTable.png)
     
     OR  
     Inspect any node’s information panel.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537719/07_01_05_CommunityDetection1320.png?api=v2)
+    ![](/07_01_05_CommunityDetection1320.png)

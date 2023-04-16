@@ -14,7 +14,7 @@ Using Game of Thrones data, we can use the _seasonEpisode_ property in the _Line
     
 4.  In the _**Select key properties**_ dropdown (or scrollable list), select the _seasonEpisode_ property.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537535/06_04_01_Merge1320.png?api=v2)
+    ![](/06_04_01_Merge1320.png)
     
     **NOTE:** The resulting merged node will preserve only one of the values for each property from its source nodes. In most cases, these properties should be cleared by checking the _**Clear Unselected Properties**_ checkbox before running the merge.
     
@@ -22,4 +22,4 @@ Using Game of Thrones data, we can use the _seasonEpisode_ property in the _Line
     Error and progress messages are displayed beneath the _**Run**_ button.  
     The graph is now far simpler. Instead of a few thousand nodes, the _Lines_ category now includes only 73 nodes, the number of episodes in the series.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537535/06_04_02_MergeDone1320.png?api=v2)
+    ![](/06_04_02_MergeDone1320.png)

@@ -4,7 +4,7 @@ Examples use the open-source dataset for the HBO series Game of Thrones. For a h
 
 The _Characters.csv_ file tabulates information about each character in the series, the name and the house they belong to. Importing CSV file assigns all the data to a single default _Characters_ category, but we want to extract a separate _House_ category for the family each character belongs to.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719537416/06_02_01_ExtractCSV720.png?api=v2)
+![](/06_02_01_ExtractCSV720.png)
 
 We can extract a _houseName_ property from _Character_ nodes, and use it to create both a _House_ category and a new _BELONGS\_TO_ relationship linking _House_ nodes to the original _Characters_ nodes.
 
@@ -24,7 +24,7 @@ We can extract a _houseName_ property from _Character_ nodes, and use it to crea
     
 3.  Click the _**Key**_ checkbox to set _houseName_ as a key, so that a single node will be created for each unique value of _houseName_, rather than a separate one for every source node.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537416/06_02_02_Extract1320.png?api=v2)
+    ![](/06_02_02_Extract1320.png)
     
     **NOTE:** If the property value is a list and not a single value, you can click the _**Split**_ checkbox to create a separate node for each value in the list. Otherwise, a single node will be created with only the first value in the list.
     
@@ -38,9 +38,9 @@ We can extract a _houseName_ property from _Character_ nodes, and use it to crea
     The legend now displays the new _House_ category, and the new _BELONGS\_TO_ relationship.  
     Extracted _House_ nodes appear in the graph space, connected to their respective _Character_ nodes by new _BELONGS\_TO_ edges.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537416/06_02_03_ExtractComplete1320.png?api=v2)
+    ![](/06_02_03_ExtractComplete1320.png)
     
 
 Since _**Skip Empty**_ was left unchecked, source nodes with no _houseName_ value are assigned to an unlabeled _House_ node, connected to their respective _Character_ nodes through _BELONGS\_TO_ edges. In the Property list, the _houseName_ property of the unlabeled _House_ node appears as “_not available”_.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719537416/06_02_04_ExtractNull720.png?api=v2)
+![](/06_02_04_ExtractNull720.png)

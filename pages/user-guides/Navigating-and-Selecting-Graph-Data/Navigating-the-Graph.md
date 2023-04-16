@@ -38,7 +38,7 @@ The following table lists available desktop navigation shortcuts.
 
 *   In a project’s graph space, click the _**Shortcut Key**_ icon located at the lower left of the browser window.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536304/04_01_01_ShortcutKey.png?api=v2)
+    ![](/04_01_01_ShortcutKey.png)
 
 ## Navigating with Fly Out and Center To
 
@@ -46,10 +46,10 @@ The _**Fly Out**_ and _**Center To**_ icons on the context toolbar let you repos
 
 *   Click the _**Fly Out**_ icon to display all the graph data centered in your browser window. This is equivalent to clicking the _**Reset**_ circle in the GUI navigation controls.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536304/04_01_02_FlyOut720.png?api=v2)
+    ![](/04_01_02_FlyOut720.png)
 *   Click the _**Center To**_ icon to zoom in to a view of the data centered on a selected node or nodes.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536304/04_01_03_CenterTo720.png?api=v2)
+    ![](/04_01_03_CenterTo720.png)
 
 ## Navigating using a keyword search
 
@@ -61,13 +61,13 @@ You can use full-text keyword search on properties of nodes in the graph to sele
     
 2.  Enter a search term. For example, “win” to find a character named “Wind”.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536304/04_01_04_KeywordGraph720.png?api=v2)
+    ![](/04_01_04_KeywordGraph720.png)
     
     As you enter the term, all nodes with property values matching the search term are selected. A list by category and node of matching results appears below the search bar. The example search returned two matching Character nodes, one of which is the one we want.
     
 3.  Click the airplane icon on the left to select that node and center it in the graph space.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536304/04_01_05_KeywordFlyTo720.png?api=v2)
+    ![](/04_01_05_KeywordFlyTo720.png)
 
 You can roll over any individual result to display a quick information panel with more details.
 
@@ -85,7 +85,7 @@ Using the category or relationship of a node or edge, you can search a table and
     
 3.  Enter a search term in the _**Search**_ field.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536304/04_01_06_TableSearchSelect.png?api=v2)
+    ![](/04_01_06_TableSearchSelect.png)
 4.  You can  
     • Click _**Select All**_ to select all the search results.  
     OR  

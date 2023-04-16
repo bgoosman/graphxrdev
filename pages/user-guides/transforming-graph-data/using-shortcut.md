@@ -1,6 +1,6 @@
 The _Shortcut_ transform connects two nodes that share a common neighbor with a new edge, and in the process creates a new relationship. The source pattern remains, but it can be hidden or deleted. This enables you to simplify a graph without merging nodes.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719537617/06_06_00_ShortcutPattern.png?api=v2)
+![](/06_06_00_ShortcutPattern.png)
 
 Generally, for the pattern:
 
@@ -38,7 +38,7 @@ Editing a preset moves it to the _custom_ item, where you can test or run the ed
 
 Using the graph pattern for photo assets illustrated above as a basic example, we can use a shortcut pattern to connect _Authors_ (i.e. photographers) directly to the _Locations_ where they took an _Image_ through a new WORKED\_AT relationship.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719537617/06_06_01_ShortcutPhotos720.png?api=v2)
+![](/06_06_01_ShortcutPhotos720.png)
 
 For a hands-on tutorial using a larger dataset, see [How to GraphXR: Shortcut](https://kineviz.atlassian.net/wiki/spaces/TES/pages/1029111867/6.+Shortcut).
 
@@ -64,19 +64,19 @@ For a hands-on tutorial using a larger dataset, see [How to GraphXR: Shortcut](h
     
     • Check the _**Directional Edge**_ and _**Count Links**_ checkboxes. _**Count Links**_ adds an automatic _count_ property to the new relationship which may not always be meaningful. In this example though, it represents the number of photos at a location taken by the connected author.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537617/06_06_02_ShortcutEnterDetails1320.png?api=v2)
+    ![](/06_06_02_ShortcutEnterDetails1320.png)
 4.  Click _**Run**_. Processing messages display below the _**Run**_ button indicating success or errors.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537617/06_06_03_ShortcutRunMessage720.png?api=v2)
+    ![](/06_06_03_ShortcutRunMessage720.png)
     
     The new shortcut pattern has now been created and added to the graph. Note that the source pattern with its _Photos_ nodes are still present in the graph space.
     
 5.  To view the shortcut graph, click the _Photos_ category on the legend to select its nodes.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537617/06_06_04_ShortcutNewEdges720.png?api=v2)
+    ![](/06_06_04_ShortcutNewEdges720.png)
 6.  Then either click the _**Hide Selected**_ icon to hide all the _Photos_ nodes, or press the _**Delete**_ icon (or _**del**_ or _**backspace)**_ to delete them from the graph.  
     We now see only _Author_ and _Location_ nodes connected by the new _WORKED\_AT_ edges.  
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537617/06_06_05_ShortcutOnly720.png?api=v2)
+    ![](/06_06_05_ShortcutOnly720.png)
 
 To see added properties, you can display an info panel or quick info rollover for one of the new edges, or display a table of the edges for the new relationship (e.g. _WORKED\_AT_).

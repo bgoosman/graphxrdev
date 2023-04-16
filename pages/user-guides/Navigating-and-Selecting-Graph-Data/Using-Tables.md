@@ -21,12 +21,12 @@ In the _**Table**_ panel, separate _**Category**_ and _**Relationship**_ tabs di
     
 2.  Open the _**Table**_ panel, and choose either the _**Category**_ or _**Relationship**_ tab.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536796/04_06_01_BasicTable.png?api=v2)
+    ![](/04_06_01_BasicTable.png)
 3.  Click a category (or relationship) name to display the table of its nodes (or edges) in the graph. You can:  
     • Scroll through the table using scroll bars and _**Next**_ or _**Previous**_ page controls.  
     • Enter a search term to find only nodes (or edges) with matching properties.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536796/04_06_02_BasicTableSearch.png?api=v2)
+    ![](/04_06_02_BasicTableSearch.png)
     
     • Click _**Select All**_ to select the data returned by a search.  
     • Click a single table entry to center the view on the node or edge.  
@@ -54,7 +54,7 @@ You can
 2.  Click the _**Enhanced Table**_ button on the bottom right of the Table panel.  
     The enhanced table is initially tethered to the graph space, but you can click the airplane icon at the upper right corner to display it in a separate browser window.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536796/04_06_03_EnhancedTable.png?api=v2)
+    ![](/04_06_03_EnhancedTable.png)
 
 In the enhanced table you can:
 

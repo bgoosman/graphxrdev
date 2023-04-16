@@ -25,7 +25,7 @@ You can also select a new color and icon for a category or a relationship color 
     
 4.  In the _**Styling Setting**_ dialog, click one of the pre-set colored dots, use the color palette to select the color of your choice, or enter the hex value for the color.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536132/03_02_01_SelectColor720.png?api=v2)
+    ![](/03_02_01_SelectColor720.png)
     
     The new color is applied immediately.
     
@@ -44,7 +44,7 @@ You can assign a color scale or gradient for a category’s numerical or date pr
     
 3.  Click the _**Use Scale Color**_ checkbox, and choose a color scale from the additional dropdown menu.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536132/03_02_02_SelectColorScale720.png?api=v2)
+    ![](/03_02_02_SelectColorScale720.png)
     
     In the example above, the _BuPu_ scale colors visible _Character_ nodes according to their _kills_ property value, on a gradient with a lowest value assigned a pale blue, and the highest a dark purple.
     
@@ -68,11 +68,11 @@ To change the coloring mode for icons, go to the _**Project -> Settings**_ and _
 3.  Click the _**Icon**_ tab to display the icon picker. To locate icons, you can  
     \- Search by name (e.g. “_home_”).
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536132/03_02_03_SearchIcon720.png?api=v2)
+    ![](/03_02_03_SearchIcon720.png)
     
     \- Use the dropdown menu to display groups of similar icons.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536132/03_02_03_SelectIcon720.png?api=v2)
+    ![](/03_02_03_SelectIcon720.png)
 4.  Click to select an icon for the Category.  
     The new icon is applied to all the nodes of the Category, colored with your current color choice and mode, and the dialog closes.
     
@@ -81,15 +81,15 @@ To change the coloring mode for icons, go to the _**Project -> Settings**_ and _
 
 In the _**Projects**_ panel and _**Category**_ or _**Relationship**_ tab you can select one or more properties of a category or relationship whose values will be used as captions. The caption for each property you select is displayed on a separate line. Captions appear when the node or edge is close enough to your virtual viewpoint, and disappear when you navigate further away.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719536132/03_02_05_CaptionsIntro.png?api=v2)
+![](/03_02_05_CaptionsIntro.png)
 
 Often a property will have just one value, but [_multi-line property values_](https://kineviz.atlassian.net/wiki/spaces/~5fb2d973d670b8006e5d6cbd/pages/1719537113/Adding+and+Deleting+Graph+Data) are also supported, and are displayed in captions. A property with more than one value will display each value on a separate line.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719536132/03_02_06_CaptionsMultiLine.png?api=v2)
+![](/03_02_06_CaptionsMultiLine.png)
 
 The _**Projects**_ panel and _**Settings**_ tab provides options to set the global display of captions:  
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719536132/03_02_07_CaptionsNEW.png?api=v2)
+![](/03_02_07_CaptionsNEW.png)
 
 *   _**Alternate Caption Rendering**_ checkbox displays captions using an alternate rendering that may be more legible than the default rendering at very small text sizes. However, the number of captions which can be rendered at a time is limited.
     
@@ -112,7 +112,7 @@ The _**Projects**_ panel and _**Settings**_ tab provides options to set the glob
     
     If you select more than one property, the caption displays **in the order you select the properties** in the _**Property Name**_ list. For example, a caption that includes the _Episode_’s property values for _season_, _episode_, and _title_ appears as follows:
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536132/03_02_08_CaptionsMultiple.png?api=v2)
+    ![](/03_02_08_CaptionsMultiple.png)
     
 
 ## Scaling node size or edge width by a property value
@@ -131,10 +131,10 @@ The _**Node Size Scale**_ and _**Edge Width Scale**_ sliders in the _**Settings*
     
 3.  For a category, click the _**Node Size**_ checkbox for the property to be used to scale node size (e.g. _numLines_).
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536132/03_02_09_NodeSize.png?api=v2)
+    ![](/03_02_09_NodeSize.png)
     
     For a relationship, click the _**Bind Width**_ checkbox for the relationship property. For example, for the _spoke_ relationship, select the _numLines_ property. This will scale the width of _spoke_ edges according to the number of lines spoken by a character.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536132/03_02_10_NodeEdgeWidth.png?api=v2)
+    ![](/03_02_10_NodeEdgeWidth.png)
 
 Although _**Node Size**_ or _**Bind Width**_ checkboxes are available for any property, a property with numerical values (rather than text) produces more obvious visual results.

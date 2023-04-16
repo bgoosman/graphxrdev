@@ -1,12 +1,12 @@
 The **Projects** page is your portal to create and manage individual GraphXR projects. It’s also where you review details of your GraphXR account and register your questions and comments.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719533825/01_02_04_ProjectsPage1080.png?api=v2)
+![](/01_02_04_ProjectsPage1080.png)
 
 The menu at the top of the _**Projects**_ page lets you access and edit your GraphXR account or log out. _**Feedback**_ lets you log questions and comments for administrator review and response and _**Help**_ takes you to the Kineviz website where you can find learning resources and contact information.
 
 A language selector menu enables you to choose UI elements labeled in either **English** or **Chinese**.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719533825/01_03_01_cProjectsChinese1320.png?api=v2)
+![](/01_03_01_cProjectsChinese1320.png)
 
 The body of the _**Projects**_ page includes areas to create and access GraphXR projects:
 
@@ -23,7 +23,7 @@ The _**Search Projects**_ bar at the top of the page lets you find one or more p
 
 A display icon lets you display projects in a more compact _list_, instead of the default _tiles_.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719533825/01_03_01_bProjectsList1080.png?api=v2)
+![](/01_03_01_bProjectsList1080.png)
 
 ## Explore a Demo Project
 
@@ -33,17 +33,17 @@ To get started quickly with GraphXR you can explore available _**Demo**_ project
 
 1.  Click the dropdown arrow next to _**Select Demo**_ and select a project from the menu.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719533825/01_03_02_DemoMenu420.png?api=v2)
+    ![](/01_03_02_DemoMenu420.png)
 2.  Now click the demo project you selected to enter its graph space.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719533825/01_03_03_DemoSelected420.png?api=v2)
+    ![](/01_03_03_DemoSelected420.png)
 3.  The project’s graph space will be empty when you open it.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719533825/01_03_04_GraphSpace1320.png?api=v2)
+    ![](/01_03_04_GraphSpace1320.png)
     
     For Demo projects that are connected to a Neo4j database, you can click the **Project** menu item on the upper left side of the browser window to explore the categories and relationships in the connected database.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719533825/01_03_05_DemoGOTCategories1320.png?api=v2)
+    ![](/01_03_05_DemoGOTCategories1320.png)
     
     For example, in the Demo project with data for the HBO Game of Thrones series, categories such as **Character**, **House**, **Episode**, etc, and relationships such as **child\_of**, **married\_to**, **guarded\_by**, etc. have been created in the Neo4j graph database. You’ll also see the color assigned to each category (or relationship), and a list of their defined property names.
     
@@ -62,14 +62,14 @@ Creating a project without connecting it to a Neo4j database can be useful for i
 
 1.  In the _**Projects**_ page, click the _**+**_ icon next to _**Create**_ in the _**Your Projects**_ area.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719533825/01_03_06_CreateProject1_540.png?api=v2)
+    ![](/01_03_06_CreateProject1_540.png)
 2.  In the _**Project Name**_ text box, enter a descriptive project name. Make sure that _**Configure Neo4j Instance**_ is not checked.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719533825/01_03_07_CreateProject2_540.png?api=v2)
+    ![](/01_03_07_CreateProject2_540.png)
 3.  Click _**Confirm**_.  
     The new project appears under _**Your Projects**_.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719533825/01_03_08_CreateProject3_720.png?api=v2)
+    ![](/01_03_08_CreateProject3_720.png)
 
 You can now:
 
@@ -82,7 +82,7 @@ You can now:
 *   Click the project’s _**Enable Share/Disable Share**_ (Lock) icon to enable sharing of data views with another user. Share users you _**Invite**_ have access only to that project and the data views you share.  
     You can also click **ShareUI Config** to restrict share users' ability to navigate or edit the view.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719533825/01_03_09_ShareIcons720.png?api=v2)
+    ![](/01_03_09_ShareIcons720.png)
 *   Click the _**Delete**_ (trash can) icon to delete the project.
     
 
@@ -98,7 +98,7 @@ You can connect a project to an existing Neo4j graph database by specifying the 
     
 3.  Enter the information required to connect to your Neo4j database:
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719533825/01_03_11_CreateNeo4jDialog420.png?api=v2)
+    ![](/01_03_11_CreateNeo4jDialog420.png)
     
     • _**Project Name**_: Descriptive name, (e.g., the name of the Neo4j database).  
     • _**Neo4j DB Host**_: Host address, (e.g., a url such as _localhost_, or other host location). Do not include [https://,](#) bolt://, or :(port number) here.  
@@ -114,7 +114,7 @@ You can connect a project to an existing Neo4j graph database by specifying the 
 4.  Click _**Confirm**_.  
     The new project appears in _**Your Projects**_.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719533825/01_03_12_NewNeo4j420.png?api=v2)
+    ![](/01_03_12_NewNeo4j420.png)
 
 You can now:
 

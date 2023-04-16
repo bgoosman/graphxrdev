@@ -9,7 +9,7 @@ If your project is connected to a Neo4j database, and you have the necessary use
 
 1.  Go to the _**Projects**_ panel and _**Data**_ tab, and click _**Save to Neo4j**_.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535528/02_06_01_SavetoNeo4j.png?api=v2)
+    ![](/02_06_01_SavetoNeo4j.png)
 2.  Review the list of categories and their properties that exist in the graph space.
     
 3.  For each category, you must set one of the properties as a _**Key**_ by clicking the _**+**_ (plus) icon next to the property in the list.

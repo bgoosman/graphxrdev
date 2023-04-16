@@ -1,6 +1,6 @@
 The _**Connector**_ provides access through APIs to selected third-party applications and services. These can be useful for injecting data from external sources, or modifying existing data in your graph.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719537692/06_07_01_ConnectorAddress1320.png?api=v2)
+![](/06_07_01_ConnectorAddress1320.png)
 
 The _**Connector**_ is available only in Enterprise subscriptions of GraphXR.
 

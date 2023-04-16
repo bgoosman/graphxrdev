@@ -43,11 +43,11 @@ We can use _**Aggregate**_ to find the total number of lines spoken on each Game
     • In the _**New Prop**_ textbox, enter _totalLines_. This is the new aggregate property that will contain the total number of lines of dialog in an episode.  
     • In the _**Formula Name**_ menu, select the _sum_ preset. A sample result is displayed below the property name.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537486/06_03_01_Aggregate1320.png?api=v2)
+    ![](/06_03_01_Aggregate1320.png)
 3.  Click _**Run**_. Since we are just adding a new property, the graph does not visually change.  
     A scrolling list below the _**Run**_ button displays error and completion messages.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537486/06_03_02_RunMessages720.png?api=v2)
+    ![](/06_03_02_RunMessages720.png)
 4.  To review the new _totalLines_ property, open the _**Table**_ panel, click the **Category** tab, and select _Episodes_. You can also _**Export**_ the entire table as a CSV, or open an _**Enhanced Table**_ to edit and export the table.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537486/06_03_03_AggregateTable1320.png?api=v2)
+    ![](/06_03_03_AggregateTable1320.png)

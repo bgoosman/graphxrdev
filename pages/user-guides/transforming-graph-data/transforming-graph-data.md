@@ -1,6 +1,6 @@
 The _**Transform**_ panel provides a suite of graph-based data operators to transform data. This means that GraphXR delivers essential data operations within the graph space that have traditionally been performed in Excel (Pivot Table, Formula), relational databases (Join, Where, Group By, Formula), or big data environments such as MapReduce or Spark (Map, Reduce, Filter, Group By, Function). The ability to view the results immediately in GraphXR makes modeling data on the fly both more visual and more intuitive.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719537309/06_00_01_TransformPanel720.png?api=v2)
+![](/06_00_01_TransformPanel720.png)
 
 Graph-based operators in the _**Transform**_ panel are:
 

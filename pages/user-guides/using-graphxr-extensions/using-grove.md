@@ -31,10 +31,10 @@ Grove is available in any GraphXR project. However, the Grove Demo project inclu
     
     Click the _**Overview**_ or _**Share**_ tabs to see notebooks available in the demo, either in tile or list view.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538791/11_01_01_GroveNotebookPanel1320.png?api=v2)
+    ![](/11_01_01_GroveNotebookPanel1320.png)
 4.  Click to select a demo notebook. (e.g. _Map_, entitled _Geospatial Analysis_), and dismiss the _**Notebooks**_ panel. The selected notebook displays in the split screen. To use more of the screen you can click the _**Full Screen**_ icon at the upper right to use the entire screen, or the _**Airplane**_ icon to display the notebook in a separate window.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538791/11_01_02_GroveTourMap1320.png?api=v2)
+    ![](/11_01_02_GroveTourMap1320.png)
 
 ### Navigating the notebook
 
@@ -42,13 +42,13 @@ A Grove notebook consists of cells of Observable-inflected javascript code. The 
 
 The simple _Map_ notebook above loads geospatial data for counties, and displays the data on a map, colored by region. A _**Load Counties**_ button appears below the map.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538791/11_01_03_GroveCells1320.png?api=v2)
+![](/11_01_03_GroveCells1320.png)
 
 *   Roll over the small circles at the far right margin to see names of the cells in the notebook. Clicking a circle takes you to the code cell. In this notebook, a GraphXR API call is used, and Vegalite and D3 javascript packages provide data parsing and geospatial mapping.
     
 *   Title bars located at the top of the window provide information about the project and the open notebook, ways to navigate Grove functions and to edit the code. **NOTE:** The top bar is divided into two, depending on the size of your browser window.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538791/11_01_05_MoreMenu720.png?api=v2)
+    ![](/11_01_05_MoreMenu720.png)
     
 
 #### Title bar functions
@@ -87,13 +87,13 @@ Depending on the width of your browser you see one or two title bars at the top 
     
 *   _**View code**_ and _**Edit code**_ icons. This displays the javascript code cells and makes them editable.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538791/11_01_05_ViewEditCode720.png?api=v2)
+    ![](/11_01_05_ViewEditCode720.png)
 
 An additional title bar includes information and action icons for the notebook, including:
 
 *   _**Version**_ icon. Click to display a _**Version Control**_ history for this notebook.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538791/11_01_07_VersionHistory720.png?api=v2)
+    ![](/11_01_07_VersionHistory720.png)
 *   _**Publish**_ (globe) icon. Click to display a _**Publish Settings**_ dialog where you can change the permission level for the notebook or unpublish it.
     
 *   The latest published time
@@ -117,9 +117,9 @@ You can also access a shared notebook under the _**Grove Links**_ tab. This may 
     
     The notebook opens in a separate window.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538791/11_01_20_GroveLinks720.png?api=v2)
+    ![](/11_01_20_GroveLinks720.png)
 3.  Click the _**Load Data**_ button in the example notebook, which loads selected csv data to the GraphXR graph space.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538791/11_01_21_GroveLinks720.png?api=v2)
+    ![](/11_01_21_GroveLinks720.png)
     
     If desired, you can review the code in the example notebook, or make a copy of this notebook.

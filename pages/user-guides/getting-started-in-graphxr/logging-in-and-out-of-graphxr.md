@@ -11,13 +11,13 @@ To use GraphXR, you’ll need to create a user account, and then log in.
 
 1.  In your _Chrome_ browser, visit the [GraphXR Login](https://graphxr.kineviz.com/login) page and click _**SIGN UP**_.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/985825405/01_02_01_LoginWBrowser420.png?api=v2)
+    ![](/01_02_01_LoginWBrowser420.png)
     
     **TIP:** If you use Neo4J, a GraphXR application can be installed in your Neo4J desktop. For information, please visit [Neo4J GraphApplications](https://neo4j.com/blog/graphxr-graph-app-neo4j-desktop/%5B*Neo4J). User registration will be the same.
     
 2.  In the sign-up form, enter the information required to create your user account.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/985825405/01_02_02_SignUp320.png?api=v2)
+    ![](/01_02_02_SignUp320.png)
     
     • Your _**Email**_. You'll use this to log in.  
     • A _**Password**_.  
@@ -40,11 +40,11 @@ Once you have registered as a user, you can log in.
     
 2.  Enter your user name (i.e. the _**Email**_ used to create the account) and your _**Password**_ and click _**LOGIN**_.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/985825405/01_02_03_Login320.png?api=v2)
+    ![](/01_02_03_Login320.png)
     
     Upon successful login, the GraphXR _**Projects**_ page displays.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/985825405/01_02_04_ProjectsPage1080.png?api=v2)
+    ![](/01_02_04_ProjectsPage1080.png)
 
 ## Log Out of GraphXR
 

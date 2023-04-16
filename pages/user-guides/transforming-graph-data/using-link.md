@@ -19,10 +19,10 @@ If a property is missing, or the values do not match, a link will not be created
     • _**Source Property**_: select _characterName_  
     • _**Target Property**_: select _speaker_
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537575/06_05_01_Link1320.png?api=v2)
+    ![](/06_05_01_Link1320.png)
 4.  Click _**Run**_. Error and completion messages will appear below the _**Run**_ button.  
     The new SPOKE relationship appears in the legend, and _Character_ nodes now have new directional SPOKE edges connected to the respective _Lines_ nodes.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537575/06_05_02_LinkLines1320.png?api=v2)
+    ![](/06_05_02_LinkLines1320.png)
 
 For easier visualization, the data for each category are arranged using [Geometric](../working-with-layouts/using-geomtric-layouts) layouts.

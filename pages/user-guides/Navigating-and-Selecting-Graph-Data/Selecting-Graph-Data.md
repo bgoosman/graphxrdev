@@ -52,14 +52,14 @@ A Pin icon displays on all pinned nodes. While this can be useful, you can hide 
 
 1.  Select one or more nodes and click the _**Pin**_ icon on the context toolbar.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536399/04_02_01_PinStart520.png?api=v2)
+    ![](/04_02_01_PinStart520.png)
     
     The selected nodes will be pinned (in addition to any already pinned nodes).
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536399/04_02_02_PinPinned520.png?api=v2)
+    ![](/04_02_02_PinPinned520.png)
 2.  To release, select one or more pinned nodes. The _**Pin**_ icon changes to _**Release**_.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536399/04_02_03_ReleaseSelect520.png?api=v2)
+    ![](/04_02_03_ReleaseSelect520.png)
 3.  Click the _**Release**_ icon to release the selected pinned nodes and return them to the default force-directed layout.
     
 
@@ -84,12 +84,12 @@ List items display in a bubble that includes the label, the number of data point
     
 2.  For a _**Category**_ or _**Tag**_, find the labeled item, and click to select all its data. Use _**ctrl+left click**_ to select more than one list item.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536399/04_02_04a_LegendSelectCat520.png?api=v2)
+    ![](/04_02_04a_LegendSelectCat520.png)
     
     OR  
     For a _**Property**_, select the property name from the menu. A list of the values available for that property is displayed, along with the number of entities (node or edge) having the value for that property. Click a list item to select its data. Use _**ctrl+left click**_ to select more than one list item.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536399/04_02_04b_LegendSelectProps.png?api=v2)
+    ![](/04_02_04b_LegendSelectProps.png)
 
 ## Selecting Edges by Relationship
 
@@ -101,7 +101,7 @@ You can also use the list in the _**Legend**_ to select all the edges of one or 
     
 2.  Click the bubble for the relationship name to select all its edges. Use _**ctrl+left click**_ to select more than one relationship. In the example below we can highlight relationships between people who live at the same address (KNOWS\_LW), have a family connection (FAMILY\_REL), or have communicated by phone (KNOWS\_PHONE).
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536399/04_02_05_LegendSelectRels.png?api=v2)
+    ![](/04_02_05_LegendSelectRels.png)
 
 ## Select subgraphs with Trace Neighbor and Select Visible Nodes
 
@@ -115,23 +115,23 @@ When _**Trace Neighbor**_ is not invoked, _**Select Visible Nodes**_ selects all
 
 1.  Select one or more nodes in the graph. In this example, in the _**Property**_ list in the _**Legend**_ we select nodes with specific surname property values attached to _Person_ nodes.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536399/04_02_06_Trace1.png?api=v2)
+    ![](/04_02_06_Trace1.png)
 2.  Click the _**Trace Neighbor**_ tool. A slider displays showing the number of connections or hops from the selected nodes that exist in the graph, and all the rest of the data is now dimmed (that is, not visible).
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536399/04_02_06_Trace2.png?api=v2)
+    ![](/04_02_06_Trace2.png)
 3.  Use the slider to highlight the nodes and edges that number of hops away from the source nodes.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536399/04_02_06_Trace3.png?api=v2)
+    ![](/04_02_06_Trace3.png)
 4.  Click the _**Select Visible Nodes**_ toolbar icon to select the highlighted nodes.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536399/04_02_06_Trace4.png?api=v2)
+    ![](/04_02_06_Trace4.png)
 5.  Now save a _**Snapshot**_ so you can revert if needed.
     
 6.  Isolate the selected subgraph for further exploration. Click _**Inverse**_ to select all the nodes that aren’t in the subgraph.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536399/04_02_06_Trace5.png?api=v2)
+    ![](/04_02_06_Trace5.png)
 7.  Click the _**Hide**_, or _**Delete**_ tools to remove those nodes.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536399/04_02_06_Trace6.png?api=v2)
+    ![](/04_02_06_Trace6.png)
     
     To save the subgraph, you can _**Tag**_ your selection, take another snapshot, and export your snapshot archive.

@@ -10,11 +10,11 @@ GraphXR iFrame embedding is supported for all GraphXR subscriptions.
     
 2.  Click the view’s _**Share**_ icon.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535811/02_08_03_ShareView.png?api=v2)
+    ![](/02_08_03_ShareView.png)
     
     The shared view is displayed in a separate browser tab. It will include only the UI elements you’ve set in the project’s sharing configuration.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535811/02_08_04_ShareViewShared.png?api=v2)
+    ![](/02_08_04_ShareViewShared.png)
 3.  Copy and paste the url of the shared view into the following iFrame embed code, which you will then insert into the html for the web page of your choice.
     
 

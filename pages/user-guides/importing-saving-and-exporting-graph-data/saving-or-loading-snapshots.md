@@ -1,6 +1,6 @@
 Snapshots let you save a set of up to ten (10) graph states in memory, and re-load any of these saved graph states whenever you want.The _**Snapshots**_ window floats conveniently in the graph space. You can move it anywhere in the space, and take a snapshot at any time without opening a special panel.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719535415/02_05_01_SnapshotFloatingFull.png?api=v2)
+![](/02_05_01_SnapshotFloatingFull.png)
 
 In the expanded _**SnapShots**_ window you can:
 
@@ -17,7 +17,7 @@ In the expanded _**SnapShots**_ window you can:
 
 To save space, you can use controls on the _**Snapshots**_ title bar to create and save snapshots.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719535415/02_05_02_SnapshotTitleOnly.png?api=v2)
+![](/02_05_02_SnapshotTitleOnly.png)
 
 **IMPORTANT:** When you exit or log out, any snapshots are deleted. Be sure to use _**Save Snapshots**_ to save your set of snapshots before you exit the project space.
 
@@ -31,13 +31,13 @@ When you create a new snapshot it is added to the top of the snapshot list. Each
     
     The title bar for the _**Snapshots**_ window appears at the top right, near the Legend.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535415/02_05_03_SnapShotCheckbox1320.png?api=v2)
+    ![](/02_05_03_SnapShotCheckbox1320.png)
 2.  Click the _**+**_ (plus) icon in the title bar to take a snapshot.  
     A message indicates that an nth snapshot has been successfully taken.
     
 3.  Click the arrows next to the _**Snapshots**_ title to expand the window and display your snapshots.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535415/02_05_04_SnapShotWindow.png?api=v2)
+    ![](/02_05_04_SnapShotWindow.png)
 
 ## Saving a Snapshot archive
 
@@ -50,7 +50,7 @@ When you exit or log out of a project, any existing snapshots are deleted. You s
     
 *   Click the download icon on the unexpanded _**Snapshots**_ title bar.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535415/02_05_05_SnapshotsDownload.png?api=v2)
+    ![](/02_05_05_SnapshotsDownload.png)
 
 ## Loading a snapshot archive
 

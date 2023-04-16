@@ -11,7 +11,7 @@ You can export any graph state in GraphXR’s GXRF format or as a CSV archive of
     
 2.  Click either _**Save GXRF**_ or _**Save CSV**_.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535591/02_07_01_SaveCSV_GXRF.png?api=v2)
+    ![](/02_07_01_SaveCSV_GXRF.png)
 
 Once saved, the file name is added to the bottom of the Chrome browser window, and you can load it by drag and drop from there. Or you can locate a GXRF file or CSV zip archive on your system and drag and drop to load it.
 

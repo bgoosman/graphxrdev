@@ -15,15 +15,15 @@ Date-time values need to be formatted as _YYYY-MM-DD hh:mm:ss_. Date-timestamps 
 2.  From the _**Node Properties**_ menu, choose the _episodeAirdate_ property.  
     The filter is labeled with the property name and the category or relationship label (e.g. _episodeAirdate_(_Episodes_)). A slider shows the range of the property's timestamp values.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536681/04_03_01_Filter1440.png?api=v2)
+    ![](/04_03_01_Filter1440.png)
 3.  Set a range of dates using the _**Min**_ and _**Max**_ selectors under the slider. For filtering by date, you can click the value to display a calendar and select dates. You can lock down a range of values, then use the slider or animation playhead to filter using that range (for example, by year, month, or week).
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536681/04_03_02_FilterLockRange1440.png?api=v2)
+    ![](/04_03_02_FilterLockRange1440.png)
 4.  Now add a second filter for viewership. We select the _millionViewers_ property from the _**Node Properties**_ menu.
     
 5.  To set a range of amounts, enter minimum and maximum values in the _**Min**_ and _**Max**_ text boxes (e.g. 5 and 10).
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536681/04_03_04_FilterViewers1440.png?api=v2)
+    ![](/04_03_04_FilterViewers1440.png)
     
     The view in the graph space now includes only the filtered data. List items in the legend are updated to show the new numbers for each category, relationship, etc.  
       

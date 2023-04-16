@@ -1,6 +1,6 @@
 Geometric layouts let you display all nodes or selected nodes in a _**Line**_, **Grid**, _**Circle**_, _**Spiral**_, or _**Cube**_, ordered by one of the property values in the data. The edges between nodes continue to be displayed, so that connections in the graph data can still be seen.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_01_GeomLayout1320.png?api=v2)
+![](/08_03_01_GeomLayout1320.png)
 
 The nodes in a geometric layout are pinned. The _**Release**_ button is provided to return all visible nodes to the default force-directed layout.
 
@@ -8,23 +8,23 @@ In addition, you can:
 
 *   _**Distribute**_ selected nodes in an X, Y, or Z direction ordered by a property value. This is useful for grouping data by date and time or other numerical or categorical property values.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_02_GeomDistributeDates.png?api=v2)
+    ![](/08_03_02_GeomDistributeDates.png)
     
 *   _**Align**_ nodes along the virtual _**X**_, _**Y**_, and _**Z**_ axes of the project space.
     
 *   _**Rotate**_, _**Scale**_, and _**Shift**_ nodes in the project space by specified amounts. This provides fine control of layouts that help you craft compelling visualizations.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_03_GeomRotateAlign.png?api=v2)
+    ![](/08_03_03_GeomRotateAlign.png)
 *   Create hierarchical _**Ring**_ or _**Tree**_ layouts of specified depth around selected nodes.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_04_GeomRings.png?api=v2)
+    ![](/08_03_04_GeomRings.png)
     
     You can combine layouts in a variety of ways. For example, the layout above uses a _**Grid**_ layout for one of the categories of nodes (_Location_), and then applies a _**Ring**_ layout to the nodes of a different category (_Photos_) which are connected by one edge to the nodes in the grid.
     
 
 Layouts generally can’t be reverted easily, so make a habit of saving _**Snapshots**_ of your layout as you work. You can save any layout as a _**Snapshot**_ or data _**View**_.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_05_GeomSnapshot.png?api=v2)
+![](/08_03_05_GeomSnapshot.png)
 
 ## Applying a geometric layout
 
@@ -38,7 +38,7 @@ You can apply one of five automatic geometric layouts, either to all the data or
     
 3.  Now click the _**Line**_, _**Grid**_, _**Circle**_, _**Spiral**_, or _**Cube**_ button to display the data in that layout.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_06_Layouts720.png?api=v2)
+    ![](/08_03_06_Layouts720.png)
 
 With the layout selected, you can move the nodes as a group, and you can further adjust the orientation, size, and position using _**Rotate**_, _**Scale**_, and _**Shift**_ layout controls.
 
@@ -60,7 +60,7 @@ One of the property values available in a data selection can be used to order th
     
 5.  Click the geometric layout you want (i.e. _**Line**_, _**Circle**_, _**Spiral**_, _**Grid**_, or **Cube**.)
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_07_OrderBy720.png?api=v2)
+    ![](/08_03_07_OrderBy720.png)
 
 ## Distributing nodes by a property value
 
@@ -82,7 +82,7 @@ The _**Distribution**_ option lets you use one of the property values available 
     
 7.  Now click the _**X**_, _**Y**_, or _**Z**_ button to group and distribute the selected data. In the example, we’ve chosen to group _Photos_ nodes by their _Ratings_ property values(1 to 5), and distribute the groups on an **X** axis.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_08_GeomDistRatings.png?api=v2)
+    ![](/08_03_08_GeomDistRatings.png)
     
     When the selected data is grouped and distributed, it is also pinned in the graph space. So if the distribution isn’t quite what you want, simply press the _**Release**_ icon (or use _**Ctrl+P**_) to start over.
     
@@ -93,7 +93,7 @@ You can further adjust distributed groups using _**Rotate**_, _**Scale**_, and _
 
 The _**Align**_ option projects the selected (or all) nodes onto the remaining axes. This is useful for organizing and separating data into various kinds of groupings.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_09_Align1320.png?api=v2)
+![](/08_03_09_Align1320.png)
 
 For example, click _**X**_ to project nodes to the _Y_ and _Z_ axes. If you click two of the buttons, for example, **X** and **Z**, the nodes are projected onto the _Y_ axis, in a line.
 
@@ -101,13 +101,13 @@ If you click all three buttons, the nodes are stacked on top of one another at t
 
 In the example below _Location_ nodes, and distributed _Photo_ nodes grouped by _Rating_ were all projected onto an X axis (and the _Location_ nodes moved up using _Ctrl+5-drag_ or _spacebar+drag)._
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_10_AlignExample.png?api=v2)
+![](/08_03_10_AlignExample.png)
 
 ## Using the Rotate, Scale, and Shift layout controls
 
 You can move the nodes in a layout as a group, and you can further adjust the orientation, size, and position using _**Rotate**_, _**Scale**_, and _**Shift**_ layout controls. You can select any group of nodes. If no data are selected, the controls operate on all the data.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_11_ShiftScale720.png?api=v2)
+![](/08_03_11_ShiftScale720.png)
 
 You can:
 
@@ -122,15 +122,15 @@ You can:
 
 The _**Ring**_ or _**Tree**_ hierarchical layouts let you select a node (or nodes) as central points and arrange neighboring nodes according to the number of edges away they are from the centers.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_12a_EgoForce.png?api=v2)
+![](/08_03_12a_EgoForce.png)
 
 Ring or tree hierarchies can greatly aid visualization when combined with another geometric layout, such as the following _**Grid**_ layout:
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_12a_EgoGrid.png?api=v2)
+![](/08_03_12a_EgoGrid.png)
 
 They are also useful for geospatial display since the rings or trees persist when central data nodes with lat-long coordinates are dropped onto the map.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_12a_EgoMap.png?api=v2)
+![](/08_03_12a_EgoMap.png)
 
 You can:
 
@@ -143,20 +143,20 @@ You can:
 *   Orient rings or trees using _**Left**_, _**Right**_, _**Up**_ or _**Down**_ checkboxes.
     
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_12_EgoStart960.png?api=v2)
+![](/08_03_12_EgoStart960.png)
 
 **To display a hierarchical ring layout:**
 
 1.  Select nodes of primary interest as your center nodes. In this example from a contact tracing dataset, we select all _Infected\_Person_ nodes, laid out in a grid ordered by the number of connections for each node.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_12b_EgoSelectCentral1320.png?api=v2)
+    ![](/08_03_12b_EgoSelectCentral1320.png)
 2.  Now scroll down to the _**Scale**_ option and click the _**Expand**_ button several times to expand the grid layout. This makes room to arrange first- and second- level contacts in rings around the central nodes.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_11_ShiftScale720.png?api=v2)
+    ![](/08_03_11_ShiftScale720.png)
 3.  With the central _Infected\_Person_ nodes still selected, click the _**Ring**_ button.  
     With the default _**Ego depth**_ of 100, nodes NOT selected as centers AND 100 edges away are displayed in concentric rings around the central nodes.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_12c_EgoRings1320.png?api=v2)
+    ![](/08_03_12c_EgoRings1320.png)
 4.  You can adjust the display further using **Left**, **Right**, **Up**, or **Down** checkboxes. Click one of the checkboxes, then click _**Rings**_ to rotate or reflect the connected rings.
     
 
@@ -164,12 +164,12 @@ You can:
 
 1.  Select nodes of primary interest as your central nodes. In this example from a contact tracing dataset, we select all _Infected\_Person_ nodes, laid out in a grid ordered by the number of connections for each node.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_12b_EgoSelectCentral1320.png?api=v2)
+    ![](/08_03_12b_EgoSelectCentral1320.png)
 2.  Scroll down to the _**Scale**_ option and click the _**Expand**_ button several times to expand the grid. This makes room to arrange first- and second- level contacts in trees connected to the central nodes.
     
 3.  With _Infected\_Person_ nodes still selected, click _**Trees**_ to see a tree layout for nodes the default 100 edges away from the selected nodes.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_12d_EgoTrees1320.png?api=v2)
+    ![](/08_03_12d_EgoTrees1320.png)
 4.  You can adjust the layout further using **Left**, **Right**, **Up**, or **Down** checkboxes.  
     Click one of the checkboxes (for example, _**Right**_), then with your central nodes selected, click _**Trees**_ to see the layout to the left of the central nodes.
     
@@ -182,7 +182,7 @@ To share a static image of a layout, you can click the _**Take Screenshot**_ ico
 
 The _**Quick Layout**_ toolbar icon displays a menu that lets you quickly apply and modify pre-set geometric layouts to all or part of your data.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_13_QuickLayoutStart.png?api=v2)
+![](/08_03_13_QuickLayoutStart.png)
 
 You can use the menu to:
 
@@ -204,13 +204,13 @@ It also does not include _**Shift**_ or _**Rotate**_ controls, but you can repos
     
 3.  With the nodes still selected, you can click _**Expand**_ or _**Contract**_ on the menu to adjust the size of the layout.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_14_QuickLayoutExpand.png?api=v2)
+    ![](/08_03_14_QuickLayoutExpand.png)
     
     If you need to make room for hierarchical rings or trees in an initial geometric layout, adjust the layout first, then apply the additional hierarchical layout.
     
 4.  With the nodes still selected, choose _**Ring**_ or _**Tree.**_
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538052/08_03_14_QuickLayoutRings.png?api=v2)
+    ![](/08_03_14_QuickLayoutRings.png)
     
 
 Selecting _**Expand**_ or _**Contract**_ in the above ring layout expands only the selected central nodes, not the rings.

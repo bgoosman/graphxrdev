@@ -8,28 +8,28 @@ The _**Layout**_ panel organizes detailed controls to adjust layouts in the foll
 
 *   _**Force**_. The default force-directed layout renders nodes and edges in the graph space using a complex physics simulation that attempts to keep individual nodes and edges close enough, while reducing the number of crossing lines or hidden entities. In the _**Force**_ layout tab you can adjust simulation parameters including link strength and distance, gravity, collision, and more.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537789/08_00_01_ForceLayout720.png?api=v2)
+    ![](/08_00_01_ForceLayout720.png)
 *   _**Parametric**._ This layout lets you create scatter plots based on parameter values.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537789/08_00_02_ParametricLayout720.png?api=v2)
+    ![](/08_00_02_ParametricLayout720.png)
 *   _**Geometric**._ These layouts let you arrange any selected group of nodes in a _**Line**_, _**Grid**_, _**Circle**_, _**Spiral**_, _**Cube**_, or _**Spring**_ arrangement. Selections can be individually ordered by property value, scaled, placed, and rotated along X-, Y-, or Z axes in the project space.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537789/08_00_03_GeometricLayout720.png?api=v2)
+    ![](/08_00_03_GeometricLayout720.png)
     
     You can also arrange nodes in hierarchical _**Ring**_ or _**Tree**_ layouts of a specified depth and relative edge
     
     length around selected nodes.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537789/08_00_04_EgoRings.png?api=v2)
+    ![](/08_00_04_EgoRings.png)
     
     **NOTE**  
     A _**Quick Layout**_ menu is available from the toolbar that lets you apply basic geometric layouts (_**Line**_, _**Grid**_, _**Circle**_, _**Spiral**_, _**Cube**_, or _**Spring**_) to any selection of nodes in one click, and to _**Expand**_ or _**Contract**_ the layout in pre-set increments. This provides fast and easy layouts for exploratory visualization, useful if ordering nodes by property value or fine-tuning the 3D orientation is not immediately needed.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537789/08_00_03a_GeoQuickLayout.png?api=v2)
+    ![](/08_00_03a_GeoQuickLayout.png)
 *   _**Tree**._ This layout automatically arranges nodes in a hierarchical tree structure.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537789/08_00_05_TreeLayout720%20copy.png?api=v2)
+    ![](/08_00_05_TreeLayout720%20copy.png)
 
 A green _**Reset**_ flag appears next to the _**Layout**_ menu icon when you apply a new layout and then close the _**Layout**_ panel. You can click this _**Reset**_ flag to revert to the view you started with.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719537789/08_00_06_ResetButton.png?api=v2)
+![](/08_00_06_ResetButton.png)

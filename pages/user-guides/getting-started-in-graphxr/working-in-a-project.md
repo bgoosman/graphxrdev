@@ -21,7 +21,7 @@ A GraphXR project represents a 3-dimensional, functionally infinite space that i
 
 On the desktop, a set of menus and controls provide the tools you’ll need to work with graph data:
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719534082/01_04_01_Orientation1320.png?api=v2)
+![](/01_04_01_Orientation1320.png)
 
 *   A _**Main Menu**_ along the left vertical edge of the project space, to open panels for importing, transforming, and displaying data.
     
@@ -44,7 +44,7 @@ The _**Main**_ menu panels are:
 
 *   _**Project**_ panel, to review graph entities, set preferences, import and export data, and access extensions.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534082/01_04_02_ProjectPanel720.png?api=v2)
+    ![](/01_04_02_ProjectPanel720.png)
     
     Tabs include:
     
@@ -58,10 +58,10 @@ The _**Main**_ menu panels are:
         
 *   _**Query**_ panel, to enter and save Cypher queries on a Neo4j database, and to run queries on a SQL database, CSV file, or a JSON or Gremlin environment. The _**SQL**_ and _**CSV**_ tabs include the _**Mapping Editor**_ to create mappings that transform data in a flat CSV file or SQL table into a specified graph model.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534082/01_04_03_QueryPanel720.png?api=v2)
+    ![](/01_04_03_QueryPanel720.png)
 *   _**Transform**_ panel, to transform graph data directly in GraphXR.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534082/01_04_04_TransformPanel720.png?api=v2)
+    ![](/01_04_04_TransformPanel720.png)
     
     This powerful suite of data operators includes:
     
@@ -81,19 +81,19 @@ The _**Main**_ menu panels are:
         
 *   _**Table**_ panel, to view data by _Category_ or _Relationship_ in a searchable tabular format. _**Enhanced Tables**_ let you rename categories and relationships on the fly, select, sort, edit, reformat, and then export the data in the edited table.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534082/01_04_05_TablePanel720.png?api=v2)
+    ![](/01_04_05_TablePanel720.png)
 *   _**Layout**_ panel, to apply _**Force**_, _**Parametric**_,_**Geometric**_, and _**Tree**_ layouts to all or part of your data.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534082/01_04_06_LayoutPanel720.png?api=v2)
+    ![](/01_04_06_LayoutPanel720.png)
 *   _**Filter**_ panel, to filter data by _Node_ or _Edge_ properties using multiple composable filters.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534082/01_04_07_FilterPanel720.png?api=v2)
+    ![](/01_04_07_FilterPanel720.png)
 *   _**Algorithm**_ panel, to run _**Path Finding**_, _**Centrality**_, and _**Community Detection**_ graph algorithms and add the result to nodes or edges as a property value.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534082/01_04_08_AlgorithmPanel720.png?api=v2)
+    ![](/01_04_08_AlgorithmPanel720.png)
 *   _**Map**_ panel, to work with geospatial data on a world map. Nodes with latitude and longitude coordinates are automatically dropped onto the map.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534082/01_04_09_MapPanel720.png?api=v2)
+    ![](/01_04_09_MapPanel720.png)
 
 Additional functions provided at bottom left of the project space are:
 
@@ -105,7 +105,7 @@ Additional functions provided at bottom left of the project space are:
     
 *   _**About**_, for GraphXR version information.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534082/01_04_10_ShortcutKey240.png?api=v2)
+    ![](/01_04_10_ShortcutKey240.png)
 
 ## Search Bar
 
@@ -113,13 +113,13 @@ The search bar at the top left lets you perform full-text search on the indexed 
 
 Search results are listed by category below the search bar. Click a single node or a group of nodes in the search results to import the data from the database, or to select nodes from the search results which are already in the project space.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719534082/01_04_11a_SearchDBGraph.png?api=v2)
+![](/01_04_11a_SearchDBGraph.png)
 
 ## Legend
 
 A legend at the top right corner of the project space lets you review and select data by _**Category**_, _**Relationship**_, _**Tag**_, or _**Property**_.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719534082/01_04_11_Legend_Category720.png?api=v2)
+![](/01_04_11_Legend_Category720.png)
 
 Select _**Category**_, _**Tag**_, or _**Property**_ to display a list of categories, tags, or properties present in the data, and the number of currently selected and total nodes of each. Likewise, select _**Relationship**_ to display a list of the relationships in the data, and the number of currently selected and total edges for each. When you display categories and relationships at the same time, the relationships are listed below the categories. You can:
 
@@ -136,13 +136,13 @@ For details on selecting colors and icons, see [Selecting Colors and Labels](../
 
 The context toolbar at the bottom edge of the graph space displays icons for actions available for the data currently present and/or selected in the graph space.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719534082/01_04_12_ContextToolbarLabeled_15.png?api=v2)
+![](/01_04_12_ContextToolbarLabeled_15.png)
 
 Some tools are available only when you select more than one node or edge, and some only when you select a single node or a node that has an associated url and weblink property.
 
 *   Before you load any data, the context menu items are:
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534082/01_04_13_ContextNoData1080.png?api=v2)
+    ![](/01_04_13_ContextNoData1080.png)
     *   _**Add Node**_. Displays a dialog to define and add a single node.
         
     *   _**Quick Info**_. Toggles between turning on and off _**Quick Info**_ rollovers for nodes and edges.
@@ -151,7 +151,7 @@ Some tools are available only when you select more than one node or edge, and so
         
 *   Once you load or create at least one node, more tool icons appear.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534082/01_04_14_ContextWithData1440.png?api=v2)
+    ![](/01_04_14_ContextWithData1440.png)
     *   _**Select Visible Nodes**_. Selects all nodes currently visible in the graph space (i.e. those not hidden using _**Hide Selection**_ or by de-selecting the _**Visible**_ checkbox for a category or relationship in the **Project** panel).
         
     *   _**Take Screenshot.**_ Takes a _.png_ screenshot of the graph space including the legend, but excluding an open panel, toolbar and GUI navigation controls.
@@ -180,7 +180,7 @@ Some tools are available only when you select more than one node or edge, and so
         
 *   When you select any _**set of nodes**_, you see additional icons that operate on selected data:
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534082/01_04_15_ContextSelHidden1440.png?api=v2)
+    ![](/01_04_15_ContextSelHidden1440.png)
     *   _**Information.**_ Opens an information window for the most recently selected single node or edge which shows detailed information about a node's Properties and Neighbors or a relationship’s Properties. If desired, you can add properties and their values in this window.
         
     *   _**Tag**_. Opens the _**Create Tag**_ dialog to tag any set of selected nodes.
@@ -199,23 +199,23 @@ Some tools are available only when you select more than one node or edge, and so
         
 *   When you select a _**single node**_, you see additional icons:
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534082/01_04_16_ContextSingle1440.png?api=v2)
+    ![](/01_04_16_ContextSingle1440.png)
     *   _**Image**_ and _**WebLink.**_ These two icons appear if an image and/or url is attached to a node. Select a node and click _**Image**_ to display a small image in the graph space close to its node, and click again to hide the image. Click _**WebLink**_ to open a browser window to a linked image or webpage_**.**_
         
     *   _**Information**_. Opens a floating information pane for a selected single node or edge. Its _**Properties**_ tab lists the properties of the node or edge. If desired, you can add properties and edit property values in this window. Its _**Neighbors**_ tab displays a count of nodes connected to the selected node through one edge, and a live graphic of the nodes and edges.
         
-        ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534082/01_04_17_ContextProps1344.png?api=v2)
+        ![](/01_04_17_ContextProps1344.png)
         
 
 You can right-click to display a floating, scrollable context menu of the tools available for your current selection.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719534082/01_04_18_ContextRtClickMenu1320.png?api=v2)
+![](/01_04_18_ContextRtClickMenu1320.png)
 
 ## GUI Navigation Controls
 
 The GUI navigation panel at the bottom right of the graph space provides simulated Virtual Reality (VR) controls for use on the desktop.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719534082/01_04_18_GUINavControlsLabeled720.png?api=v2)
+![](/01_04_18_GUINavControlsLabeled720.png)
 
 *   Click and hold the upper arrows to _**Move Right**_, _**Move Left**_, _**Move Up**_, or _**Move Down**_. Click the central circle to **Reset** the view to the center point of the data (similar to the _**Center To**_ toolbar icon).
     
@@ -226,4 +226,4 @@ The GUI navigation panel at the bottom right of the graph space provides simulat
 
 Keyboard and mouse shortcuts are also available for navigation controls. Click the _**Shortcut**_ icon at the lower left edge of the project space to display a reference panel.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719534082/01_04_19_ShortcutKey240%20copy.png?api=v2)
+![](/01_04_19_ShortcutKey240%20copy.png)

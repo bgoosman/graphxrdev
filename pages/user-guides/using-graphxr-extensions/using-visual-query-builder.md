@@ -1,6 +1,6 @@
 GraphXR’s Visual Query Builder Extension provides no-code visual building blocks to create and run a valid _**Cypher Query**_ that returns nodes and edges from a Neo4j graph database connected to your GraphXR project. You connect blocks representing categories, relationships, and property values to form the graph pattern you want, and Visual Query Builder automatically generates a valid Cypher query and lets you run it.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538510/10_01_01_VQBMovie1320.png?api=v2)
+![](/10_01_01_VQBMovie1320.png)
 
 Once a query has returned data, _**In-Memory Search**_ is available to find and select patterns in data already in the project’s graph space.
 
@@ -26,7 +26,7 @@ MATCH (a:Person)-[b:ACTED_IN]-(c:Movie) RETURN * LIMIT 200
 
 In Visual Query Builder the pattern is built using _Person_ and _Movie_ _**Category**_ blocks connected through sockets to an _ACTED\_IN **Relationship**_ block:
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538510/10_01_02_VQBMovieCypher720.png?api=v2)
+![](/10_01_02_VQBMovieCypher720.png)
 
 If we want only _Person_ nodes whose _name_ property value includes “Tom”, we simply add a **WHERE** statement to specify that the value includes that text string. Any additional property values that exist in the matched categories, such as those for gender, age, and so on, can also be specified.
 
@@ -36,7 +36,7 @@ MATCH (a:Person)-[b:ACTED_IN]-(e:Movie) MATCH (a:Person)-[d:DIRECTED]-(e:Movie) 
 
 In Visual Query Builder, a pattern with specified property values includes one or more _**Property**_ blocks, each connected to the appropriate _**Category**_ block through property sockets, as shown below:
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538510/10_01_03_VQBMovieCypherProps720.png?api=v2)
+![](/10_01_03_VQBMovieCypherProps720.png)
 
 Once you start using Visual Query Builder, you may be interested in learning how to extend or modify queries using additional Cypher capabilities not provided in Visual Query Builder. These include specifying ranges of values, returning property data as tables or lists, merging or parsing data, creating new nodes and edges, and managing and tuning query performance. Extensive learning resources for Cypher are freely available from Neo4j, and include: 
 
@@ -67,7 +67,7 @@ Visual Query Builder provides a workspace and building blocks where you can buil
 *   Export and import visual queries as JSON files.
     
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538510/10_01_04_VQBInterface1320.png?api=v2)
+![](/10_01_04_VQBInterface1320.png)
 
 We’ll build visual queries on the Neo4j _Movies_ database, which is available through the GraphXR demo project _VQB Movies_. It includes _Person_, _Movie_, and _Distributor_ categories, linked by relationships including _ACTED\_IN_, _DIRECTED_, _REVIEWED_, and so on.
 
@@ -93,7 +93,7 @@ A simple pattern is one that looks for specific nodes of only one category. The 
 7.  Click the run arrow on the _**Cypher Query**_ block.  
     The four matching _Person_ nodes are returned to the graph space.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538510/10_01_05_VQBPersonOnly1320.png?api=v2)
+    ![](/10_01_05_VQBPersonOnly1320.png)
 
 A more complicated pattern can specify several categories and their properties, as well as relationships of interest. The following example shows a query for _Person_ nodes with a _name_ that includes “Tom”, who _ACTED\_IN_ a _Movie_ _released_ after 1990.
 
@@ -119,7 +119,7 @@ A more complicated pattern can specify several categories and their properties, 
     
 7.  Click the run icon on the Cypher query block.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538510/10_01_06_VQBPersonMovie1320.png?api=v2)
+    ![](/10_01_06_VQBPersonMovie1320.png)
 
 If the query does not load, or returns unexpected results, see [Troubleshooting](#troubleshooting-visual-queries).
 
@@ -127,7 +127,7 @@ If the query does not load, or returns unexpected results, see [Troubleshooting]
 
 You can save and share a visual query by exporting (or importing) it as a .JSON file. When you re-enter a project after exiting, you can then re-load the visual query into Visual Query Builder. This also lets you share a visual query with another user.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538510/10_01_17_SaveExport960.png?api=v2)
+![](/10_01_17_SaveExport960.png)
 
 _**To save a visual query:**_
 
@@ -143,13 +143,13 @@ _**To import a visual query:**_
 2.  Navigate to the .JSON file (typically, in your Downloads), select it and click _**Open**_ to import it to the workspace.
     
 
-You can click the document icon at the lower right of the _**Cypher Query**_ block to copy the Cypher query to the clipboard. Unlike .JSON export, this copies the Cypher query but does not preserve the visual building blocks. This can still be useful if you want to edit or extend a query quickly in GraphXR. From the clipboard, you can paste the query (Ctrl+V)into GraphXR’s _**Query>Cypher**_ panel. Click the plus ![(plus)](https://kineviz.atlassian.net/wiki/s/-852311106/6452/c59125bb5c2388a529366d586bf89888dfb47dce/_/images/icons/emoticons/add.png) icon to save the query before you edit it further.
+You can click the document icon at the lower right of the _**Cypher Query**_ block to copy the Cypher query to the clipboard. Unlike .JSON export, this copies the Cypher query but does not preserve the visual building blocks. This can still be useful if you want to edit or extend a query quickly in GraphXR. From the clipboard, you can paste the query (Ctrl+V)into GraphXR’s _**Query>Cypher**_ panel. Click the plus ![(plus)](/add.png) icon to save the query before you edit it further.
 
 ## Editing a Visual Query
 
 Once you’ve built and run a visual query you can continue to add and connect more building blocks, or remove blocks by dragging them to the _**Trash**_ can icon at the lower right. The query in the _**Cypher Query**_ block will be updated with the new specifications.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538510/10_01_07_VQBClearQuery960R.png?api=v2)
+![](/10_01_07_VQBClearQuery960R.png)
 
 To delete an entire query and start over with an empty workspace, click the _**Clear**_ icon located to the right of the _**Export**_ icon at the top of the building blocks panel.
 
@@ -159,11 +159,11 @@ Once graph data have been returned to GraphXR, you can also find and select subg
 
 Subgraphs can be single nodes, as in this query for any User with a _screen\_name_ like “Jeff”…
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538510/10_01_08_InMemoryJeffs720R.png?api=v2)
+![](/10_01_08_InMemoryJeffs720R.png)
 
 … or connected nodes, as in this query for influential Users connected through a specific RETWEETED relationship:
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538510/10_01_09_InMemorySelectAll720R.png?api=v2)
+![](/10_01_09_InMemorySelectAll720R.png)
 
 The nodes returned to the search list are labeled with the caption you set in the GraphXR _**Project>Category**_ panel. This may be (but isn’t necessarily) the property name you used in the query pattern. You can change the caption at any time, which can be useful for searching for additional property values in the returned data.
 
@@ -180,7 +180,7 @@ In the following example a node for each county in the United States has been im
     
 4.  Click an item on the list to select the node or pattern in the graph space. Or, click _**Select All**_ to select all the patterns on the list.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538510/10_01_10_InMemoryCounties720R.png?api=v2)
+    ![](/10_01_10_InMemoryCounties720R.png)
     
     With the data selected, other GraphXR functions can be used. For example, you can _**Tag**_ a selection, or use _**Inverse**_ to select and then temporarily _**Hide**_ or _**Delete**_ all the other data.
     
@@ -199,19 +199,19 @@ This query is for influential Twitter users who are probably bots and who have r
     
 *   Influential bot users are those with a _followers\_count_ property value greater than 20,000 and a _boto\_prob_ (i.e. calculated probability) of 0.90 or greater.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538510/10_01_11_TwitterChain960R.png?api=v2)
+    ![](/10_01_11_TwitterChain960R.png)
 
 ### **Query for a branched pattern - Users who send Video Tweets**
 
 This query builds on our query for influential bot-like users, but specifies only those who have sent videos along with their tweets. The pattern available in the graph database requires that we also query for _Tweet_ nodes and connected _Media_ nodes. This can be done by adding another MATCH statement to the query.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538510/10_01_12_TwitterBranch960R.png?api=v2)
+![](/10_01_12_TwitterBranch960R.png)
 
 ### **Query for a looped pattern - Users retweeting in a loop.**
 
 We can query for a fairly simple pattern in which a chain of _Users_ retweeting to one another within the same month loops back to the first _User_. In GraphXR we can set the _boto\_prob_ property as the caption for _User_ nodes, to see if this kind of circular messaging appears to be especially bot-like.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538510/10_01_13_TwitterLoop960R.png?api=v2)
+![](/10_01_13_TwitterLoop960R.png)
 
 You can modify the query at any time by selecting properties from the _**Category**_ blocks and adding _**Property**_ selectors. This lets you quickly explore and then refine your queries to focus on specific data. For example, the above query could be modified to return only influential users, or users who have sent messages that include specific types of content.
 
@@ -219,7 +219,7 @@ You can modify the query at any time by selecting properties from the _**Categor
 
 Since graph data is often used to model complex connections (for example between people or ideas, time series, or spatial patterns), it can be interesting focus on chains of connected nodes. We can query for such a pattern by setting a _**length**_ in the settings of a _**Relationship**_ block.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538510/10_01_14_TwitterRelLengthSelector960R.png?api=v2)
+![](/10_01_14_TwitterRelLengthSelector960R.png)
 
 The _**length**_ setting provides a dropdown menu and text boxes for entering a number:
 
@@ -232,11 +232,11 @@ The _**length**_ setting provides a dropdown menu and text boxes for entering a 
 
 On the Twitter data, we could query for _Users_ who retweeted to one another during September 2020 (i.e., with the relationship _RETWEETED\_2020\_09)_ and are 3 to 5 hops to other _Users_ via that relationship.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538510/10_01_15_TwitterRelBetween960R.png?api=v2)
+![](/10_01_15_TwitterRelBetween960R.png)
 
 The Cypher query now includes the length in the MATCH statement as a property of the relationship, as follows: MATCH (a:User)-\[b:RETWEETED\_2020\_09\*3..5\]->(c:User)
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719538510/10_01_16_TwitterRelQuery1080R.png?api=v2)
+![](/10_01_16_TwitterRelQuery1080R.png)
 
 ## Visual Query Builder Quick Reference
 

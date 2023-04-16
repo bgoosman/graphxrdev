@@ -11,7 +11,7 @@ Use _**Tag**_ to create a label for any selection of nodes. This lets you group 
 
 Tags appear in the legend under _**Tag**_, labeled with a color, name, number of nodes with that tag, and number that are currently selected. GraphXR automatically assigns a color for each tag. In the graph, a tagged node receives a small label listing its tag names.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719536834/04_05_01_TagOverview.png?api=v2)
+![](/04_05_01_TagOverview.png)
 
 You can add more than one tag to a node.
 
@@ -23,17 +23,17 @@ You can add more than one tag to a node.
     
 2.  In the context menu, click the _**Tag**_ icon to display the _**Manager Tags**_ dialog. Existing tag names are displayed along with the number of tagged nodes for each.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536834/04_05_02_TagManager.png?api=v2)
+    ![](/04_05_02_TagManager.png)
 3.  Enter a unique name for the tag in the textbook and click _**Add Tag**_.  
     The new tag name is displayed above the textbox. In the graph, the tag label appears on the selected nodes.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536834/04_05_03_TagManagerDone.png?api=v2)
+    ![](/04_05_03_TagManagerDone.png)
 4.  Click the **X** at the top right to dismiss the _**Manager Tags**_ dialog.  
     In the graph, the tagged nodes are still selected.
     
 5.  Click _**Tag**_ in the legend to see the new tag on the list.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536834/04_05_04_TagNodeLegend.png?api=v2)
+    ![](/04_05_04_TagNodeLegend.png)
     
     The tag name is displayed, along with its number of nodes. You can use this to check that you've tagged the expected number of nodes.
     
@@ -53,7 +53,7 @@ In the legend, tags are listed in order of the number of nodes in the tag.
     OR  
     Click the _**\-**_ icon on the tag label to **remove** the tag from the selected nodes.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536834/04_05_03_TagManagerDone.png?api=v2)
+    ![](/04_05_03_TagManagerDone.png)
     
     The number of tagged nodes for that tag is immediately updated. If the tag has been removed from all nodes, the tag name disappears from the dialog.
     
@@ -72,7 +72,7 @@ You can remove all the tags from any selection of nodes in one step, rather than
     
 3.  Click _**Clean Nodes Tags**_.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536834/04_05_03_TagManagerDone.png?api=v2)
+    ![](/04_05_03_TagManagerDone.png)
     
     • All of the tags applied to those nodes are removed.
     
@@ -92,7 +92,7 @@ When a tag is deleted, the _\_graphxrtags_ property is removed from its previous
     
 2.  Click _**Save Tags As Property**_.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536834/04_05_05_TagManagerSaveTags.png?api=v2)
+    ![](/04_05_05_TagManagerSaveTags.png)
     
     A message displays indicating success, and the _\_graphxrtags_ property is added to all tagged nodes, with the tag name as its property value.  
     For a node with more than one tag, the value is a list of tag names separated by colons.
@@ -104,4 +104,4 @@ When a tag is deleted, the _\_graphxrtags_ property is removed from its previous
     
     • Open a _**Table**_ for a group of selected nodes.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536834/04_05_06_TagPropertyInfoTable.png?api=v2)
+    ![](/04_05_06_TagPropertyInfoTable.png)

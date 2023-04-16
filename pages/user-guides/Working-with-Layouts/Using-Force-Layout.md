@@ -17,7 +17,7 @@ GraphXR uses a specific force-directed layout by default, but you can:
 
 The _**Force**_ tab of the _**Layout**_ panel provides a set of sliders to adjust default layout parameters for the entire graph.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719537882/08_01_01_ForceLayout1320.png?api=v2)
+![](/08_01_01_ForceLayout1320.png)
 
 You can adjust parameters as follows:
 
@@ -31,7 +31,7 @@ You can adjust parameters as follows:
     
 *   _**Collision**_. Adjusts the degree to which nodes are allowed to overlap each other. This is especially useful in a 2D layout, to un-stack nodes projected on top of one another. When set all the way to the right, some overlap can still occur.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537882/08_01_02_ForceCollision1320.png?api=v2)
+    ![](/08_01_02_ForceCollision1320.png)
 *   _**Z Compress**_. Compresses nodes on the Z axis to become a flatter, more 2D layout. To project a 3D view to near-2D, set the _**Z-Compress**_ slider all the way to the rightmost position. You will still be able to rotate the data in 3D.
     
 *   Click the _**Restore Default Settings**_ button to restore the sliders to their default positions and re-render the default force layout for the selected graph.
@@ -65,7 +65,7 @@ In _Force_ layout, nodes are rendered in randomized positions. The _**Randomize 
     
 2.  Make sure that the label next to the icon reads _**Disable Force Layout**_. This means that force layout is currently enabled, and your selection will be randomized according to the current force layout parameters.
     
-3.  ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537882/08_01_05_RandomizeForce1440.png?api=v2)
+3.  ![](/08_01_05_RandomizeForce1440.png)
     
     Click the _**Randomize Node Positions**_ button to render a different random force layout for your selection.
     
@@ -83,7 +83,7 @@ You can disable the force layout for all or part of the graph. This causes selec
 3.  Click the _**Randomize Node Positions**_ button to display a different random order for your selection.  
     The selected data are randomized in a more compact layout, while the data not selected remains in force layout.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537882/08_01_06_DisableAndRandomize1440.png?api=v2)
+    ![](/08_01_06_DisableAndRandomize1440.png)
     
     **NOTE:** If no data are selected, all node positions are randomized in a non-force layout, except for any pinned nodes.
     

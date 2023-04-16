@@ -13,8 +13,8 @@ A project's sharing configuration determines whether you can navigate or edit th
     
 2.  Click the project’s _**Share**_ icon to display a menu of the views saved in that project.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535345/02_04_01_SharedProjectMenu720.png?api=v2)
+    ![](/02_04_01_SharedProjectMenu720.png)
 3.  Click to select a view.  
     You are admitted to the project space with that view loaded.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535345/02_04_02_SharedView1920.png?api=v2)
+    ![](/02_04_02_SharedView1920.png)

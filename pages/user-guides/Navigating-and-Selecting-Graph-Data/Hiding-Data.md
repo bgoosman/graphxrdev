@@ -15,15 +15,15 @@ The _**Hide selection**_ and _**Show hidden nodes**_ icons appear next to each o
 
 1.  Select nodes using any selection method.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536566/04_04_01_HideSelected.png?api=v2)
+    ![](/04_04_01_HideSelected.png)
 2.  Click the _**Hide Selection**_ icon in the context toolbar.  
     The selected nodes (and any connected edges) are hidden. Hidden nodes, edges, etc. are subtracted from the lists in the legend.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536566/04_04_02_ShowHidden.png?api=v2)
+    ![](/04_04_02_ShowHidden.png)
     
 3.  You can keep selecting and hiding data and these are added to whatever has already been hidden. The _**Hide Selection**_ icon appears only when one or more nodes are selected.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536566/04_04_03_HideUnHide.png?api=v2)
+    ![](/04_04_03_HideUnHide.png)
 
 **To restore hidden nodes:**
 
@@ -64,11 +64,11 @@ By default, nodes and edges in the graph are visible. You can hide all data for 
     
 3.  Un-check the _**Visible**_ checkbox.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536566/04_04_04_HideCat1.png?api=v2)
+    ![](/04_04_04_HideCat1.png)
     
     The nodes (or edges) for the selected category or relationship disappear from the graph space. To display data for the entity again, simply click its _**Visible**_ checkbox.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536566/04_04_05_HideCat2.png?api=v2)
+    ![](/04_04_05_HideCat2.png)
 
 ## Excluding Property data
 
@@ -82,6 +82,6 @@ You can exclude any property for a category or relationship temporarily by click
     
 3.  Locate one or more properties you want to exclude, and click the _**Exclude**_ checkbox(es).
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719536566/04_04_06_ExcludeProp.png?api=v2)
+    ![](/04_04_06_ExcludeProp.png)
     
     Excluded properties no longer appear in information panels or tables.

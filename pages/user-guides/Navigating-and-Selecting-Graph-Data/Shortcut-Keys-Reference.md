@@ -1,6 +1,6 @@
 For use on the desktop, keyboard and mouse shortcuts are provided for navigation controls, most items in the context menu, and a few other controls. To access a reference panel of shortcuts in your GraphXR project space, click the _**Shortcut**_ icon located at the lower left of the browser window.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719537075/04_08_01_ShortcutKey.png?api=v2)
+![](/04_08_01_ShortcutKey.png)
 
 ## Desktop Shortcut Keys
 

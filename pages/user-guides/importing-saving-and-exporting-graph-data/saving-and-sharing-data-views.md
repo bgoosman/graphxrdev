@@ -18,7 +18,7 @@ A saved GXRF file is saved on the local machine, and a data view is saved on the
     
     The view appears in the list below the text box, labeled with your _**View Name**_ and _**UpdateTime**_ timestamp.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535661/02_08_01_SaveViewSaved.png?api=v2)
+    ![](/02_08_01_SaveViewSaved.png)
     
 3.  Once you’ve saved a view, you can:
     
@@ -36,7 +36,7 @@ If you click _**Save View**_ without entering a view name, GraphXR uses the _**U
 
 The most recently created view appears at the top of the list. The view you’ve loaded is highlighted, in case you want to update that view after editing its data or layout.
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719535661/02_08_02_SaveViewSecond.png?api=v2)
+![](/02_08_02_SaveViewSecond.png)
 
 ## Sharing a Project and its Data Views
 
@@ -48,25 +48,25 @@ Views from a project not connected to a Neo4j database cannot be shared directly
 
 1.  Go to the _**Projects**_ (Home) page, locate the project you want to share, and click its _**Enable Share**_ icon (the lock icon at the lower right of the project label).
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535661/02_08_04_ShareProject.png?api=v2)
+    ![](/02_08_04_ShareProject.png)
     
     The lock icon changes to _**DisableShare**_, and additional _**GoToShare**_, _**Invite**_, and _**ShareUIConfig**_ icons appear.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535661/02_08_04_ShareProject1.png?api=v2)
+    ![](/02_08_04_ShareProject1.png)
 2.  Click the project’s _**ShareUI Config**_ icon to display the dialog to review the project’s sharing configuration.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535661/02_08_04_ShareProject2.png?api=v2)
+    ![](/02_08_04_ShareProject2.png)
     
     By default, all user interface functions are enabled.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535661/02_08_05_ShareConfig.png?api=v2)
+    ![](/02_08_05_ShareConfig.png)
 3.  Click the checkbox next to the functions you want removed for share users, and click _**Save**_.  
     To exit the dialog without making changes, click the arrow icon at the upper left.
     
 4.  Now click the projects’s _**Invite**_ icon to send an email invitation to another GraphXR user.  
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535661/02_08_06_ShareInviteIcon.png?api=v2)
+    ![](/02_08_06_ShareInviteIcon.png)
     
     When the recipient accepts the invitation, the project appears in the _**Shared Projects**_ area on their _**Projects**_ page.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535661/02_08_07_ShareInvite.png?api=v2)
+    ![](/02_08_07_ShareInvite.png)

@@ -4,11 +4,11 @@ At any time you can create new nodes and edges in the project space. Since graph
     
 * Connect selected nodes using _**Add Edge**_ toolbar icon.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537113/05_01_01_AddIcons1344.png?api=v2)
+    ![](/05_01_01_AddIcons1344.png)
 
 * Add new properties to a node or edge using _**Add Property**_ in its _**Information**_ window.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537113/05_01_02_AddProperties720.png?api=v2)
+    ![](/05_01_02_AddProperties720.png)
 
 To delete data from the graph space you can:
 
@@ -16,7 +16,7 @@ To delete data from the graph space you can:
     
 * Delete all the data in the graph space using the _**Clear**_ icon (_**Ctrl**_+_**Shift**_+_**C**_).
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537113/05_01_03_DeleteIcons1344.png?api=v2)
+    ![](/05_01_03_DeleteIcons1344.png)
 
 ## Adding a node
 
@@ -32,10 +32,10 @@ In many situations, you only enter one value for a property. However, GraphXR do
     
 2.  Use the dropdown menu to select an existing category for the added node, or enter a new category name (e.g. _Pets_) and press return.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537113/05_01_04_AddCategory720.png?api=v2)
+    ![](/05_01_04_AddCategory720.png)
 3.  Enter one or more _**Property Names**_ for the category (e.g. _petName, etc._), and enter its corresponding _**Property Value**_ (e.g. _Harry_) or values (e.g. black and gray). To enter multiple values, enter the first value then press return to enter the next one, and so on.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537113/05_01_04_AddNodeDialog720.png?api=v2)
+    ![](/05_01_04_AddNodeDialog720.png)
     
     _OR_  
     In the list of properties for an existing category, enter a _Property Value_ if you have one, add any additional property names and their values, and click the minus (_\-_) icon for properties for which you have no value.  
@@ -44,7 +44,7 @@ In many situations, you only enter one value for a property. However, GraphXR do
 4.  Click _**Create**_ to create the node.  
     The new node appears in the graph space. A new category will appear in the _**Category**_ list in the legend. For an existing category, the total number of nodes is updated.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537113/05_01_06_AddedNode720.png?api=v2)
+    ![](/05_01_06_AddedNode720.png)
 
 ## Adding edges
 
@@ -58,21 +58,21 @@ You can add properties and single or multiline property values to edges just as 
     
 2.  Click the _**Add Edge**_ icon, and in the _**Add Edge**_ dialog, either enter the name of a new relationship to be assigned to the new edges (e.g. _OWNED\_BY_) and press retur, or select an existing relationship from the dropdown menu.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537113/05_01_06_CreateRelationship720.png?api=v2)
+    ![](/05_01_06_CreateRelationship720.png)
 3.  Optionally, enter property names and their values for the relationship.
     
 4.  Click _**as Source**_ to list the nodes that will be sources for new edges.
     
 5.  Now select one or more target nodes for the edges and click _**as Target**_.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537113/05_01_07_CreateEdges720.png?api=v2)
+    ![](/05_01_07_CreateEdges720.png)
     
     If you've set the source and target backwards, click the _**Switch**_ button to reverse the two.
     
 6.  Click _**Create**_.  
     New edges are created connecting the source nodes to the target nodes, with arrows showing the direction of the relationship. The total number of edges of that relationship is updated in the _**Relationship**_ list in the legend.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537113/05_01_08_NewEdges720.png?api=v2)
+    ![](/05_01_08_NewEdges720.png)
 
 ## Editing a property value
 
@@ -84,7 +84,7 @@ You can edit any property value of a single node or edge in its _**Info**_ windo
     
 2.  In the list of properties, double click a property _**Value**_, and edit the value (or values) in the provided text field.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537113/05_01_09_EditProperty1080.png?api=v2)
+    ![](/05_01_09_EditProperty1080.png)
     
     The property value is updated as you enter it.
     
@@ -99,21 +99,21 @@ For example, we can add a property for a _mobile_ number to the following _Custo
 
 Once the mobile number property is added, we can go to the _Customer_ category in the _**Project**_ panel and _**Category**_ tab and select it as a caption instead (or in addition).
 
-![](https://kineviz.atlassian.net/wiki/download/attachments/1719537113/05_01_10_MultiPropCaptions1080.png?api=v2)
+![](/05_01_10_MultiPropCaptions1080.png)
 
 **To add a new property and property value:**
 
 1.  Select a single node or edge, right click and select _**Information**_ to display its information window.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537113/05_01_11_AddMobileProp1080.png?api=v2)
+    ![](/05_01_11_AddMobileProp1080.png)
 2.  Click the _**Add Property**_ button, and enter a _**Property Name**_ (_mobile_) and one or more _**Property Values**_ (a mobile number) in the provided text fields.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537113/05_01_12_AddMobileValue1080.png?api=v2)
+    ![](/05_01_12_AddMobileValue1080.png)
 3.  Click _**Save**_ to save the new property and property value, or _**Cancel**_ to exit without saving.  
     The information window is updated with the new property and values.  
     Once the _mobile_ property is added, we can set it as the caption for _Customer_ nodes.
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537113/05_01_13_AddPropDone1080.png?api=v2)
+    ![](/05_01_13_AddPropDone1080.png)
 
 ## Deleting data from the graph space
 
@@ -123,7 +123,7 @@ Deleting data from the graph space is easily done. You can:
     
 *   Delete all the data in the graph space using the _**Clear**_ icon (_**Ctrl**_+_**Shift**_+_**C**_).
     
-    ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537113/05_01_03_DeleteIcons1344.png?api=v2)
+    ![](/05_01_03_DeleteIcons1344.png)
 
 You can use _**Ctrl**_+_**Z**_ to immediately undo a _**Delete**_ or _**Clear**_ action.
 
