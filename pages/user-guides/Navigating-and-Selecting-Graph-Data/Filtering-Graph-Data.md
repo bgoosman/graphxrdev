@@ -4,7 +4,7 @@ Data that meets filter criteria remain in the graph space where it can be select
 
 ## Filtering using multiple composable filters
 
-This example uses a dataset of TV series viewership per episode displayed in a [parametric layout](../working-with-layouts/using-parametric-layouts.md). We can create a filter by date, then add a second filter for the number of viewers.
+This example uses a dataset of TV series viewership per episode displayed in a [parametric layout](../working-with-layouts/using-parametric-layouts). We can create a filter by date, then add a second filter for the number of viewers.
 
 Date-time values need to be formatted as _YYYY-MM-DD hh:mm:ss_. Date-timestamps not in that format can be converted using an _**f(x)**_ function in the _**Transform**_ panel.
 

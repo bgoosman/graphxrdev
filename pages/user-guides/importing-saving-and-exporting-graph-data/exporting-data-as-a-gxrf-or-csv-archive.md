@@ -15,4 +15,4 @@ You can export any graph state in GraphXR’s GXRF format or as a CSV archive of
 
 Once saved, the file name is added to the bottom of the Chrome browser window, and you can load it by drag and drop from there. Or you can locate a GXRF file or CSV zip archive on your system and drag and drop to load it.
 
-You can also export data from a GraphXR [Enhanced Table](../navigating-and-selecting-graph-data/using-tables.md) as a CSV file.
+You can also export data from a GraphXR [Enhanced Table](../navigating-and-selecting-graph-data/using-tables) as a CSV file.

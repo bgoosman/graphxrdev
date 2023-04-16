@@ -52,7 +52,7 @@ When exploring high-dimensional data, 3D visualization provides a powerful advan
     *   Go to the the _**Force**_ layout tab to see that the _**Z-Compress**_ slider is no longer displayed.
         
 
-Many [_**Geometric**_ layouts](../working-with-layouts/using-geomtric-layouts.md) translate well to a purely 2D layout: _**Line**_, _**Circle**_, _**Spiral**_, and _**Grid**_, and hierarchical _**Rings**_ or _**Trees**_.
+Many [_**Geometric**_ layouts](../working-with-layouts/using-geomtric-layouts) translate well to a purely 2D layout: _**Line**_, _**Circle**_, _**Spiral**_, and _**Grid**_, and hierarchical _**Rings**_ or _**Trees**_.
 
 ## Randomizing node positions
 

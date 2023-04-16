@@ -6,7 +6,7 @@ Click the _**Take Screenshot**_ toolbar icon download a .png screenshot of just 
 
 ## Saving a Data View
 
-A data _**View**_ is a named GXRF file uploaded to the server. It includes the graph data and its 3D layout. Data _**Views**_ are similar to [Snapshots](./saving-or-loading-snapshots.md), but are saved only in the cloud as GXRF files. A view persists in a project until you delete it.
+A data _**View**_ is a named GXRF file uploaded to the server. It includes the graph data and its 3D layout. Data _**Views**_ are similar to [Snapshots](./saving-or-loading-snapshots), but are saved only in the cloud as GXRF files. A view persists in a project until you delete it.
 
 A saved GXRF file is saved on the local machine, and a data view is saved on the server. Both are saved in GraphXR's GXRF format.
 

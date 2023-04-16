@@ -25,4 +25,4 @@ If a property is missing, or the values do not match, a link will not be created
     
     ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537575/06_05_02_LinkLines1320.png?api=v2)
 
-For easier visualization, the data for each category are arranged using [Geometric](../working-with-layouts/using-geomtric-layouts.md) layouts.
+For easier visualization, the data for each category are arranged using [Geometric](../working-with-layouts/using-geomtric-layouts) layouts.

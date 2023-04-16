@@ -27,9 +27,9 @@ Examples use the open-source dataset for the HBO series Game of Thrones. For a h
 
 We can use _**Aggregate**_ to find the total number of lines spoken on each Game of Thrones episode. The _Lines.csv_ file includes data about the dialog in the show, and the _Episodes.csv_ file includes details about each season and episode. We first transform data imported from these files as follows:
 
-*   Use the [_**f(x)**_ transform](./using-fx-formulas.md) to calculate _seasonEpisode_ property values for the _Episodes_ category. This allows us to match the _seasonEpisode_ property in _the Lines_ category.
+*   Use the [_**f(x)**_ transform](./using-fx-formulas) to calculate _seasonEpisode_ property values for the _Episodes_ category. This allows us to match the _seasonEpisode_ property in _the Lines_ category.
     
-*   Use the [_**Link**_ transform](./using-link.md) to link lines to their respective episodes through a new _SPOKEN\_ON_ relationship.
+*   Use the [_**Link**_ transform](./using-link) to link lines to their respective episodes through a new _SPOKEN\_ON_ relationship.
     
 
 **To aggregate connections between nodes:**

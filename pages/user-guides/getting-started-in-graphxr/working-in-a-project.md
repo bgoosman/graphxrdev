@@ -10,13 +10,13 @@ A GraphXR project represents a 3-dimensional, functionally infinite space that i
     
 *   Intuitively visualize data in the 3D space using:
     
-    *   Customized [layouts](../working-with-layouts/using-geometric-layouts.md), including Parametric 2D or 3D scatter plots, Geometric _**Line**_, _**Circle**_, _**Grid**_, _**Cube**,_ and _**Spiral**_ layouts, Tree layouts, and more.
+    *   Customized [layouts](../working-with-layouts/using-geometric-layouts), including Parametric 2D or 3D scatter plots, Geometric _**Line**_, _**Circle**_, _**Grid**_, _**Cube**,_ and _**Spiral**_ layouts, Tree layouts, and more.
         
-    *   [Filter](../navigating-and-selecting-graph-data/filtering-graph-data.md) or distribute nodes on date, time, and other numerical properties.
+    *   [Filter](../navigating-and-selecting-graph-data/filtering-graph-data) or distribute nodes on date, time, and other numerical properties.
         
-    *   [Geospatial maps](../using-geospatial-maps.md), for nodes with latitude and longitude properties.
+    *   [Geospatial maps](../using-geospatial-maps), for nodes with latitude and longitude properties.
         
-*   [Save and share](../importing-saving-and-exporting-graph-data/saving-and-sharing-data-views.md) graph data to data _**Views**_, _**Snapshots**_, _**GXRF**_ or _**CSV**_ archives, or to a connected Neo4j database. You can also save and export a data mapping as a JSON file.
+*   [Save and share](../importing-saving-and-exporting-graph-data/saving-and-sharing-data-views) graph data to data _**Views**_, _**Snapshots**_, _**GXRF**_ or _**CSV**_ archives, or to a connected Neo4j database. You can also save and export a data mapping as a JSON file.
     
 
 On the desktop, a set of menus and controls provide the tools you’ll need to work with graph data:
@@ -101,7 +101,7 @@ Additional functions provided at bottom left of the project space are:
     
 *   _**Home**_, to return to the Projects page.
     
-*   _**Shortcut**_, to display keyboard and mouse shortcuts available for efficient navigation and data selection on the desktop. For details, see [Shortcut Keys Reference](../navigating-and-selecting-graph-data/shortcut-keys-reference.md).
+*   _**Shortcut**_, to display keyboard and mouse shortcuts available for efficient navigation and data selection on the desktop. For details, see [Shortcut Keys Reference](../navigating-and-selecting-graph-data/shortcut-keys-reference).
     
 *   _**About**_, for GraphXR version information.
     
@@ -130,7 +130,7 @@ Select _**Category**_, _**Tag**_, or _**Property**_ to display a list of categor
 *   Click the colored line or dot next to a list item to select a different color for a relationship, tag, or property, or choose an icon for a category.
     
 
-For details on selecting colors and icons, see [Selecting Colors and Labels](../navigating-and-selecting-graph-data/shortcut-keys-reference.md).
+For details on selecting colors and icons, see [Selecting Colors and Labels](../navigating-and-selecting-graph-data/shortcut-keys-reference).
 
 ## Context Toolbar
 

@@ -11,7 +11,7 @@ To select graph data you can:
 *   Use the _**Trace Neighbor**_ and _**Select Visible Nodes**_ toolbar icons to highlight and select a subgraph.
     
 
-You can also [_**Filter**_](./filtering-graph-data.md) data by any numerical property, including date and time, latitude, or longitude.
+You can also [_**Filter**_](./filtering-graph-data) data by any numerical property, including date and time, latitude, or longitude.
 
 ## Selecting using Shortcuts
 
@@ -35,7 +35,7 @@ For selecting data on the desktop, the following keyboard and mouse shortcuts ar
 
 ## Using Inverse
 
-The _**Inverse**_ icon on the toolbar deselects currently selected nodes, and selects all the other visible nodes instead. It is often used along with [_**Hide /Unhide Selection**_](./hiding-data.md) to more effectively work with a complex graph by temporarily removing and then restoring some of its data.
+The _**Inverse**_ icon on the toolbar deselects currently selected nodes, and selects all the other visible nodes instead. It is often used along with [_**Hide /Unhide Selection**_](./hiding-data) to more effectively work with a complex graph by temporarily removing and then restoring some of its data.
 
 *   Click _**Inverse**_ (_**I**_ or _**Shift**_+_**I**_) to select all the nodes not in the current selection.
     

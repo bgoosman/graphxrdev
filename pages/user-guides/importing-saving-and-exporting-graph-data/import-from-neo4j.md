@@ -11,7 +11,7 @@ You can pull data directly from a Neo4j graph database connected to a GraphXR pr
 *   Use _**Expand**_ in the context toolbar to pull data connected by specified relationships to selected nodes in the graph.
     
 
-GraphXR also includes the [Visual Query Builder](../using-graphxr-extensions/using-visual-query-builder.md) extension for no-code Cypher queries using visual building blocks. This lets you access Cypher’s most commonly used pattern matching capabilities without needing to learn Cypher code.
+GraphXR also includes the [Visual Query Builder](../using-graphxr-extensions/using-visual-query-builder) extension for no-code Cypher queries using visual building blocks. This lets you access Cypher’s most commonly used pattern matching capabilities without needing to learn Cypher code.
 
 ![](https://kineviz.atlassian.net/wiki/download/attachments/1719535063/02_03_02_VQB720.png?api=v2)
 
