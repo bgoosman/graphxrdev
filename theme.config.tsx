@@ -14,6 +14,11 @@ const config: DocsThemeConfig = {
   footer: {
     text: 'graphxr.dev',
   },
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s - graphxr.dev',
+    }
+  }
 }
 
 export default config
