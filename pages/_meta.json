@@ -8,21 +8,16 @@
       "toc": false
     }
   },
-  "examples": {
-    "title": "Examples",
-    "type": "page",
-    "theme": {
-      "layout": "full",
-      "sidebar": false,
-      "toc": false
-    }
-  },
-  "GxrApi": {
+  "graphxr-api": {
     "title": "API",
     "type": "page",
     "theme": {
       "layout": "full"
     }
+  },
+  "user-guides": {
+    "title": "User Guides",
+    "type": "page"
   },
   "contact": {
     "title": "Contact ↗",

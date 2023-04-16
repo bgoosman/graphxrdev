@@ -1,37 +1,31 @@
-[graphxr](../README.md) / [Exports](../modules.md) / GxrApi
-
-# Interface: GxrApi
-
-## Table of contents
-
 ### Properties
 
-- [\_version](GxrApi.md#_version)
+- [\_version](#_version)
 
 ### Methods
 
-- [animate](GxrApi.md#animate)
-- [captionNodesByProperties](GxrApi.md#captionnodesbyproperties)
-- [colorNodesByProperty](GxrApi.md#colornodesbyproperty)
-- [dispatchGraphDataUpdate](GxrApi.md#dispatchgraphdataupdate)
-- [edges](GxrApi.md#edges)
-- [flyToCenter](GxrApi.md#flytocenter)
-- [flyToPosition](GxrApi.md#flytoposition)
-- [getCategoryConfig](GxrApi.md#getcategoryconfig)
-- [graph](GxrApi.md#graph)
-- [neo4j](GxrApi.md#neo4j)
-- [newGraph](GxrApi.md#newgraph)
-- [nodes](GxrApi.md#nodes)
-- [onGraphDataUpdate](GxrApi.md#ongraphdataupdate)
-- [randomGraph](GxrApi.md#randomgraph)
-- [setAutoShowImage](GxrApi.md#setautoshowimage)
-- [setCameraOptions](GxrApi.md#setcameraoptions)
-- [setCameraRotating](GxrApi.md#setcamerarotating)
-- [setEdgeScale](GxrApi.md#setedgescale)
-- [setFullscreen](GxrApi.md#setfullscreen)
-- [sizeNodesByProperty](GxrApi.md#sizenodesbyproperty)
-- [sleep](GxrApi.md#sleep)
-- [triggerForceLayout](GxrApi.md#triggerforcelayout)
+- [animate](#animate)
+- [captionNodesByProperties](#captionnodesbyproperties)
+- [colorNodesByProperty](#colornodesbyproperty)
+- [dispatchGraphDataUpdate](#dispatchgraphdataupdate)
+- [edges](#edges)
+- [flyToCenter](#flytocenter)
+- [flyToPosition](#flytoposition)
+- [getCategoryConfig](#getcategoryconfig)
+- [graph](#graph)
+- [neo4j](#neo4j)
+- [newGraph](#newgraph)
+- [nodes](#nodes)
+- [onGraphDataUpdate](#ongraphdataupdate)
+- [randomGraph](#randomgraph)
+- [setAutoShowImage](#setautoshowimage)
+- [setCameraOptions](#setcameraoptions)
+- [setCameraRotating](#setcamerarotating)
+- [setEdgeScale](#setedgescale)
+- [setFullscreen](#setfullscreen)
+- [sizeNodesByProperty](#sizenodesbyproperty)
+- [sleep](#sleep)
+- [triggerForceLayout](#triggerforcelayout)
 
 ## Properties
 
