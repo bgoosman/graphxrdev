@@ -12,7 +12,7 @@ If you’re new to Neo4j, you can [download Neo4j Desktop](https://neo4j.com/dow
 
 Cypher, developed by Neo4j, is a powerful query language for selecting, presenting, and transforming graph data, and for managing the database. Visual Query Builder focuses on Cypher’s capability to match patterns and return data as nodes and edges. This type of Cypher query is generally structured as follows:
 
-|     |     |
+| Cypher | Description |
 | --- | --- |
 | **MATCH** **(a:Category) - \[b: RELATIONSHIP\] -> (c:Category) …etc.** | Match (i.e., find) specified graph patterns, usually based on category labels and relationship labels and directions. Multiple MATCH statements can be used to query for branched patterns. _**Note:** Property values can be specified in a MATCH statement; typically a WHERE cause is used instead._ |
 | **WHERE** **a.PropertyName1 = Value AND …etc.** | Qualifiers based on property values in the specified nodes and edges. To match values, Visual Query Builder provides _**Equals**_, _**Greater Than**_, _**Less Than**_, _**Like**_, or _**In**_ operators. |
@@ -121,7 +121,7 @@ A more complicated pattern can specify several categories and their properties, 
     
     ![](https://kineviz.atlassian.net/wiki/download/attachments/1719538510/10_01_06_VQBPersonMovie1320.png?api=v2)
 
-If the query does not load, or returns unexpected results, see [Troubleshooting](#Troubleshooting).
+If the query does not load, or returns unexpected results, see [Troubleshooting](#troubleshooting-visual-queries).
 
 ## Saving and sharing a Visual Query
 
@@ -240,9 +240,8 @@ The Cypher query now includes the length in the MATCH statement as a property of
 
 ## Visual Query Builder Quick Reference
 
-|     |     |
-| --- | --- |
 | **To…** | **Action** |
+| --- | --- |
 | Add a block to the workspace. | Click the block. |
 | Move a block. | Click and drag. |
 | Connect a block. | Click a socket and drag the line to another socket. |
@@ -264,9 +263,8 @@ The Cypher query now includes the length in the MATCH statement as a property of
 
 ## Troubleshooting Visual Queries
 
-|     |     |
-| --- | --- |
 | **Issue** | **Possible Resolution** |
+| --- | --- |
 | An error message indicates that a connection to the server was not established. | Most likely, the Cypher query is not well-formed. Check that you’ve actually connected the blocks, entered valid property values, and that the query has a valid number for the LIMIT. |
 | The query loads but does not return any results. | If a query does not return results, but you know that matching data exist in the database, verify that entries for property values are spelled correctly, and that you have chosen the correct **Property** operator:<br><br>**• Greater Than** and **Less Than** operators accept only numerical values<br><br>**• Like** accepts text strings.<br><br>**• Equals** and **In** accepts either text strings or numerical values. The values will be matched exactly. **Equals** accepts a single value. For **In**, you can enter a list of comma-separated values (no leading space, no quotes). Spaces after a comma are ignored (i.e. _right,left,up,down_ returns the same results as _right, left, up, down_). |
 

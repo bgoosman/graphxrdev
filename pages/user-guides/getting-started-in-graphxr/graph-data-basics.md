@@ -32,8 +32,8 @@ GraphXR enables you to work with multiple data sources. You can:
 
 *   Pull or query graph data from a Neo4j graph database connected to GraphXR, or load data exported in a variety of formats from other graph databases (or another GraphXR project). Data exported from a graph environment will include its defined categories, relationships, and properties.
     
-*   [Import data](https://kineviz.atlassian.net/wiki/pages/resumedraft.action?draftId=985333847) in CSV, JSON, and many other formats simply by drag and drop. When you import data that has no associated graph schema, such as a flat CSV file, each row in the table is imported as a node of a single default category.
+*   [Import data](./importing-saving-and-exporting-graph-data/importing-saving-and-exporting-graph-data) in CSV, JSON, and many other formats simply by drag and drop. When you import data that has no associated graph schema, such as a flat CSV file, each row in the table is imported as a node of a single default category.
     
-*   Query a CSV file or RDBMS table, and construct graph patterns from the tabular data using GraphXR’s [_Mapping Editor_](https://kineviz.atlassian.net/wiki/spaces/~5fb2d973d670b8006e5d6cbd/pages/1719534690/Import+using+a+Mapping).
+*   Query a CSV file or RDBMS table, and construct graph patterns from the tabular data using GraphXR’s [_Mapping Editor_](./importing-saving-and-exporting-graph-data/import-using-a-mapping).
     
     ![](https://kineviz.atlassian.net/wiki/download/attachments/1719533649/01_01_05_Import_CSVMapping1080.png?api=v2)

@@ -19,9 +19,8 @@ You can also use the mouse to operate GraphXR’s GUI navigation controls.
 
 The following table lists available desktop navigation shortcuts.
 
-|     |     |     |     |
-| --- | --- | --- | --- |
 | **Action** | **Shortcut Keys** | **Description** | **Function** |
+| --- | --- | --- | --- |
 | Pan | _**Left mouse click**_ **drag** or  <br>_**1**_+_**Left mouse click**_ **drag** | Pan right, left, up or down. | Navigation |
 | Zoom | _**mouse scroll**_ or  <br>_**2**_+_**left mouse click**_ **drag** | Drag up to zoom in, down to zoom out | Navigation |
 | Fast Zoom | _**Ctrl+left mouse click**_ **drag** | Faster zoom: drag up to zoom in, down to zoom out |     |

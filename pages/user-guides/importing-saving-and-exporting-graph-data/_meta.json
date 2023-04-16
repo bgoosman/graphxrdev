@@ -1,0 +1,12 @@
+{
+  "importing-saving-and-exporting-graph-data": "Importing, Saving, and Exporting Graph Data",
+  "import-by-drag-and-drop": "Import By Drag and Drop",
+  "import-using-a-mapping": "Import Using a Mapping",
+  "import-from-neo4j": "Import from Neo4j",
+  "accessing-a-shared-data-view": "Accessing a Shared Data View",
+  "saving-or-loading-snapshots": "Saving or Loading Snapshots",
+  "saving-data-to-neo4j": "Saving Data to Neo4j",
+  "exporting-data-as-a-gxrf-or-csv-archive": "Exporting Data as a GXRF or CSV Archive",
+  "saving-and-sharing-data-views": "Saving and Sharing Data Views",
+  "embedding-a-view-as-an-iframe": "Embedding a View as an iFrame"
+}

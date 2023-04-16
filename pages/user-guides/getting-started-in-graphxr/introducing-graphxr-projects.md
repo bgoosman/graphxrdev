@@ -48,7 +48,7 @@ To get started quickly with GraphXR you can explore available _**Demo**_ project
     For example, in the Demo project with data for the HBO Game of Thrones series, categories such as **Character**, **House**, **Episode**, etc, and relationships such as **child\_of**, **married\_to**, **guarded\_by**, etc. have been created in the Neo4j graph database. You’ll also see the color assigned to each category (or relationship), and a list of their defined property names.
     
 
-To explore the data, you’ll need to pull it into the graph space from the database. GraphXR provides several different ways to do this. For details, see [Import from a Graph Database (Neo4j)](https://kineviz.atlassian.net/wiki/spaces/~5fb2d973d670b8006e5d6cbd/pages/1719535063).
+To explore the data, you’ll need to pull it into the graph space from the database. GraphXR provides several different ways to do this. For details, see [Import from Neo4j](../importing-saving-and-exporting-graph-data/import-from-neo4j.md).
 
 ## Create a Project
 
@@ -56,7 +56,7 @@ You can create a new GraphXR project and either leave the project unconnected, o
 
 ### Create a stand-alone project
 
-Creating a project without connecting it to a Neo4j database can be useful for importing and working with data available in a variety of formats (e.g. CSV, SQL, JSON, GraphXR's GXRF and Snapshot files, and others). Once the project is created, you can import many types of data files simply by drag and drop, or select and model specific data using GraphXR’s [_**Mapping Editor**_](https://kineviz.atlassian.net/wiki/spaces/~5fb2d973d670b8006e5d6cbd/pages/1719534690/Import+using+a+Mapping).
+Creating a project without connecting it to a Neo4j database can be useful for importing and working with data available in a variety of formats (e.g. CSV, SQL, JSON, GraphXR's GXRF and Snapshot files, and others). Once the project is created, you can import many types of data files simply by drag and drop, or select and model specific data using GraphXR’s [_**Mapping Editor**_](../importing-saving-and-exporting-graph-data/import-using-a-mapping.md).
 
 **To create a stand-alone project:**
 

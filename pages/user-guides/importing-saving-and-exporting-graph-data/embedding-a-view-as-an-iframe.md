@@ -19,17 +19,16 @@ GraphXR iFrame embedding is supported for all GraphXR subscriptions.
     
 
 ```
-<iframe id="iframe-id-graph" src="VIEW URL GOES HERE" height="600px" width = "100%"> 
- </iframe>
-  <script>
-   let graphXRIframe = document.getElementById("iframe-id-graph");
-   graphXRIframe.addEventListener('mouseover', function () {
-   window.document.body.style.overflow = 'hidden';
-   graphXRIframe.style.overflow = 'auto';
-    });
-    graphXRIframe.addEventListener('mouseout', function () {
+<iframe id="iframe-id-graph" src="VIEW URL GOES HERE" height="600px" width = "100%"></iframe>
+<script>
+let graphXRIframe = document.getElementById("iframe-id-graph");
+graphXRIframe.addEventListener('mouseover', function () {
+    window.document.body.style.overflow = 'hidden';
+    graphXRIframe.style.overflow = 'auto';
+});
+graphXRIframe.addEventListener('mouseout', function () {
     window.document.body.style.overflow = 'auto';
     graphXRIframe.style.overflow = 'hidden';
-    })
-    </script>
+})
+</script>
 ```

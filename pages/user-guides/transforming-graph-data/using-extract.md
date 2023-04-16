@@ -1,6 +1,6 @@
 The _**Extract**_ transform lets you generate nodes and edges belonging to new or existing categories and relationships, based on one or more source properties.
 
-Examples use the open-source dataset for the HBO series Game of Thrones. For a hands-on exercise, see our [How to GraphXR](https://kineviz.atlassian.net/wiki/spaces/TES/pages/820445303/How+To+GraphXR) tutorials.
+Examples use the open-source dataset for the HBO series Game of Thrones. For a hands-on exercise, see our [How to GraphXR](https://helpcenter.kineviz.com/learning-center/HC/how-to-graphxr) tutorials.
 
 The _Characters.csv_ file tabulates information about each character in the series, the name and the house they belong to. Importing CSV file assigns all the data to a single default _Characters_ category, but we want to extract a separate _House_ category for the family each character belongs to.
 

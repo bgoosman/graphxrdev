@@ -4,9 +4,8 @@ With graph-based _f(x)_ _functions_ you can calculate values based on existing p
 
 The following table lists the available preset formulas and their general formats.
 
-|     |     |     |
-| --- | --- | --- |
 | **Preset** | **Function** | **Format** |
+| --- | --- | --- |
 | _toCustom_ | Editable format | (propVal,props) => propVal |
 | _toNumber_ | String or Number => a Number | (propVal,props) => Number(propVal) \| 0 |
 | _toString_ | String, Number, or Date => a String | (propVal,props) => String(propVal) |
@@ -60,7 +59,7 @@ In the following example numerical data in the file _ImportSample.csv_ has been 
 
 Custom formulas enable you to use javascript functions to handle complex data conversions, and also to bring multiple properties into a single property. The libraries [_Lodash.js_](https://lodash.com/docs) and [_Moment.js_](https://momentjs.com/docs/) are supported.
 
-For a hands-on exercise using the Game of Thrones datasets, see our [How to GraphXR](https://kineviz.atlassian.net/wiki/spaces/TES/pages/820445303/How+To+GraphXR) tutorials.
+For a hands-on exercise using the Game of Thrones datasets, see our [How to GraphXR](https://helpcenter.kineviz.com/learning-center/HC/how-to-graphxr) tutorials.
 
 We’ll use data from the HBO series Game of Thrones to illustrate using a custom formula to reformat existing properties and write them to a new _seasonEpisode_ property. First we import two CSV files by drag and drop:
 

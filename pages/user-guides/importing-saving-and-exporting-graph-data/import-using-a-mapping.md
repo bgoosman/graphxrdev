@@ -60,11 +60,13 @@ Mapping data from a table in an SQL relational database uses the same mapping in
 2.  Scroll to the bottom of the panel, and click _**New.**_
     
     ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534690/02_02_06_CSVMapping720.png?api=v2)
+
 3.  The _**Mapping Editor**_ window that displays is divided into left and right functional areas:  
     • On the left, you add categories and relationships, and save or export your mapping.  
     • On the right, you enter a _**Category Name**_ (or _**Relationship Name**_), inspect _**Sample Data**_ from the CSV, and specify the _**Properties**_ to be mapped from the CSV _**ColumnName**_ to a _**PropertyName**_ for the current category or relationship. You’ll first create categories, then add relationships. The first category, shown as a circular icon labeled _Category1_, is automatically created and selected.
     
     ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534690/02_02_07_MappingEditor720.png?api=v2)
+
 4.  On the right, in _**CategoryName**_, change the label to _Image_.
     
     ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534690/02_02_08_Cat1_Image.png?api=v2)
@@ -78,31 +80,32 @@ Mapping data from a table in an SQL relational database uses the same mapping in
 7.  Click the **+** (plus) icon again at the upper left to add a _Rating_ category. Click to add the _Rating_ column from the CSV as a property , and click to set it **AsKey** so that there will be a single node for each unique rating.
     
     ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534690/02_02_09_Cat2_Rating.png?api=v2)
+
 8.  Now click the **+** (plus) icon at the upper left to add the _Author_ category. Click to add the _Provider_ column as a property, rename it to _authorName_, and click _**AsKey**_ so that there will be a single node for each unique photographer.
     
     ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534690/02_02_10_Cat3_Author.png?api=v2)
+
 9.  Now add the directed dynamic relationships. Click the _**Add Edge**_ icon on the upper left and click the source category (_Image_). Then click the second, target category (_Rating_). The relationship appears as an arrow between the two categories. The default name is the combined names of the two categories (_Image\_Rating_). Since we want a dynamic relationship, edit _**Relationship Name**_ to _RATED\_AT\_{Rating}_. Optionally, properties can be added to the relationship, but here we don’t need to.
     
     ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534690/02_02_11_DynamicRelRating.png?api=v2)
     
-    **NOTE:** A name you enter in the curly braces must exactly match the column header name **in the CSV**. If the Mapping Editor can’t match the name (for example, because it is misspelled), the relationship will be created, but will be labeled “_undefined_”.
+    **NOTE:** A name you enter in the curly braces must exactly match the column header name **in the CSV**. If the Mapping Editor can’t match the name (for example, because it is misspelled), the relationship will be created, but will be labeled "_undefined_".
     
-10.  Now click the _Image_ and then the _Author_ category icons to add a dynamic _TAKEN\_BY\_{Provider}_ relationship between the _Image_ and _Autho**r**_ categories.
-    
+10.  Now click the _Image_ and then the _Author_ category icons to add a dynamic _TAKEN\_BY\_{Provider}_ relationship between the _Image_ and _Author_ categories.
     ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534690/02_02_12_DynamicRelAuthor.png?api=v2)
+
 11.  Click any category or relationship icon to review and make any changes.
     
 12.  Click the _**Save As**_ icon in the _**Mapping Editor**_ window.
-    
     ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534690/02_02_13_SaveMapping1320.png?api=v2)
+
 13.  In the dialog box, enter a name in the _**Save As**_ text field, and click _**OK.**_
-    
     ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534690/02_02_14_SaveAsDialog.png?api=v2)
+
 14.  The name appears in the _**Mapping**_ dropdown menu. Click _**Apply**_ to apply the mapping to the loaded file and import the mapped data.
-    
     ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534690/02_02_15_ApplyMapping.png?api=v2)
+
 15.  GraphXR queries the CSV, maps the data, and loads it to the project space.
-    
     ![](https://kineviz.atlassian.net/wiki/download/attachments/1719534690/02_02_16_MappingDone.png?api=v2)
 
 ## Editing a mapping

@@ -1,22 +1,22 @@
 A GraphXR project represents a 3-dimensional, functionally infinite space that includes the full capability to navigate, edit, and visualize graph data. When you first open a project, its space is empty. You can:
 
-*   [Import](https://kineviz.atlassian.net/wiki/spaces/~5fb2d973d670b8006e5d6cbd/pages/1719534523/Importing%2C+Saving%2C+and+Exporting+Graph+Data) data by drag and drop, data mapping, or query.
+*   [Import](../importing-saving-and-exporting-graph-data/importing-saving-and-exporting-graph-data) data by drag and drop, data mapping, or query.
     
 *   Navigate, inspect, search, select, filter, add and delete, and edit data.
     
 *   Create, refine, or extend a graph data model directly in GraphXR.
     
-*   Run widely used graph [algorithms](https://kineviz.atlassian.net/wiki/spaces/~5fb2d973d670b8006e5d6cbd/pages/1719537719/Running+Graph+Algorithms) such as _**Path Finding**_ and _**Centrality**_.
+*   Run widely used graph [algorithms](../running-graph-algorithms) such as _**Path Finding**_ and _**Centrality**_.
     
 *   Intuitively visualize data in the 3D space using:
     
-    *   Customized [layouts](https://kineviz.atlassian.net/wiki/spaces/~5fb2d973d670b8006e5d6cbd/pages/1719538052/Using+Geometric+Layouts), including Parametric 2D or 3D scatter plots, Geometric _**Line**_, _**Circle**_, _**Grid**_, _**Cube**,_ and _**Spiral**_ layouts, Tree layouts, and more.
+    *   Customized [layouts](../working-with-layouts/using-geometric-layouts.md), including Parametric 2D or 3D scatter plots, Geometric _**Line**_, _**Circle**_, _**Grid**_, _**Cube**,_ and _**Spiral**_ layouts, Tree layouts, and more.
         
-    *   [Filter](https://kineviz.atlassian.net/wiki/spaces/~5fb2d973d670b8006e5d6cbd/pages/1719536681/Filtering+Graph+Data) or distribute nodes on date, time, and other numerical properties.
+    *   [Filter](../navigating-and-selecting-graph-data/filtering-graph-data.md) or distribute nodes on date, time, and other numerical properties.
         
-    *   [Geospatial maps](https://kineviz.atlassian.net/wiki/spaces/~5fb2d973d670b8006e5d6cbd/pages/1719538378/Using+Geospatial+Maps), for nodes with latitude and longitude properties.
+    *   [Geospatial maps](../using-geospatial-maps.md), for nodes with latitude and longitude properties.
         
-*   [Save and share](https://kineviz.atlassian.net/wiki/spaces/~5fb2d973d670b8006e5d6cbd/pages/1719535661/Saving+and+Sharing+Data+Views) graph data to data _**Views**_, _**Snapshots**_, _**GXRF**_ or _**CSV**_ archives, or to a connected Neo4j database. You can also save and export a data mapping as a JSON file.
+*   [Save and share](../importing-saving-and-exporting-graph-data/saving-and-sharing-data-views.md) graph data to data _**Views**_, _**Snapshots**_, _**GXRF**_ or _**CSV**_ archives, or to a connected Neo4j database. You can also save and export a data mapping as a JSON file.
     
 
 On the desktop, a set of menus and controls provide the tools you’ll need to work with graph data:
@@ -101,7 +101,7 @@ Additional functions provided at bottom left of the project space are:
     
 *   _**Home**_, to return to the Projects page.
     
-*   _**Shortcut**_, to display keyboard and mouse shortcuts available for efficient navigation and data selection on the desktop. For details, see [Shortcut Keys Reference](https://kineviz.atlassian.net/wiki/spaces/~5fb2d973d670b8006e5d6cbd/pages/1719537075/Shortcut+Keys+Reference).
+*   _**Shortcut**_, to display keyboard and mouse shortcuts available for efficient navigation and data selection on the desktop. For details, see [Shortcut Keys Reference](../navigating-and-selecting-graph-data/shortcut-keys-reference.md).
     
 *   _**About**_, for GraphXR version information.
     
@@ -130,7 +130,7 @@ Select _**Category**_, _**Tag**_, or _**Property**_ to display a list of categor
 *   Click the colored line or dot next to a list item to select a different color for a relationship, tag, or property, or choose an icon for a category.
     
 
-For details on selecting colors and icons, see [Selecting Colors and Labels](https://kineviz.atlassian.net/wiki/spaces/~5fb2d973d670b8006e5d6cbd/pages/1719536132/Setting+Colors%2C+Icons%2C+and+Captions).
+For details on selecting colors and icons, see [Selecting Colors and Labels](../navigating-and-selecting-graph-data/shortcut-keys-reference.md).
 
 ## Context Toolbar
 

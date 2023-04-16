@@ -12,9 +12,8 @@ Nodes with geospatial coordinates are pinned to the map until you hide the map, 
 
 Geospatial data must be encoded in the data in separate latitude(_lat_) and longitude(_lng_) properties as follows:
 
-|     |     |     |
-| --- | --- | --- |
 |     | **Property Name** | **Example Value** |
+| --- | --- | --- |
 | Latitude | _lat_ | `-74.006393` |
 | Longitude | _lng_ | `40.714172` |
 

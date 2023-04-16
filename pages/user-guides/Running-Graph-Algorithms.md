@@ -46,17 +46,16 @@ GraphXR includes a selection of commonly used _**Centrality**_ or _**Community D
 
 When you run a _**Centrality**_ or _**Community Detection**_ algorithm the computed result is added as a property to each node in the graph. The following table lists the available algorithms and the property names GraphXR uses to store the results.
 
-|     |     |     |
+| Algorithm Type | Algorithm | Property Name |
 | --- | --- | --- |
-| **Algorithm Type** | **Algorithm** | **Property Name** |
-| **Centrality** | _**PageRank**_ | _pageRank_ |
-| _**Betweenness**_ | _betweenness_ |
-| _**Closeness**_ | _closeness_ |
-| _**Eigenvector**_ | _eigenvector_ |
-| **Community Detection** | _**Connected Component**_ | _componentId_ |
-| _**Strong Connected Component**_ | _strongComponentId_ |
-| _**Louvain**_ | _louvainComponentId_ |
-| _**Label Propagation**_ | _labelPropagationId_ |
+| Centrality | PageRank | pageRank |
+| Centrality | Betweenness | betweenness |
+| Centrality | Closeness | closeness |
+| Centrality | Eigenvector | eigenvector |
+| Community Detection | Connected Component | componentId |
+| Community Detection | Strong Connected Component | strongComponentId |
+| Community Detection | Louvain | louvainComponentId |
+| Community Detection | Label Propagation | labelPropagationId |
 
 The numerical results can be displayed (for example, in a scatter plot), accessed for other processes within GraphXR, or exported for use in other graph analytics or statistics applications.
 
@@ -65,6 +64,7 @@ The numerical results can be displayed (for example, in a scatter plot), accesse
 1.  In the _**Algorithm**_ panel, click to open the _**Centrality**_ or _**Community Detection**_ tab.
     
     ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537719/07_01_04_Centrality1320.png?api=v2)
+
 2.  Click the button for the algorithm you want to run.  
     A message displays when the calculation is finished. The property and calculated value is added to each node in the graph. To see the results, you can  
     Open a table.

@@ -1,19 +1,20 @@
 At any time you can create new nodes and edges in the project space. Since graph data is extensible, you can add nodes and edges of new as well as existing categories or relationships. You can:
 
-*   Add new nodes to the graph, using the _**Add Node**_ toolbar icon.
+* Add new nodes to the graph, using the _**Add Node**_ toolbar icon.
     
-*   Connect selected nodes using _**Add Edge**_ toolbar icon.
+* Connect selected nodes using _**Add Edge**_ toolbar icon.
     
     ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537113/05_01_01_AddIcons1344.png?api=v2)
-*   Add new properties to a node or edge using _**Add Property**_ in its _**Information**_ window.
+
+* Add new properties to a node or edge using _**Add Property**_ in its _**Information**_ window.
     
     ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537113/05_01_02_AddProperties720.png?api=v2)
 
 To delete data from the graph space you can:
 
-*   Delete any data selection using the _**Delete**_ icon (_**del**_ or _**backspace**_).
+* Delete any data selection using the _**Delete**_ icon (_**del**_ or _**backspace**_).
     
-*   Delete all the data in the graph space using the _**Clear**_ icon (_**Ctrl**_+_**Shift**_+_**C**_).
+* Delete all the data in the graph space using the _**Clear**_ icon (_**Ctrl**_+_**Shift**_+_**C**_).
     
     ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537113/05_01_03_DeleteIcons1344.png?api=v2)
 
@@ -45,7 +46,7 @@ In many situations, you only enter one value for a property. However, GraphXR do
     
     ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537113/05_01_06_AddedNode720.png?api=v2)
 
-## Adding Edges
+## Adding edges
 
 Using _**Add Edge**_, you can connect selected nodes to each other with edges of a new or existing directed relationship. To do this, you’ll select nodes as the source, and then the nodes that are to be the target.
 
@@ -73,8 +74,7 @@ You can add properties and single or multiline property values to edges just as 
     
     ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537113/05_01_08_NewEdges720.png?api=v2)
 
-##   
-Editing a property value
+## Editing a property value
 
 You can edit any property value of a single node or edge in its _**Info**_ window. This might be useful if you need to correct errors, or add missing values to a very small amount of data.
 
@@ -129,4 +129,4 @@ You can use _**Ctrl**_+_**Z**_ to immediately undo a _**Delete**_ or _**Clear**_
 
 Deleting data in the graph space does not delete the data you pulled from a Neo4j database. The data model persists, and the _Categories_ and _Relationships_ tabs in the _Project_ panel still list your defined entity labels.
 
-On the other hand, editing and transformations done in GraphXR will be lost unless you save data before deleting it. You can [save data back to Neo4j](https://kineviz.atlassian.net/wiki/spaces/~5fb2d973d670b8006e5d6cbd/pages/1719535528/Saving+Data+to+Neo4j), save a [data View](https://kineviz.atlassian.net/wiki/spaces/~5fb2d973d670b8006e5d6cbd/pages/1719535661/Saving+and+Sharing+Data+Views) or [Snapshot](https://kineviz.atlassian.net/wiki/spaces/~5fb2d973d670b8006e5d6cbd/pages/1719535415/Saving+or+Loading+Snapshots), or [export data](https://kineviz.atlassian.net/wiki/spaces/~5fb2d973d670b8006e5d6cbd/pages/1719534523/Importing%2C+Saving%2C+and+Exporting+Graph+Data) in a variety of formats.
+On the other hand, editing and transformations done in GraphXR will be lost unless you save data before deleting it. You can [save data back to Neo4j](./importing-saving-and-exporting-graph-data/saving-data-to-neo4j.md), save a [data View](./importing-saving-and-exporting-graph-data/saving-and-sharing-data-views.md) or [Snapshot](./importing-saving-and-exporting-graph-data/saving-or-loading-snapshots.md), or [export data](./importing-saving-and-exporting-graph-data/exporting-data-as-a-gxrf-or-csv-archive.md) in a variety of formats.

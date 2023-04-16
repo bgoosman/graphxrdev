@@ -11,15 +11,14 @@ To select graph data you can:
 *   Use the _**Trace Neighbor**_ and _**Select Visible Nodes**_ toolbar icons to highlight and select a subgraph.
     
 
-You can also [_**Filter**_](https://kineviz.atlassian.net/wiki/spaces/~5fb2d973d670b8006e5d6cbd/pages/1719536681/Filtering+Graph+Data) data by any numerical property, including date and time, latitude, or longitude.
+You can also [_**Filter**_](./filtering-graph-data.md) data by any numerical property, including date and time, latitude, or longitude.
 
 ## Selecting using Shortcuts
 
 For selecting data on the desktop, the following keyboard and mouse shortcuts are provided.
 
-|     |     |     |     |
-| --- | --- | --- | --- |
 | **Action** | **Shortcut Keys** | **Description** | **Function** |
+| --- | --- | --- | --- |
 | Select all nodes | _**Ctrl**_+_**A**_ | Select all nodes currently in the graph space. | Select |
 | Deselect all nodes | _**Alt**_+_**A**_ (_**Option**_+_**A**_) or  <br>_**Double-click**_ empty space | Deselect all visible nodes. | Select |
 | Select a node or nodes | _**Left mouse click**_ or  <br>_**Shift**_+_**Left mouse click**_ **drag** | Select one or more nodes. | Select |
@@ -36,7 +35,7 @@ For selecting data on the desktop, the following keyboard and mouse shortcuts ar
 
 ## Using Inverse
 
-The _**Inverse**_ icon on the toolbar deselects currently selected nodes, and selects all the other visible nodes instead. It is often used along with [_**Hide /Unhide Selection**_](https://kineviz.atlassian.net/wiki/spaces/~5fb2d973d670b8006e5d6cbd/pages/1719536566/Hiding+Data) to more effectively work with a complex graph by temporarily removing and then restoring some of its data.
+The _**Inverse**_ icon on the toolbar deselects currently selected nodes, and selects all the other visible nodes instead. It is often used along with [_**Hide /Unhide Selection**_](./hiding-data.md) to more effectively work with a complex graph by temporarily removing and then restoring some of its data.
 
 *   Click _**Inverse**_ (_**I**_ or _**Shift**_+_**I**_) to select all the nodes not in the current selection.
     

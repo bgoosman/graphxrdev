@@ -1,6 +1,6 @@
 _Merge_ lets you combine nodes of a single category, or edges of a single relationship based on a property value. This is useful for quickly simplifying a graph.
 
-Examples use the open-source dataset for the HBO series Game of Thrones. For a hands-on exercise, see our [How to GraphXR](https://kineviz.atlassian.net/wiki/spaces/TES/pages/820445303/How+To+GraphXR) tutorials.
+Examples use the open-source dataset for the HBO series Game of Thrones. For a hands-on exercise, see our [How to GraphXR](https://helpcenter.kineviz.com/learning-center/HC/how-to-graphxr) tutorials.
 
 Using Game of Thrones data, we can use the _seasonEpisode_ property in the _Lines_ category to combine all of the lines spoken on a single episode into a single _Lines_ node connected to its _Episodes_ node.
 

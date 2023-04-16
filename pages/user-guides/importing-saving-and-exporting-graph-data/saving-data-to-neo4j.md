@@ -19,4 +19,4 @@ If your project is connected to a Neo4j database, and you have the necessary use
     • _**Bolt Port**_  
     • _**Username**_  
     • _**Password**_  
-    • _**Database Name** (for Neo4j-4 only)_
+    • _**Database Name** (for Neo4j 4+)_

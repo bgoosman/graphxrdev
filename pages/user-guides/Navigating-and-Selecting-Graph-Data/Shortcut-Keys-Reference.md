@@ -4,9 +4,8 @@ For use on the desktop, keyboard and mouse shortcuts are provided for navigation
 
 ## Desktop Shortcut Keys
 
-|     |     |     |     |
-| --- | --- | --- | --- |
 | **Action** | **Shortcut Keys** | **Description** | **Function** |
+| --- | --- | --- | --- |
 | Pan | _**Left mouse click**_ **drag** or  <br>_**1**_+_**Left mouse click**_ **drag** | Pan right, left, up or down. | Navigation |
 | Zoom | _**mouse scroll**_ or  <br>_**2**_+_**left mouse click**_ **drag** | Drag up to zoom in, down to zoom out | Navigation |
 | Fast zoom | _**Ctrl+mouse scroll**_ | Scroll up for fast zoom in and down for zoom out. | Navigation |

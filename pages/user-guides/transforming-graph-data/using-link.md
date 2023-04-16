@@ -1,6 +1,6 @@
 The _**Link**_ transform connects nodes with equivalent property values through edges of a new or existing relationship. Properties can be linked even if the property names differ, which is especially useful for combining data from different sources. _**Link**_ can also be used to explicitly draw a connection among nodes within a data set.
 
-Examples use the open-source dataset for the HBO series Game of Thrones. For a hands-on exercise, see our [How to GraphXR](https://kineviz.atlassian.net/wiki/spaces/TES/pages/820445303/How+To+GraphXR) tutorials.
+Examples use the open-source dataset for the HBO series Game of Thrones. For a hands-on exercise, see our [How to GraphXR](https://helpcenter.kineviz.com/learning-center/HC/how-to-graphxr) tutorials.
 
 For example, the Game of Thrones _Characters.csv_ file includes the _characterName_ property, while the _Lines.csv_ file includes the _speaker_ property. Although named differently, the two properties have matching values, that is, the name of the character in the show. We can use those properties to create a relationship between lines of dialog and the character that spoke it.
 
@@ -25,4 +25,4 @@ If a property is missing, or the values do not match, a link will not be created
     
     ![](https://kineviz.atlassian.net/wiki/download/attachments/1719537575/06_05_02_LinkLines1320.png?api=v2)
 
-For easier visualization, the data for each category are arranged using [Geometric](https://kineviz.atlassian.net/wiki/spaces/~5fb2d973d670b8006e5d6cbd/pages/1719538052/Using+Geometric+Layouts) layouts.
+For easier visualization, the data for each category are arranged using [Geometric](../working-with-layouts/using-geomtric-layouts.md) layouts.

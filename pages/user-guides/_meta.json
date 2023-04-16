@@ -1,3 +1,13 @@
 {
-  "index": "Intro to GraphXR"
+  "index": "Intro to GraphXR",
+  "getting-started-in-graphxr": "Getting Started in GraphXR",
+  "importing-saving-and-exporting-graph-data": "Importing, Saving, and Exporting Graph Data",
+  "using-display-options": "Using Display Options",
+  "navigating-and-selecting-graph-data": "Navigating and Selecting Graph Data",
+  "adding-and-deleting-graph-data": "Adding and Deleting Graph Data",
+  "transforming-graph-data": "Transforming Graph Data",
+  "running-graph-algorithms": "Running Graph Algorithms",
+  "working-with-layouts": "Working with Layouts",
+  "using-geospatial-maps": "Using Geospatial Maps",
+  "using-graphxr-extensions": "Using GraphXR Extensions"
 }

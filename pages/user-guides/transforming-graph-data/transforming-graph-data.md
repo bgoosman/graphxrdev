@@ -17,6 +17,5 @@ Graph-based operators in the _**Transform**_ panel are:
 *   _**Shortcut**_, to create a new relationship between nodes that share a common neighbor.
     
 *   _**Connector**_, to access APIs for third party applications that can inject additional data or transform existing data.
-    
 
 The _**Connector**_ is only available in GraphXR Enterprise edition.

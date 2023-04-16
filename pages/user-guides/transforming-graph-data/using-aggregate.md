@@ -8,9 +8,8 @@ You can aggregate along either a property of neighbor nodes or a property of con
 
 Preset formulas are available for often-used calculations, as shown in the following table. You can also enter a _custom_ javascript formula.
 
-|     |     |     |
-| --- | --- | --- |
 | **Preset** | **Function** | **Format** |
+| --- | --- | --- |
 | _custom_ | Editable format |     |
 | _take first_ | Copies the first value of another property. | (neighborPropValues) => \_.size(neighborPropValues) > 0 ? neighborPropValues\[0\] : null |
 | _count_ | Calculates a value based on number of connections. | (neighborPropValues) => \_.size(neighborPropValues) |
@@ -24,13 +23,13 @@ Editing a preset moves it to the _custom_ item, where you can test or run the mo
 
 ## Aggregating connections between nodes
 
-Examples use the open-source dataset for the HBO series Game of Thrones. For a hands-on exercise, see our [How to GraphXR](https://kineviz.atlassian.net/wiki/spaces/TES/pages/820445303/How+To+GraphXR) tutorials.
+Examples use the open-source dataset for the HBO series Game of Thrones. For a hands-on exercise, see our [How to GraphXR](https://helpcenter.kineviz.com/learning-center/HC/how-to-graphxr) tutorials.
 
 We can use _**Aggregate**_ to find the total number of lines spoken on each Game of Thrones episode. The _Lines.csv_ file includes data about the dialog in the show, and the _Episodes.csv_ file includes details about each season and episode. We first transform data imported from these files as follows:
 
-*   Use the [_**f(x)**_ transform](https://kineviz.atlassian.net/wiki/spaces/~5fb2d973d670b8006e5d6cbd/pages/1719537332/Using++f%28x%29+formulas) to calculate _seasonEpisode_ property values for the _Episodes_ category. This allows us to match the _seasonEpisode_ property in _the Lines_ category.
+*   Use the [_**f(x)**_ transform](./using-fx-formulas.md) to calculate _seasonEpisode_ property values for the _Episodes_ category. This allows us to match the _seasonEpisode_ property in _the Lines_ category.
     
-*   Use the [_**Link**_ transform](https://kineviz.atlassian.net/wiki/spaces/~5fb2d973d670b8006e5d6cbd/pages/1719537575/Using++Link) to link lines to their respective episodes through a new _SPOKEN\_ON_ relationship.
+*   Use the [_**Link**_ transform](./using-link.md) to link lines to their respective episodes through a new _SPOKEN\_ON_ relationship.
     
 
 **To aggregate connections between nodes:**
