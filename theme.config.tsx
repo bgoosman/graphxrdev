@@ -10,7 +10,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: 'https://discord.com/channels/1044303284019666984/1094839827800801381',
   },
-  docsRepositoryBase: 'https://github.com/bgoosman/graphxrdev/tree/main/pages',
+  docsRepositoryBase: 'https://github.com/bgoosman/graphxrdev/tree/main',
   footer: {
     text: 'graphxr.dev',
   },
