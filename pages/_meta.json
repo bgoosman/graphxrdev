@@ -19,6 +19,10 @@
     "title": "User Guides",
     "type": "page"
   },
+  "faq": {
+    "title": "FAQ",
+    "type": "page"
+  },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
