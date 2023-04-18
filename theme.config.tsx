@@ -17,6 +17,7 @@ const config: DocsThemeConfig = {
   useNextSeoProps() {
     return {
       titleTemplate: '%s - graphxr.dev',
+      description: "Uncover the insights hiding in your big, connected, and high-dimensional data with GraphXR"
     }
   }
 }
