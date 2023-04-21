@@ -1,3 +1,5 @@
+# Introducing GraphXR Projects
+
 The **Projects** page is your portal to create and manage individual GraphXR projects. It’s also where you review details of your GraphXR account and register questions and comments.
 ![](/01_02_04_ProjectsPage1080.png)
 
