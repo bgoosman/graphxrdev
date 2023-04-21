@@ -1,11 +1,9 @@
 The **Projects** page is your portal to create and manage individual GraphXR projects. It’s also where you review details of your GraphXR account and register questions and comments.
-
 ![](/01_02_04_ProjectsPage1080.png)
 
 The menu at the top of the _**Projects**_ page lets you access and edit your GraphXR account or log out. _**Feedback**_ lets you log questions and comments for administrator review and response and _**Help**_ takes you to the Kineviz website where you can find learning resources and contact information.
 
 A language selector menu enables you to choose UI elements labeled in either **English** or **Chinese**.
-
 ![](/01_03_01_cProjectsChinese1320.png)
 
 The body of the _**Projects**_ page includes areas to create and access GraphXR projects:
