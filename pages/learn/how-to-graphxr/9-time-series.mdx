@@ -1,0 +1,28 @@
+| In this Session... | Before you begin... |
+| --- | --- |
+| *   Using **Filters** to display and animate time series., Using the _**f(x)**_ Transform to reformat data., Using _**Parametric**_ and _**Geometric**_ layouts and the _**Quick Layout**_ menu with Filters. | To follow along, you can download:<br/><br/>[HowTo\_09START\_2\_14.graph...](/HowTo_09START_2_14.graphxr.zip)<br/><br/>and the snapshots library:<br/><br/>[HowTo\_09START\_2\_14.graph...](/HowTo_09START_2_14.graphxrsnapshots.zip) |
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQPxcTKC8jGf7URs7CcT47S4CNW_AvwkJa06mqh21UM7oFKHRcAK8_fiWJikoo2RsyfQZ2sW5g1lZi4/embed?start=false&loop=false&delayms=60000" frameborder="0" width="768" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+| **Slide** |     |
+| --- | --- |
+| 1   | How To GraphXR 9. Time Series |
+| 2   | Before You Begin...<br/><br/>Ideally, you'll have worked through _Module 8. Layouts and Pinning._ If you're starting here, and you want to follow along, you'll need to:<br/><br/>*   Log in to GraphXR, create a Project, and open its graph space., Download starting data (HowTo\_09\_START.graphxr and the snapshot library HowTo\_09\_START.graphxrsnapshots) for this module and drag and drop it onto the graph space. |
+| 3   | Open a **Table** to see that our Episodes nodes include an _episodeAirDate_ property. To visualize time series in the graph we can use parametric or geometric layouts to order nodes by date-time property values. We can also filter nodes by a date or date range. |
+| 4   | First, we'll go to **Project=>Category** and click **Episodes**. We'll set _episodeAirDate_ values as captions and scale the nodes by the _millionViewers_ property value. |
+| 5   | Open a Table to review _episodeAirDate_ property values.  <br/>GraphXR's preferred format for a date and time stamp is  YYYY-MM-DD HH:mm:ss.  <br/>We can edit incorrect data formats either manually or using a preset **Transform**. |
+| 6   | If just one or a few dates are in the wrong format, you can simply edit the property value, either in the node's Information window, or an **Enhanced Table**. |
+| 7   | If most or all dates need reformatting, you can use a preset formula in **Transform=>f(x)**.  <br/>In the **Transform** panel => **f(x)** tab select the category (Episodes) and property (e.g. _episodeAirDate)_ that has the date-time data you need to transform. |
+| 8   | Select the _**toDate**_ or _**convertCustomDate**_ _**Input Formula**_**.** Enter a **New Property Name** for the converted data.  A sample result appears below.  Then click **Test** to test the transformation or _**Run**_ to perform it. |
+| 9   | Now open the **Layout=> Parametric** tab. Select _episodeAirDate_ and _millionViewers_ for X and Y axes and _totalCharacters_ for the Z axis, then click **Apply**_._  <br/>Next we can apply a filter to isolate nodes with specific date property values. |
+| 10  | Open the _**Filter**_ panel. To filter Episode nodes by air dates (or range of air dates), select _episodeAirDate_ in the _**Node Property**_ menu. |
+| 11  | You can manually scrub through the values using the handles, or use the playback controller to play through values (or a locked range). This lets us animate filtered data and share the animation with other users as a view. |
+| 12  | Filters also provide effective visualization when used with the geometric or geospatial layouts that we can apply to different categories of nodes. |
+| 13  | In the _**Geometric**_ tab click _**Order by Property**_, select Episodes and the _episodeAirDate_ property, click _**Ascend**_, and click _**Grid**_.   <br/>You can then use _**Expand**_ on the _**Quick Layout**_ toolbar menu to expand the grid. |
+| 14  | Now repeat the process to lay out Character nodes in a spiral, and House nodes in a line. Then, in the Legend, select both categories using _**ctrl+left click**_, and move those nodes off the grid using _**left click+ drag**_. |
+| 15  | Now open the _**Filter**_ panel and again select _episodeAirDate_ in the _**Node Property**_ menu to filter Episode nodes by date. Notice that we can apply multiple filters for any numerical or date property (e.g. the _kills_ property of Character nodes). |
+| 16  | Let's filter on a range of a 2-month period. Use the handles to set a range, or click the the _**Min**_ or _**Max**_ fields to select a precise date and time. Select _**Lock Range**_ to filter data in 2-month intervals. |
+| 17  | Again, scrub through the values using the handles, or use the playback controller to play through values (or a locked range). |
+| 18  | Click the trash can icon on the filters to clear them and display all the data again. |
+| 19  | Next, in _Module 10. Algorithms_, we'll look at how to measure graph patterns in terms of connectedness, paths, and grouping of nodes. |

@@ -1,0 +1,22 @@
+| In this Session... | Before you begin... |
+| --- | --- |
+| *   Inspecting properties., Using _**Extract**_ to model new categories and relationships from properties., Exporting data and saving data Views. | To follow along, you can download:<br/><br/>*   [https://kineviz.com/s/GXR\_QSG.zip](https://kineviz.com/s/GXR_QSG.zip), Unzip, and drag and drop the _Characters.csv_ file to a project space. |
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQt7BGWmFux4Hc4FufKtlPq7l6wQLe7tp5Py4k6FfzGwXk3nIcdrN3pDN0-JdNbZ37Z21L0SpZKj9A2/embed?start=false&loop=false&delayms=60000" frameborder="0" width="768" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+| **Slide** |     |
+| --- | --- |
+| 1   | How To GraphXR 3. Properties and Extract |
+| 2   | Before You Begin...<br/><br/>Ideally, you'll have worked through _Module 2. Import, Navigate, and Select Data_. If you're starting here, and you want to follow along, you'll need to:<br/><br/>*   Log in to GraphXR, create a Project, and open its graph space. , Download the file [https://kineviz.com/s/GXR\_QSG.zip](https://kineviz.com/s/GXR_QSG.zip), which contains the Game of Thrones data we'll use in our tutorials., Unzip it and drag and drop the _Characters.csv_ file onto the graph space. |
+| 3   | When we drop _Characters.csv_ on the graph space, columns in the spreadsheet (name, houseName, etc become properties of the nodes. For a table of the nodes and their properties, click _**Table**_ on the _**Main Menu**_, and the _**Category**_ label. |
+| 4   | We can use a property to define a new category and relationship and extract new nodes and edges connected to the original Character nodes. |
+| 5   | Let's switch to Property view. In the Legend, click the _**Property**_ tab. A dropdown menu with the first property name appears. Below it is a scrollable list of each unique value for that property in the graph. |
+| 6   | The _houseName_ property has just a few unique values, one for each of the great houses (families) in Game of Thrones. Now let's create nodes for the Houses. Open the _**Transform**_ panel => _**Extract**_ tab. |
+| 7   | The _**Transform**_ panel includes some of GraphXR's most powerful capabilities, letting you interactively model your data. Transforms affect the whole graph if nothing is selected. If you make a  selection, a transform operates on only those elements. |
+| 8   | We'll create a House category from the _houseName_ property, and a BELONGS\_TO relationship in the process that links House nodes to their Character node sources. |
+| 9   | Set _houseName_ as a key so that a single node is created for each unique value of _houseName_, and not a separate one for every source node. Now click _**Run**_. |
+| 10  | In the Legend, click the _**Category**_ and _**Relationship**_ tabs. You'll see that a node has been created for each House, and Character nodes are now connected to a House via edges of the BELONGS\_TO relationship. |
+| 11  | Click the _**Property**_ tab, and notice that Characters with an empty _houseName_ property value are assigned to a House labeled _not available_. If you click the **skip empty** checkbox before extracting, those Character nodes remain unconnected. |
+| 12  | This is a good time to save our work! Open the **Project** panel => **Data** tab. You can download the current state of your graph as a GraphXR (GXRF) file, export it as a group of CSVs ( or write back to a Neo4j database, if you have connected to one). |
+| 13  | You can also save to the cloud by creating a View. Enter a descriptive name and click _**Save  View**_. The current view is highlighted.  <br/>You can load any saved view, update or delete it, and share it with another user. |
+| 14  | Now that we've saved our progress, let's go on to _**Module 4: Link and Filter**_ and bring in more data. |

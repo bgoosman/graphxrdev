@@ -1,27 +1,12 @@
 {
-  "index": {
-    "title": "Home",
+  "index": "Getting Started",
+  "learn": "Learn",
+  "graphxr-api": "GraphXR API",
+  "community": {
+    "title": "Community",
     "type": "page",
-    "theme": {
-      "layout": "full",
-      "sidebar": false,
-      "toc": false
-    }
-  },
-  "graphxr-api": {
-    "title": "API",
-    "type": "page",
-    "theme": {
-      "layout": "full"
-    }
-  },
-  "user-guides": {
-    "title": "User Guides",
-    "type": "page"
-  },
-  "faq": {
-    "title": "FAQ",
-    "type": "page"
+    "href": "https://community.kineviz.com/",
+    "newWindow": true
   },
   "contact": {
     "title": "Contact ↗",

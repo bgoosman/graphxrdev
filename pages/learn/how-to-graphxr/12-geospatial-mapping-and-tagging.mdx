@@ -1,0 +1,30 @@
+| In this Session... | Before you begin... |
+| --- | --- |
+| *   Using the _**Map**_ panel to display graph data on a world map., Tagging nodes., Selecting a Map Server. | To follow along, download the files: [https://kineviz.com/s/GXR\_QSG.zip](https://kineviz.com/s/GXR_QSG.zip) |
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS98-RR670PAKPhA3Xtzb4i5bPKS1_rwFIt140Ow-sxt9uzi26sTlsAW1EVI_fvNOHccOxPboTLb3pV/embed?start=false&loop=false&delayms=60000" frameborder="0" width="768" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+| **Slide** |     |
+| --- | --- |
+| 1   | How To GraphXR 12. Geospatial Mapping and Tagging |
+| 2   | Before You Begin...<br/><br/>Ideally, you'll have worked through _Module 11. Editing._ If you're starting here, and you want to follow along, you'll need to:<br/><br/>*   Log in to GraphXR , create a Project, and open its graph space., Download [https://kineviz.com/s/GXR\_QSG.zip](https://kineviz.com/s/GXR_QSG.zip), which contains the Game of Thrones data we're using in this tutorial series. |
+| 3   | Game of Thrones takes place in a fictional world, but we can map the locations where it was filmed.  <br/>First, click the **Clear** toolbar icon to delete any data in the graph space. |
+| 4   | Now drag and drop the _Locations.kml_ file onto the project space. KeyholeMarkup Language (.kml) and Keyhole Markup Zip (.kmz) files are used by mapping applications such as Google Earth. Since they include latitude and longitude coordinates we can map the resulting nodes in GraphXR. |
+| 5   | A node is created for each filming location. Open the **Table** panel to see the locations and their latitude / longitude properties. |
+| 6   | The category name isn't very descriptive, so let's click to open an **Enhanced Table** and re-label the category as Location. |
+| 7   | Now open the **Map** panel to display the world map (powered by [Mapbox](https://www.mapbox.com/)). The Location nodes are dropped onto the map and the map automatically zooms to display just the locations present in the data. |
+| 8   | You can search for locations by name in the **Search Location** bar. Click a location name to center the map on it. |
+| 9   | Click the **Map Control** toggle to set map boundaries. You can pan the map with _left click drag_ and zoom with _mouse scroll_. While in **Map Control** mode, 3D navigation is disabled. |
+| 10  | By default, map boundaries are auto-fitted to the data when you close and re-open the map panel. To have your map boundaries persist, click the map **Settings** button and de-select the **Auto Fitting** checkbox. |
+| 11  | Now click to deactivate **Map Control** to return to 3D navigation. You still zoom using _mouse scroll_, but now _left click drag_ rotates and tilts the map in three dimensions. |
+| 12  | Now let's group our locations by hotter or cooler climate. To do that, we'll use the Tag function to create temporary groups of nodes regardless of their existing category. Select nodes toward the south and click the **Tag** icon. |
+| 13  | In the **Manager Tags** dialog, enter a tag label (_Warmer_) and click **Add Tag**. |
+| 14  | We've now created a tag called “_Warme_r” containing 37 nodes. A badge appears on each tagged node. If we want to remove the tag, we could click **Clean Node Tags**, but let's create a few more tags instead. |
+| 15  | In the graph, select mid-latitude nodes in the UK, click the Tag icon and add a ”Cooler” tag. Go back to the graph and select nodes in Iceland and add a “Cold” tag.  <br/>Optionally, click **Save Tags as Property** to add a _\_graphxrtags_ property to all tagged nodes. |
+| 16  | The tag label (e.g. _Warmer_, _Cooler_, or _Cold_) is entered as the _\_graphxrtags_ property value. If you give a node more than one tag, the tag labels are separated by colons. |
+| 17  | So far nothing visibly changed in the graph. Let's switch to **Tag** mode in the **Legend**. Now nodes for our three tags are given separate colors. |
+| 18  | Click a tag label to select all nodes with that tag.  <br/>Click the dot next to the tag label to choose a different tag color. |
+| 19  | We've used the default Mapbox map server so far. In the **Map** panel, click **Settings** to choose a different available **Map Server** such as _Google_ or _OpenStreetMaps_. |
+| 20  | The map changes immediately when you select a different map server. |
+| 21  | When you click **Hide Map**, the nodes, which were pinned to the 3D map, are released and returned to a Force layout. |
+| 22  | With the Map panel open, you can click **Show Map** again to drop the nodes back on the map.<br/><br/>Next, in _Module 13. Querying_, we'll introduce GraphXR features for pulling in data from a connected Neo4j graph database. |

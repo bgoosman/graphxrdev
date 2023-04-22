@@ -1,0 +1,43 @@
+| In this Session... | Before you begin... |
+| --- | --- |
+| *   Using Cypher to query a Neo4j database., Pulling data using _**Expand**_., Pulling data by category., Pulling data using keyword search. | To follow along:<br/><br/>*   Log in to GraphXR and open the _Game of Thrones_ Demo Project. |
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR8RHZqoFq2JmVhbdRjAAokKUaFvi1VfChlhmDGKxL9n0XpzDZFs_buttrkaJMA3-zzFgZuHBc7nlQH/embed?start=false&loop=false&delayms=60000" frameborder="0" width="768" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+| **Slide** |     |
+| --- | --- |
+| 1   | How To GraphXR 13. Querying |
+| 2   | Before You Begin...<br/><br/>Ideally, you'll have worked through _Module 12. Geospatial Mapping and Tagging._ If you're starting here, and you want to follow along, you'll need to:<br/><br/>*   Log in to GraphXR.<br/>    <br/><br/>We'll use a demo project which connects GraphXR to data in a Neo4j graph database. |
+| 3   | We'll open a demo project connected to a [Neo4j graph database](https://neo4j.com/developer/) and pull its data into GraphXR in various ways. (If you are in a project space, click the **Home** button to exit and return to the **Projects** page.) |
+| 4   | Click **Select Demo** and choose the **Game of Thrones** demo. |
+| 5   | Click the **Game of Thrones** tile to enter its project space. |
+| 6   | The project graph space will be blank, since we have not yet queried for data. In the Project panel we can review the categories and relationships defined for the Neo4j database connected to this demo project. |
+| 7   | Let's also look at the current database schema, to see how the categories and relationships are connected to each other.  Open the **Query** panel and **Cypher** tab and enter the following Cypher query:  <br/>CALL db.schema.visualization  <br/>Then click the **run** arrow. |
+| 8   | In **Project→Settings** tab click **Show Relationship Name**. Then use **Quick Layout** toolbar menu to display the schema entities in a circle. |
+| 9   | The schema includes many relationships around the Character category. To see these in more detail, double click the Character node to display its **Information** panel, then select the **Neighbors** tab. |
+| 10  | Though our schema is complex, we can start with a simple Cypher query for Characters who belong to a House. Then we can use the no-code **Expand** toolbar icon to pull in additional data connected through specific relationships. |
+| 11  | Go to the **Query** panel and **Cypher** tab. First, we'll briefly look at the basic [Cypher](https://neo4j.com/developer/cypher/)  query provided as an example. Click the display menu and select the query. |
+| 12  | MATCH (n)-\[r\]-(m)  RETURN \* LIMIT 100  <br/>This example query will:  <br/>MATCH any pattern of nodes **n** and **m** connected by any relationship **r** and RETURN the first 100 found.   <br/>Click the **run** arrow. |
+| 13  | It's prudent to set a **LIMIT** with such a non-specific query; otherwise it can return a large amount of data or even time-out before completing the query. |
+| 14  | We can also set a limit by entering **Max Return** records allowed. This overrides any larger limit set in the **LIMIT** qualifier.  <br/>Now let's clear the graph and create our own more specific query. |
+| 15  | **MATCH (c:Character)-\[r:belongs\_to\]-(h:House) RETURN \***<br/><br/>Here we query for the pattern (Character) - \[belongs\_to\] - (House).   <br/>The variables **c**, **r**, and **h** can be used in further commands rather than the full category or relationship name. We'll set a limit of 100 returns in **Max Returns**.. |
+| 16  | Now click the **run** arrow to the right of the query to pull in data. The query returned (Character) - \[belongs\_to\] - (House) patterns that included 98 total nodes: 85 Character and 13 House nodes. |
+| 17  | Click the **save** icon to save the query. The **display** icon shows a dropdown menu of saved queries. For information about using Cypher, full details and free learning resources for developers are available through [Neo4j](https://neo4j.com/developer/cypher/). |
+| 18  | Now that we have data in the graph space, we'll use **Expand** to pull additional data connected to selected nodes. Select our Character nodes and click the **Expand** icon. |
+| 19  | In the **Expand with relationships** dialog, you can expand on all available relationships, 1000 edges at a time. Let's choose **All** and click **Expand**. |
+| 20  | Now we see many additional relationships (character\_in\_scene, killed\_by, etc.), and the nodes of additional categories that they are connected to.  We've expanded the first 2000 relationships; there are many more than that in this graph. |
+| 21  | We can select House nodes and apply a **Quick Layout** (e.g. **Ring**) to more easily visualize and explore this graph further. |
+| 22  | But we may not need (or want) to see the entire graph.   <br/>With **Expand** we also have an “inside out” workﬂow: we can start with one or a few nodes and expand on just the relationships we want to explore. |
+| 23  | For example, let's expand on family relationships among characters in House Tully. First let's locate those nodes. Open the **Table** panel, click the **House** category, enter ‘Tully' in the search bar and click the search result to center on the node. |
+| 24  | Let's remove the other data. Select the Tully House node and its two connected Character nodes, click **Inverse**, and press the delete key (or **Delete** icon). |
+| 25  | Now select the two connected Character nodes and open the **Expand** dialog.Click the sibling\_with, married\_to, and parent\_of relationships and click **Expand**.  <br/>Note: Set Character and House _name_ as captions in the **Project**→**Category** tab. |
+| 26  | Next we can find scenes that included one or more characters. Select a Character node (e.g. Catelyn Stark), open the **Expand** dialog, select the character\_in\_scene  and belongs\_to relationships, and click **Expand**. |
+| 27  | We now see Scene nodes and a House node associated with the selected Character node. We can delete nodes and their connected edges at any time. Let's select the Scene nodes and press **delete**. |
+| 28  | We can also pull a sample of data for a selected category or relationship 25 nodes or edges at a time. In the **Project → Category** tab, select the **Character** category and click **Pull**. |
+| 29  | Character nodes are pulled from the database, along with any relationships between the pulled nodes and with nodes already in the graph. Now click the **Relationship** tab. |
+| 30  | Select the belongs\_to relationship and click **Pull**. Remember that an edge does not exist by itself - it must be connected to two nodes. So a sample of edges can pull in node categories that aren't already in the graph. |
+| 31  | Since our demo database is configured for keyword search, we can search for property values in the Search Bar and return matching nodes. See that the **search from database** icon is displayed. Enter a search term (e.g. the name ‘Lannister'). |
+| 32  | Click the plus (**+**) icon to pull all nodes of a specific category,  or click a single line to pull just one node. Notice that only nodes are pulled using a search, not edges. |
+| 33  | We can use **Expand** to connect edges of specific relationships. With the Character nodes returned by our search pulled in and selected, open the **Expand** dialog, choose the belongs\_to relationship, and click **Expand**. |
+| 34  | We've queried a Neo4j database using Cypher, and used GraphXR's **Expand**, sampling, and keyword search. GraphXR also supports query of graph databases using Gremlin, query and mapping a SQL table or CSV file, and query of JSON documents. |
+| 35  | Next, in _Module 14. Data Mapping_, we'll load CSV data and model it as a graph. |

@@ -1,0 +1,24 @@
+| In this Session... | Before you begin... |
+| --- | --- |
+| *   Using **Algorithms** to understand paths and clusters in the graph., Using _**Trace Neighbor**_. | To follow along, download:<br/><br/>[HowTo\_10START.graphxr](/HowTo_10START.graphxr) |
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ7BbSPzN8uzYh0ijRMw0VdGkgJ0tnK1H8KK1eBaZWMGpnnUrHI6ZvqFMOyemYoiA4egvLLLa_gloGc/embed?start=false&loop=false&delayms=60000" frameborder="0" width="768" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+| **Slide** |     |
+| --- | --- |
+| 1   | How To GraphXR 10. Algorithms |
+| 2   | Before You Begin...<br/><br/>Ideally, you'll have worked through _Module 9. Time Series._ If you're starting here, and you want to follow along, you'll need to:<br/><br/>*   Log in to GraphXR, create a Project, and open its graph space., Download starting data (HowTo\_10\_START.graphxr) for this module and drag and drop it onto the graph space. , Optionally:<br/>    <br/>    *   Download the file  [https://kineviz.com/s/GXR\_QSG.zip](https://kineviz.com/s/GXR_QSG.zip), which contains the Game of Thrones data we're using in our tutorials. |
+| 3   | Open the **Algorithm** panel to run a variety of commonly used graph algorithms against your data.  Algorithms are organized in **Path Finding**, **Centrality**, and **Community Detection** tabs. |
+| 4   | The **Path Finding** tab provides an algorithm to highlight the shortest path between the two sets of nodes. |
+| 5   | Select starting nodes and click **Add to Start**, then select ending nodes and click **Add to End**. Now click **Trace Path**. |
+| 6   | With a complicated graph it can be hard to see the path. You can click the **Spotlight Path** toggle to see only the nodes and edges involved in the path. |
+| 7   | Click **Un-spotlight Path** to see the entire graph again.  <br/>**TIP:** You can **Tag** the spotlit path nodes or take a **Snapshot**. |
+| 8   | A brief aside: the **Trace Neighbor** toolbar icon provides another way to explore the paths from selected nodes (but not to a specified set of ending nodes). |
+| 9   | Select one or more nodes and click the **Trace Neighbor** toolbar icon. A slider control shows the number of path steps in the graph, and lets you choose the number to highlight. |
+| 10  | You can click _**Select Visible**_ to select the highlighted path, then click _**Inverse**_ and _**Hide Selected**_ to hide the data not on the highlighted path. Now back to algorithms... |
+| 11  | **Centrality** algorithms include **Degree**, **PageRank**, **Betweenness**, and **Closeness**. Simply click to run, and a property and value for that algorithm will be added to all the nodes in the graph. |
+| 12  | You can open a **Table** to see the new properties, or an **Enhanced Table** to edit and export results. |
+| 13  | We've already used the **Degree** algorithm and its _gxr\_degree_ property to filter out nodes with no connections from the graph. You can also use the property to focus on the most heavily connected nodes in the graph. |
+| 14  | **Community Detection** includes **Connected Component**, **Strong Connected Component**, **Louvain** and **Label Propagation** algorithms. |
+| 15  | Again, click to run and a property and its value for that algorithm is added to all the nodes in the graph. |
+| 16  | A thorough overview of graph algorithms and their uses is available in: [https://neo4j.com/lp/book-graph-algorithms-ms/](https://neo4j.com/lp/book-graph-algorithms-ms/) .<br/><br/>Next, in _Module 11. Editing_, we'll dive into details of how to add and edit graph data. |

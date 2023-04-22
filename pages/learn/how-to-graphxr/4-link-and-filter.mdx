@@ -1,0 +1,29 @@
+| In this Session... | Before you begin... |
+| --- | --- |
+| *   Using **Link** to create new edges., Using the _**Degree Centrality**_ algorithm to _**Filter**_ data., Using _**Snapshots**_ to save data. | To follow along, download the files:<br/><br/>[HowTo\_04\_START.graphxr](/HowTo_04_START.graphxr)<br/><br/>and [https://kineviz.com/s/GXR\_QSG.zip](https://kineviz.com/s/GXR_QSG.zip) |
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTcgXzZowU3IEHuzDApfw2pT0GfDGZKMNdR_OBbidcFrqlNJecgLZh19M7hhuQ9lcTn658Uv1sVDzgz/embed?start=false&loop=false&delayms=60000" frameborder="0" width="768" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+| **Slide** |     |
+| --- | --- |
+| 1   | How To GraphXR 4. Link and Filter |
+| 2   | Before You Begin...<br/><br/>Ideally, you'll have worked through _Module 3. Properties and Extract_. If you're starting here, and you want to follow along, you'll need to:<br/><br/>*   Log in to GraphXR, create a Project, and open its graph space. , Download the file [https://kineviz.com/s/GXR\_QSG.zip](https://kineviz.com/s/GXR_QSG.zip)**,** which contains the Game of Thrones data we'll use in our tutorials., Download the starting data [HowTo\_04\_START.graphxr](/HowTo_04_START.graphxr) for this module and drag and drop it onto the graph space. |
+| 3   | So far, we've extracted a House category from the Characters.csv data and created a BELONGS\_TO relationship linking House to Character nodes. |
+| 4   | Drag and drop Lines.csv onto the project. It includes the number of lines and words spoken by each character in every episode of HBO's Game of Thrones. Go ahead and zoom out—at over 3,000 nodes, Lines.csv is a much larger dataset than Characters.csv. |
+| 5   | Open the _**Table**_ panel to view Lines data in a spreadsheet format. Under the _**Category**_ tab click the Lines bubble and locate the _speaker_ property. |
+| 6   | With the _**Link**_ transform, properties with equivalent values can be linked even if the property names are different.  <br/>In the Characters category, the _characterName_ property is equivalent to the Lines' _speaker_ property- which lets us link characters to the number of lines they spoke on each episode. |
+| 7   | Open the **Transform** panel => **Link**  tab.  With **Link**, we can create edges belonging to a new or existing relationship. Let's link up a Characters-SPOKE\-Lines pattern with _characterName_ as the source property and _speaker_ as the target property. Now click **Run**. |
+| 8   | You'll notice many Lines nodes with no connections. These correspond to lines spoken by characters who weren't in the Characters.csv source data. Let's clean up these extraneous nodes. |
+| 9   | But first let's save our graph state in memory using _**Snapshots**_, It lets us create a local library of graph states that can be downloaded as a .zip archive.  Open the _**Project**_ panel and _**Settings**_ tab and click the _**Show Snapshot**_ checkbox. |
+| 10  | The title bar of the _**Snapshots**_ dialog appears in the project space. Click the plus sign to capture a Snapshot.  <br/>(Data Views are similar, but are saved to the GraphXR server). |
+| 11  | Click the arrow icon on the left to show the list of snapshots you've taken so far. Notice that you can save your snapshots archive locally at any time. |
+| 12  | Now let's return to cleaning up our graph. We'll use the _**Degree**_ centrality algorithm to flag nodes with no connections, which we can then select and delete. In the _**Algorithm**_ panel and _**Centrality**_ tab, click the _**Degree**_ button. |
+| 13  | The algorithm writes the number of connections for each node to a new _degree_ property. Now we can remove nodes with a _degree_ of 0. In the Legend, click the _**Property**_ tab and select _degree_ from the dropdown menu. |
+| 14  | Locate the _degree_ value of 0, click to select those nodes and press delete (or the **Delete** icon in the toolbar). |
+| 15  | Only nodes which have at least one connection now remain.  <br/>Alternatively, you can use a **Filter** to accomplish the same thing. Let's see how. |
+| 16  | First, load our saved snapshot. Open the **Snapshots** dialog, locate the snapshot, and click the cloud icon to restore the graph that had unconnected nodes. |
+| 17  | Open the **Algorithm** panel and the **Centrality** tab and click **Degree** to generate the _degree_ property again. |
+| 18  | Open the **Filter** panel. In the **Node Properties** menu, select the _degree_ property. |
+| 19  | Set the **Max value** for _degree_ to 0 to filter out any nodes with one or more connection. Now Click _**Select Visible Nodes**_ (or simply click the zero-value item in the Legend) then press delete (or the _**Delete**_ toolbar icon). |
+| 20  | Finally, click the filter's trash can icon to clear the filter and show the nodes with one or more connections. |
+| 21  | What's left are the nodes that have at least one connection. Let's take another snapshot and download the snapshot archive (or save a data View or a GXRF file).  <br/>Next we'll work with Episodes.csv in _Module 5. Aggregate, Merge, and f(x)_. |

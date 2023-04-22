@@ -1,0 +1,26 @@
+Welcome to the first module in our _How to GraphXR_ tutorial series!
+
+| In this Session... | Before you begin... |
+| --- | --- |
+| Graph Data Anatomy, GraphXR Interface | [Create](http://graphxr.kineviz.com/) a GraphXR account |
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQEhfzohcj2QzjytoKDxKzx4FuQl_AuLaFK7rcp66e0ghnuqkGplGaomFs8WpM11wLYyE7VLJNEdt_v/embed?start=false&loop=false&delayms=60000" frameborder="0" width="768" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+| **Slide** | **Text** |
+| --- | --- |
+| 2   | Welcome to GraphXR! These basic tutorials will give you a detailed overview of how to visualize and explore graph data. Let's start by creating an account at [graphxr.kineviz.com](http://graphxr.kineviz.com/). |
+| 3   | On logging in you're taken to the **Projects** page. You can create a new project (and connect it to a Neo4j database), or open an existing demo or shared project. We'll click **Create** to create a new project. Enter a name for your project and click **Confirm**. |
+| 4   | Click the arrow icon on your new Project to enter the graph space. |
+| 5   | We're now in the project's graph environment, a 3-dimensional, functionally infinite space which is currently empty. Before we proceed, let's quickly review the anatomy of graph data. |
+| 6   | GraphXR uses a labeled property graph (LPG) data model, in which graphs are composed of three elements: **nodes**, **edges**, and **properties**. |
+| 7   | **Nodes** are entities, like people or events. They're represented by a circle which can display an icon or portrait image. Nodes with the same entity label comprise a **Category.** |
+| 8   | **Edges** are connections between nodes, like VISITED or LIVES\_AT. All edges of a given type comprise a **Relationship**. Directed relationships like PARENT\_OF have an arrow at one end, while directionless ones like FRIENDS\_WITH do not. |
+| 9   | The structure of nodes and edges in a graph is referred to as a **pattern**. Their position of patterns in 3D space is  governed by the current **Layout**. |
+| 10  | By default, GraphXR distributes nodes in space using a physics simulation called Force Direct. Each  node pushes away from other nodes while edges pull them together. There is no intrinsic meaning to node position or edge length in the Force Direct layout. |
+| 11  | Properties are attributes expressed as key-value pairs like _name:Andy_ or _color:blue._ In addition to user-defined properties, each node and edge has a unique identifier. |
+| 12  | Now let's take a quick tour of the GraphXR interface. The **Menu** bar contains the menu panels: **Project**, **Query**, **Transform**, **Table**, **Layout**, **Filter**, **Algorithm**, and **Map**. |
+| 13  | You can click the **Main Menu** icon to display panel names along with the icons. GUI navigation controls for the 3D project space are located on the lower right. |
+| 14  | Use the Search bar for full-text search of property values, either of the data in a connected Neo4jdatabase, or  the data in the graph space. |
+| 15  | The **Legend** displays lists of the elements currently in the graph. We've brought in data to show what this looks like. Click the tabs to select elements to display (**Category**, **Property**, **Tag**, and/or **Relationship**), then click a list item to select nodes or edges of a specific type. |
+| 16  | The contextual toolbar menu along the bottom of the project space displays currently available tools. You can also right click to display a pop-up context menu. |
+| 17  | When you select one or more nodes or edges, additional tools display. We'll show how to use these in the next few tutorials. Now we're ready to load data from the Game of Thrones repository. To follow along,  download the file [https://kineviz.com/s/GXR\_QSG.zip.](https://kineviz.com/s/GXR_QSG.zip) |

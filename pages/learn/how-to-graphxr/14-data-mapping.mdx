@@ -1,0 +1,32 @@
+| In this Session... | Before you begin... |
+| --- | --- |
+| *   Using GraphXR's _**Mapping Editor**_ to model tabular data (CSV) as graph data. | To follow along, download the files: [https://kineviz.com/s/GXR\_QSG.zip](https://kineviz.com/s/GXR_QSG.zip) |
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSzSRTjFMw-ZOk6CAKekEz9--f-NO7YhUQlVlzK-Vbh9651TYD7QK17BnCE7LSH-pzXMEIXqLZzgjdm/embed?start=false&loop=false&delayms=60000" frameborder="0" width="768" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+| **Slide** |     |
+| --- | --- |
+| 1   | How To GraphXR 14. Data Mapping |
+| 2   | Before You Begin...<br/><br/>Ideally, you'll have worked through _Module 13. Querying._ If you're starting here, and you want to follow along, you'll need to:<br/><br/>*   Log in to GraphXR and open a project., Download [https://kineviz.com/s/GXR\_QSG.zip](https://kineviz.com/s/GXR_QSG.zip), which contains the Game of Thrones data we're using in this tutorial series. |
+| 3   | If you regularly work with CSVs sharing a common data structure, you'll likely want to apply the same graph schema repeatedly. You can do this with a CSV mapping. Clear the graph space, then open the **Query** panel and **CSV** tab. |
+| 4   | Click **Load CSV**, navigate to the _Lines.csv_ file in your Game of Thrones dataset (GXR\_QSG.zip) and select it. |
+| 5   | The number of rows and columns in _Lines.csv_ is displayed and a preview of the file is displayed below. |
+| 6   | Click **New** to open the **Mapping Editor** and create a new mapping for this data. We'll use it to define the graph pattern:  <br/>(Words)-\[SPOKEN\_ON\]-(Episode)  <br/>and map _wordCount_, _speaker_, and  _seasonEpisode_ columns as properties. |
+| 7   | As a brief aside: we're mapping a CSV here, but the **Mapping Editor** can also be used to model data from a table in a connected SQL database. |
+| 8   | The **Mapping Editor** opens with a single category icon in place. For our model we need two categories connected by a relationship. Select **Add Edge**, click the category icon and drag. This adds the edge and a second category icon in one step. |
+| 9   | Now that we have our two categories connected by a single relationship, we'll rename them and select columns from the CSV that will become properties. |
+| 10  | Click the **Category1** icon, and in **Category Name**, enter “Words”. Add its properties by selecting from the menu or clicking the + icon. We'll add _wordCount_ and _speaker_. |
+| 11  | Click the  **Category2** icon and in **Category Name** enter “Episodes”. Click to add the _seasonEpisode_ property. We can rename properties-we'll just call it _episode._ Click **As Key** to create a single node for each unique value of the property. |
+| 12  | Now click the relationship icon. It has been assigned a default name based on the initial source and target categories. |
+| 13  | In **Relationship Name**, rename the relationship SPOKEN\_ON. We could also add and rename properties, but for this model we don't need to. |
+| 14  | Once you are satisfied with your mapping, click the **Save As** icon to enter a name for new mapping and save it. (Use **Save and Exit** for an existing mapping you've edited.) |
+| 15  | Click the **Export Schema** icon to export the mapping as a JSON file. This saves it on your local system, and from there you can import it to any GraphXR project. |
+| 16  | When you save, the **Mapping Editor** window closes and the mapping appears in the **Mapping** dropdown menu. Click **Apply** to apply it to our _Lines.csv_ data. |
+| 17  | You can edit any mapping to add, remove, or rename categories, relationships, or properties. Select it in the **Mapping** menu and click **Edit** to open the **Mapping Editor**. |
+| 18  | The mapping remains in the project's **Mapping** menu unless you delete it. To import a mapping, click **Import**, navigate to the local JSON file and select it. |
+| 19  | Congratulations! By completing this learning series, you're well on your way to mastering GraphXR!  We cordially invite you to join the Kineviz [Community](https://community.kineviz.com/) to share questions, insights and enthusiasm! |
+
+# Next Steps...
+
+*   Congratulations! You've now completed basic hands-on training for GraphXR!
+*   Join the [GraphXR community](https://community.kineviz.com/), to watch for new developments in GraphXR and its use.
