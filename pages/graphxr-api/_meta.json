@@ -1,4 +1,11 @@
 {
-  "examples": "Examples",
+  "intro": "Intro",
+  "grove": {
+    "title": "Grove",
+    "theme": {
+      "layout": "full",
+      "sidebar": false
+    }
+  },
   "reference": "Reference"
 }

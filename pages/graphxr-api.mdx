@@ -1,3 +1,20 @@
-- Read through our [FAQ](./learn/faq).
-- Analyze the Game of Thrones dataset with [How to GraphXR](./learn/how-to-graphxr/how-to-graphxr).
-- Deep dive into GraphXR with our [User Guides](./learn/user-guides/intro-to-graphxr).
+# GraphXR API
+
+GraphXR API makes it easy to make graph visualizations.
+
+import ApiExample from '../components/ApiExample.mdx'
+
+<ApiExample id="example1" code={`gxr('example1')
+  .graph()
+  .clear()
+  .generate()
+  .randomize("age", {min:0, max:200})
+  .nodes('age > 50')
+  .select()
+  .sleep(1000)
+  .nodes({ styles: { selected: true } })
+  .hide()
+  .sleep(1000)
+  .show()
+  .sleep(1500)
+  .run();`} />
