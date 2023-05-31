@@ -1,12 +1,12 @@
 import React from 'react'
-import getGxr from '@kineviz/graphxr-api-iframe'
+import _gxr from '@kineviz/graphxr-api-iframe'
 import CodeMirror from '@uiw/react-codemirror';
 import { dracula } from '@uiw/codemirror-theme-dracula';
 import { javascript } from '@codemirror/lang-javascript';
 import { PlayIcon } from '@heroicons/react/24/outline'
 import styles from 'components/ApiExample.module.css'
 
-export default function ApiExample({code, id}) {
+export default function ApiExample({code, id='graphxr-iframe'}) {
   const [theme, setTheme] = React.useState("light");
 
   React.useEffect(() => {
@@ -61,20 +61,9 @@ export function Editor({code, id, theme = 'light'}) {
   }, []);
 
   const run = React.useCallback(async () => {
-    window.gxr = getGxr;
+    window.gxr = _gxr;
     console.log("Running code", value, "in GraphXR", id)
-    const task = eval(value);
-    let result;
-    console.log(task);
-    if ('isRunning' in task && !task.isRunning) {
-      console.log("Task isn't running, so we'll run it ourselves")
-      result = await task.run();
-    } else {
-      console.log("Task is already running, so we'll wait for it to finish")
-      result = await task;
-    }
-
-    console.log("Task complete! Result is", result)
+    eval("(async () => {" + value + "})()")
   }, [value])
 
   return (

@@ -109,9 +109,9 @@
   integrity sha512-90GMZktkA53YbNzHp6asVEDevUQCMtxWH+2UK2S8OpnLEu7qckTJPhNxNQG52xIR1WFTwFqtH6bt7a60ZNcLLA==
 
 "@kineviz/graphxr-api-iframe@^1.0.4":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@kineviz/graphxr-api-iframe/-/graphxr-api-iframe-1.0.7.tgz#8b92e1acdb2f1104abbb4e6208bdf9ccb377d34c"
-  integrity sha512-HHEwJDZM/b2mvUmYJnfPSCOzlgz0w7omuLYTMeBxsLhLA09iwRZE3wlVyoCfyN7l4aVEWZIXsyznxiNRHgcWBA==
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@kineviz/graphxr-api-iframe/-/graphxr-api-iframe-1.0.8.tgz#4794eee71df97856c0467d05ec88fa8b3ef25785"
+  integrity sha512-4d2lTbrKlSQJjNd3f05OJKnaBBu89+BlB7UUrHCEoLBPzlEey8o5erYlxx9DJhehcZXlXQi+UivglaagxF0s0A==
 
 "@lezer/common@^1.0.0":
   version "1.0.2"

@@ -4,7 +4,6 @@ Almost everything is chainable, so you can write code like this:
 
 ```js copy showLineNumbers filename="JavaScript"
 await gxr
-  .animate()
   .graph()
   .clear()
   .generate()
@@ -18,7 +17,6 @@ await gxr
   .sleep(1000)
   .show()
   .sleep(1500)
-  .run();
 ```
 
 See the [reference](./reference) for more details.
@@ -37,16 +35,8 @@ Then, in your code, import the API and use it.
 
 ```js copy showLineNumbers filename="JavaScript"
 import gxr from '@kineviz/graphxr-api-iframe'
-await gxr('iframe-id').graph().add('A', 'B').run()
+await gxr().graph().add('A', 'B')
 ```
-
-The main differences from the Grove API are:
-
-- Everything is asynchronous, so you'll need to use `await` or `.then()` to get the result of calling run().
-- You need to specify an iframe id using `gxr('iframe-id')`
-- You need to call `.run()`
-- You can't pass functions as arguments to the API, because it uses postMessage
-- e.g. `gxr('iframe-id').graph().add('A', 'B').run()`
 
 ## 2. Grove
 
@@ -54,8 +44,4 @@ Grove is a JavaScript playground ala CodePen or CodeSandbox. It's a great way to
 
 The main differences from the iframe API are:
 
-- Not everything is asynchronous
-- You don't need to specify an iframe id
-- You don't need to call `.run()`
 - You can pass functions as arguments to the API
-- e.g. `gxr.graph().add('A', 'B')`
