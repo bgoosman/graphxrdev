@@ -7,11 +7,11 @@ await gxr
   .graph()
   .clear()
   .generate()
-  .property("age", () => Math.random() * 200)
-  .nodes({ properties: { age: (value) => value > 50 } })
+  .property("age", {min: 0, max: 200})
+  .nodes('age > 50')
   .select()
   .sleep(1000)
-  .nodes({ styles: { selected: true } })
+  .nodes(':selected')
   .tap(console.log)
   .hide()
   .sleep(1000)
@@ -21,27 +21,61 @@ await gxr
 
 See the [reference](./reference) for more details.
 
-There are two ways to use GraphXR API.
+## Usage
 
-## 1. Embed GraphXR in an iframe
+There are a few ways to use GraphXR API.
 
-Somewhere on the page, add an iframe with an id.
+### 1. In Grove
 
-```html copy showLineNumbers filename="HTML"
-<iframe id="iframe-id" src="https://graphxrdev.kineviz.com/share/644c12bcac86dc2e336edd4f/codesandbox/644c12c6ac86dc2e336edda0/23-04-28-14-39" width="800" height="600"></iframe>
+1. In a GraphXR project, open the Grove extension
+2. Create a new Grovebook
+3. Start editing 🎉
+
+### 2. With the iframe adapter
+
+1. Create a new HTML file
+2. Add the following code to the file
+
+```html
+<iframe
+  id="graphxr-iframe"
+  src="https://graphxrdev.kineviz.com/share/644c12bcac86dc2e336edd4f/codesandbox/644c12c6ac86dc2e336edda0/23-04-28-14-39"
+  width="800"
+  height="600"
+  frameborder="0"
+/>
+<script type="module">
+  import gxr from 'https://cdn.skypack.dev/@kineviz/graphxr-api-iframe'
+  
+  document.getElementById('graphxr-iframe').addEventListener("load", async () => {
+    // Wait a few seconds for GraphXR to load.
+    setTimeout(async () => {
+      await gxr().graph().generate().sleep(3000).forceLayout();    
+      console.log('Done!')
+    }, 3000);
+  });
+</script>
 ```
+3. Open the file in a browser 🎉
 
-Then, in your code, import the API and use it.
+### 3. On ObservableHQ, with the iframe adapter
 
-```js copy showLineNumbers filename="JavaScript"
-import gxr from '@kineviz/graphxr-api-iframe'
-await gxr().graph().add('A', 'B')
-```
+See [this example](https://observablehq.com/@kineviz/graphxr-api-iframe-adapter).
 
-## 2. Grove
+## Example of the GraphXR API iframe adapter
 
-Grove is a JavaScript playground ala CodePen or CodeSandbox. It's a great way to experiment with GraphXR API. It's an extension installed to GraphXR, so you'll need to login to GraphXR to use it.
+import ApiExample from '../../components/ApiExample.mdx'
 
-The main differences from the iframe API are:
-
-- You can pass functions as arguments to the API
+<ApiExample code={`await gxr()
+  .graph()
+  .clear()
+  .generate()
+  .randomize("age", {min:0, max:200})
+  .nodes('age > 50')
+  .select()
+  .sleep(1000)
+  .nodes(':selected')
+  .hide()
+  .sleep(1000)
+  .show()
+  .sleep(1500)`} />
