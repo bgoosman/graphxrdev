@@ -1,7 +1,7 @@
 {
   "intro": "Intro",
   "grove": {
-    "title": "Grove",
+    "title": "Grove Example",
     "theme": {
       "layout": "full",
       "sidebar": false
