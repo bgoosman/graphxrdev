@@ -3,21 +3,27 @@
 Almost everything is chainable, so you can write code like this:
 
 ```js copy showLineNumbers filename="JavaScript"
-await gxr
+await gxr()
   .graph()
+  // Clear the graph
   .clear()
-  .generate()
+  // Generate random nodes and edges
+  .generate()                           
+  // Randomize age property
   .property("age", {min: 0, max: 200})
+  // Filter selection to nodes with age > 50
   .nodes('age > 50')
+  // Select the nodes visually
   .select()
-  .sleep(1000)
-  .nodes(':selected')
-  .tap(console.log)
+  // Hide the nodes
   .hide()
-  .sleep(1000)
+  .sleep(1500)
+  // Show the nodes
   .show()
   .sleep(1500)
 ```
+
+The result of each function is the subject of the next.
 
 See the [reference](./reference) for more details.
 

@@ -1,0 +1,51 @@
+# Tutorial
+
+## Adding data to the graph
+
+```js
+Button("Adding to the graph", async () => {
+  const graph = await gxr().graph();
+  graph.clear();
+  // Add node
+  graph.add("A");
+  // Add node with options
+  graph.add("B", { category: "B", properties: { age: "32" } });
+  // Add edge
+  graph.add("A", "B");
+  // Add edge chain
+  graph.add("X", "Y", "Z");
+  // Add edge with options
+  graph.add("B", "C", { relationship: "BC", properties: { since: 2010 } });
+  // Add nodes
+  graph.add(["D", "E", "F"]);
+  // Add nodes with options
+  graph.add(["G", "H", "I"], { category: "GHI" });
+  // Add node with properties
+  graph.add({ age: "23" });
+  // Add node with options
+  graph.add({ id: "Person23", category: "Person", properties: { age: "23" } });
+  graph.add([{ id: "J", category: "J", properties: { age: 113 } }]);
+  // Add nodes with properties
+  graph.add([
+    { age: Math.random() * 100 },
+    { age: Math.random() * 100 },
+    { age: Math.random() * 100 },
+  ]);
+  // Add nodes with properties and options
+  graph.add(
+    [
+      { age: Math.random() * 100 },
+      { age: Math.random() * 100 },
+      { age: Math.random() * 100 },
+    ],
+    { category: "Person" }
+  );
+  // Add edges with options
+  graph.add([
+    { sourceId: "D", targetId: "E", relationship: "PRECEDES" },
+    { sourceId: "E", targetId: "F", relationship: "PRECEDES" },
+  ]);
+  console.log("Node count is correct", graph.nodes().length() === 21);
+  console.log("Edge count is correct", graph.edges().length() === 6);
+})
+```
