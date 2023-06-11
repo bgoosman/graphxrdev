@@ -1,35 +1,8 @@
 # Intro to GraphXR API
 
-📽️ 1m tutorial: [Hello, Grove](https://www.loom.com/share/36a655331c7f47cca2cce5cb045eeae6)
-
 GraphXR API is a JavaScript library for GraphXR. If you can do it in the GUI, you can do it with the API.
 
-Almost everything is chainable, so you can write code like this:
-
-```js copy showLineNumbers filename="JavaScript"
-await gxr()
-  .graph()
-  // Clear the graph
-  .clear()
-  // Generate random nodes and edges
-  .generate()                           
-  // Randomize age property
-  .property("age", {min: 0, max: 200})
-  // Filter selection to nodes with age > 50
-  .nodes('age > 50')
-  // Select the nodes visually
-  .select()
-  // Hide the nodes
-  .hide()
-  .sleep(1500)
-  // Show the nodes
-  .show()
-  .sleep(1500)
-```
-
-The result of each function is the subject of the next.
-
-See the [reference](./reference) for more details.
+See the [reference](./reference) for examples.
 
 ## Usage
 
@@ -38,6 +11,13 @@ There are a few ways to use GraphXR API.
 ### 1. In Grove
 
 📽️ 1m tutorial: [Hello, Grove](https://www.loom.com/share/36a655331c7f47cca2cce5cb045eeae6)
+
+<iframe
+  width="640"
+  height="362"
+  src="https://www.loom.com/embed/36a655331c7f47cca2cce5cb045eeae6"
+  frameborder="0"
+></iframe>
 
 1. In a GraphXR project, open the Grove extension
 2. Create a new Grovebook
@@ -57,17 +37,18 @@ There are a few ways to use GraphXR API.
   frameborder="0"
 />
 <script type="module">
-  import gxr from 'https://cdn.skypack.dev/@kineviz/graphxr-api-iframe'
-  
-  document.getElementById('graphxr-iframe').addEventListener("load", async () => {
+  import gxr from "https://cdn.skypack.dev/@kineviz/graphxr-api-iframe";
+
+  document.getElementById("graphxr-iframe").addEventListener("load", async () => {
     // Wait a few seconds for GraphXR to load.
     setTimeout(async () => {
-      await gxr().graph().generate().sleep(3000).forceLayout();    
-      console.log('Done!')
+      await gxr().graph().generate().sleep(3000).forceLayout();
+      console.log("Done!");
     }, 3000);
   });
 </script>
 ```
+
 3. Open the file in a browser 🎉
 
 ### 3. On ObservableHQ, with the iframe adapter
@@ -76,9 +57,10 @@ See [this example](https://observablehq.com/@kineviz/graphxr-api-iframe-adapter)
 
 ## Example of the GraphXR API iframe adapter
 
-import ApiExample from '../../components/ApiExample.mdx'
+import ApiExample from "../../components/ApiExample.mdx";
 
-<ApiExample code={`await gxr()
+<ApiExample
+  code={`await gxr()
   .graph()
   .clear()
   .generate()
@@ -90,4 +72,5 @@ import ApiExample from '../../components/ApiExample.mdx'
   .hide()
   .sleep(1000)
   .show()
-  .sleep(1500)`} />
+  .sleep(1500)`}
+/>
