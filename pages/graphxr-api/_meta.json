@@ -1,12 +1,7 @@
 {
   "intro": "Intro",
-  "grove": {
-    "title": "Grove Examples",
-    "theme": {
-      "layout": "full",
-      "sidebar": false
-    }
-  },
-  "tutorial": "Tutorial",
-  "reference": "Reference"
+  "concepts": "Concepts",
+  "snippets": "Snippets",
+  "reference": "Reference",
+  "grove-examples": "Grove Examples"
 }

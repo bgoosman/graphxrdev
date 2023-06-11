@@ -1,0 +1,14 @@
+{
+  "grove-kitchen-sink": {
+    "title": "Kitchen Sink",
+    "theme": {
+      "layout": "full"
+    }
+  },
+  "the-revenge-of-arya-stark": {
+    "title": "Arya Stark's Revenge",
+    "theme": {
+      "layout": "full"
+    }
+  }
+}

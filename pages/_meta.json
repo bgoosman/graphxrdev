@@ -1,6 +1,12 @@
 {
   "index": "Getting Started",
-  "learn": "Learn",
+  "gallery": {
+    "title": "Gallery",
+    "theme": {
+      "layout": "full"
+    }
+  },
+  "learn": "Learn GraphXR",
   "graphxr-api": "GraphXR API",
   "community": {
     "title": "Community",
