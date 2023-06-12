@@ -65,6 +65,26 @@ await gxr().onGraphDataUpdate(() => console.log("Graph data updated"));
 
 ## Graph
 
+### add
+
+Add nodes and edges to the graph.
+
+```js
+await gxr().add("A") -> Node with id "A"
+await gxr().add("A", "B") -> Edge
+await gxr().add(["A", "B"]) -> Node[]
+await gxr().add({ id: "A", category: "Person", properties: {name: "Flo"} }) -> Node
+await gxr().add([{ id: "A", category: "Person", properties: {name: "Flo"} }]) -> Node[]
+await gxr().add({ sourceId: "A", targetId: "B" }) -> Edge
+await gxr().add([{ sourceId: "A", targetId: "B" }]) -> Edge[]
+await gxr().add([{ source: {...}, edge: {...}, target: {...} }], {...}) -> Edge[] // mergeRelationships
+await gxr().add({ name: "Flo" }, { category: "Person" }) -> Node
+await gxr().add([{ name: "Flo" }], { category: "Person" }) -> Node[]
+await gxr().add([{ name: "Flo" }]) -> Node[]
+await gxr().add({ id: "A" }, { id: "B" }) -> Edge
+await gxr().add({ id: "A" }, { id: "B" }, { relationship: "LINK" }) -> Edge with relationship "LINK"
+```
+
 ### edges
 
 ```js
@@ -399,26 +419,6 @@ await gxr().sizeNodesByProperty({category: "Person", property: 'age'});
 ```
 
 ## Transform
-
-### add
-
-Add nodes and edges to the graph.
-
-```js
-await gxr().add("A") -> Node with id "A"
-await gxr().add("A", "B") -> Edge
-await gxr().add(["A", "B"]) -> Node[]
-await gxr().add({ id: "A", category: "Person", properties: {name: "Flo"} }) -> Node
-await gxr().add([{ id: "A", category: "Person", properties: {name: "Flo"} }]) -> Node[]
-await gxr().add({ sourceId: "A", targetId: "B" }) -> Edge
-await gxr().add([{ sourceId: "A", targetId: "B" }]) -> Edge[]
-await gxr().add([{ source: {...}, edge: {...}, target: {...} }], {...}) -> Edge[] // mergeRelationships
-await gxr().add({ name: "Flo" }, { category: "Person" }) -> Node
-await gxr().add([{ name: "Flo" }], { category: "Person" }) -> Node[]
-await gxr().add([{ name: "Flo" }]) -> Node[]
-await gxr().add({ id: "A" }, { id: "B" }) -> Edge
-await gxr().add({ id: "A" }, { id: "B" }, { relationship: "LINK" }) -> Edge with relationship "LINK"
-```
 
 ### aggregate
 
