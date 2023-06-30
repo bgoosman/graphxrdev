@@ -29,27 +29,43 @@ There are a few ways to use GraphXR API.
 2. Add the following code to the file
 
 ```html
-<iframe
-  id="graphxr-iframe"
-  src="https://graphxrdev.kineviz.com/share/644c12bcac86dc2e336edd4f/codesandbox/644c12c6ac86dc2e336edda0/23-04-28-14-39"
-  width="800"
-  height="600"
-  frameborder="0"
-/>
-<script type="module">
-  import gxr from "https://cdn.skypack.dev/@kineviz/graphxr-api-iframe";
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <iframe
+      id="graphxr-iframe"
+      src="https://graphxrdev.kineviz.com/share/644c12bcac86dc2e336edd4f/codesandbox/644c12c6ac86dc2e336edda0/23-04-28-14-39"
+      width="800"
+      height="600"
+      frameborder="0"
+    ></iframe>
+    <script type="module">
+      import gxr from "https://cdn.skypack.dev/@kineviz/graphxr-api-iframe";
 
-  document.getElementById("graphxr-iframe").addEventListener("load", async () => {
-    // Wait a few seconds for GraphXR to load.
-    setTimeout(async () => {
-      await gxr().graph().generate().sleep(3000).forceLayout();
-      console.log("Done!");
-    }, 3000);
-  });
-</script>
+      document
+        .getElementById("graphxr-iframe")
+        .addEventListener("load", async () => {
+          // Wait a few seconds for GraphXR to load.
+          console.log("Loading GraphXR...");
+          setTimeout(async () => {
+            console.log("GraphXR loaded!")
+            await gxr().graph().generate().sleep(3000).forceLayout();
+            console.log("Done!");
+          }, 3000);
+        });
+    </script>
+  </body>
+</html>
 ```
 
-3. Open the file in a browser 🎉
+The pattern to use `graphxr-api-iframe` is `await gxr()` and then chain the API functions to that.
+
+Check out [concepts](./concepts), [snippets](./snippets), and the [reference](./reference).
 
 ### 3. On ObservableHQ, with the iframe adapter
 
