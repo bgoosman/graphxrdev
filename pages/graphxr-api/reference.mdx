@@ -1,7 +1,5 @@
 # GraphXR API Reference
 
-To use the asynchronous API (i.e. if GraphXR is in an iframe), replace `gxr` with `await gxr()`.
-
 ## Camera
 
 ### flyToCenter
@@ -62,7 +60,13 @@ gxr.captionNodesByProperties({category: "Person", properties: ["name", "age"]});
 ### onGraphDataUpdate
 
 ```js
-gxr.onGraphDataUpdate(() => console.log("Graph data updated"));
+gxr().onGraphDataUpdate(() => console.log("Graph data updated"));
+```
+
+### onSelect
+
+```js
+gxr().onSelect((event) => console.log("Selected nodes/edges", event));
 ```
 
 ## Graph
@@ -72,19 +76,27 @@ gxr.onGraphDataUpdate(() => console.log("Graph data updated"));
 Add nodes and edges to the graph.
 
 ```js
-await gxr().add("A") -> Node with id "A"
-await gxr().add("A", "B") -> Edge
-await gxr().add(["A", "B"]) -> Node[]
-await gxr().add({ id: "A", category: "Person", properties: {name: "Flo"} }) -> Node
-await gxr().add([{ id: "A", category: "Person", properties: {name: "Flo"} }]) -> Node[]
-await gxr().add({ sourceId: "A", targetId: "B" }) -> Edge
-await gxr().add([{ sourceId: "A", targetId: "B" }]) -> Edge[]
-await gxr().add([{ source: {...}, edge: {...}, target: {...} }], {...}) -> Edge[] // mergeRelationships
-await gxr().add({ name: "Flo" }, { category: "Person" }) -> Node
-await gxr().add([{ name: "Flo" }], { category: "Person" }) -> Node[]
-await gxr().add([{ name: "Flo" }]) -> Node[]
-await gxr().add({ id: "A" }, { id: "B" }) -> Edge
-await gxr().add({ id: "A" }, { id: "B" }, { relationship: "LINK" }) -> Edge with relationship "LINK"
+gxr.add("A") -> Node with id "A"
+gxr.add("A", "B") -> Edge
+gxr.add(["A", "B"]) -> Node[]
+gxr.add({ id: "A", category: "Person", properties: {name: "Flo"} }) -> Node
+gxr.add([{ id: "A", category: "Person", properties: {name: "Flo"} }]) -> Node[]
+gxr.add({ sourceId: "A", targetId: "B" }) -> Edge
+gxr.add([{ sourceId: "A", targetId: "B" }]) -> Edge[]
+gxr.add([{ source: {...}, edge: {...}, target: {...} }], {...}) -> Edge[] // mergeRelationships
+gxr.add({ name: "Flo" }, { category: "Person" }) -> Node
+gxr.add([{ name: "Flo" }], { category: "Person" }) -> Node[]
+gxr.add([{ name: "Flo" }]) -> Node[]
+gxr.add({ id: "A" }, { id: "B" }) -> Edge
+gxr.add({ id: "A" }, { id: "B" }, { relationship: "LINK" }) -> Edge with relationship "LINK"
+```
+
+### clear
+
+Clear the graph
+
+```js
+gxr.clear();
 ```
 
 ### edges
@@ -120,7 +132,7 @@ gxr.graph().add("A");
 gxr.graph().shortestPath("A", "B").nodes().select()
 
 // Generate a random graph, run degree algorithm, and then run ego layout for a duration of 1 second.
-await gxr()
+gxr
   .graph()
   .clear()
   .generate()
@@ -149,7 +161,7 @@ gxr.makeGraph().add("A").add("B").add("C").add("A", "B").add("B", "C").add("C", 
 ```js
 gxr.nodes().forEach(console.log);
 gxr.nodes().property('age', 24);
-await gxr.nodes().property('age', () => Math.random() * 100);
+gxr.nodes().property('age', () => Math.random() * 100);
 gxr.nodes({category: "Person"}).style('selected', true);
 gxr.nodes({properties: {age: 24}}).style('selected', true);
 gxr.nodes({properties: {age: (age) => age > 24}}).style('selected', true);
@@ -422,26 +434,6 @@ gxr.sizeNodesByProperty({category: "Person", property: 'age'});
 
 ## Transform
 
-### add
-
-Add nodes and edges to the graph.
-
-```js
-gxr.add("A") -> Node with id "A"
-gxr.add("A", "B") -> Edge
-gxr.add(["A", "B"]) -> Node[]
-gxr.add({ id: "A", category: "Person", properties: {name: "Flo"} }) -> Node
-gxr.add([{ id: "A", category: "Person", properties: {name: "Flo"} }]) -> Node[]
-gxr.add({ sourceId: "A", targetId: "B" }) -> Edge
-gxr.add([{ sourceId: "A", targetId: "B" }]) -> Edge[]
-gxr.add([{ source: {...}, edge: {...}, target: {...} }], {...}) -> Edge[] // mergeRelationships
-gxr.add({ name: "Flo" }, { category: "Person" }) -> Node
-gxr.add([{ name: "Flo" }], { category: "Person" }) -> Node[]
-gxr.add([{ name: "Flo" }]) -> Node[]
-gxr.add({ id: "A" }, { id: "B" }) -> Edge
-gxr.add({ id: "A" }, { id: "B" }, { relationship: "LINK" }) -> Edge with relationship "LINK"
-```
-
 ### aggregate
 
 Pull data to root nodes from their neighborhoods up to a certain depth.
@@ -562,6 +554,30 @@ gxr.mergeRelationships({
 })
 ```
 
+### 
+
+Enables/disables quick info
+
+```js
+gxr.quickInfoEnabled(true);
+```
+
+### showQuickInfo
+
+Shows the quick info panel for the given node.
+
+```js
+gxr.showQuickInfo(gxr.nodes().at(0));
+```
+
+### hideQuickInfo
+
+Hides the quick info panel
+
+```js
+gxr.showQuickInfo(gxr.nodes().at(0));
+```
+
 ### shortcut
 
 Convert A -> B -> C to A -> C
@@ -592,6 +608,25 @@ gxr.shortcut({
 for (const {node, edge, depth} of gxr.traverse({ startNodeId: "A", depth: 3 }})) {
   console.log(node, edge, depth);
 }
+```
+
+## UI
+
+### addContextMenuItem
+
+Add a custom menu item to the context menu.
+
+```js
+gxr.addContextMenuItem({
+  name: "Find Similar",
+  text: "Find Similar",
+  icon: "iconfont icon-similar",
+  hide: () => false,
+  enable: () => true,
+  action: (name, nodeId, edgeId, props) => {
+    console.log("Finding similar to", name, nodeId, edgeId, props);
+  }),
+})
 ```
 
 ## Utility
@@ -639,3 +674,4 @@ gxr.vector([1, 2, 3]) -> Vector3 {x: 1, y: 2, z: 3}
 gxr.vector(1, 2, 3) -> Vector3 {x: 1, y: 2, z: 3}
 gxr.vector({x: 1, y: 2, z: 3, w: 4}) -> Vector4 {x: 1, y: 2, z: 3, w: 4}
 ```
+

@@ -1,0 +1,54 @@
+# Animations
+
+## Goal
+
+-  real-time dynamic display of a preloaded dataset for a hallway display 
+ -  randomly select a node
+ -  zoom in on that node while showing graph lines to 10–20 nodes around it
+ -  show a thumbnail of the primary node's data card
+ -  randomly select one of the other nodes in the zoomed graph to become the new focus, repeat…
+
+## Solution
+
+```javascript
+Button("Animate", async () => {
+  // Generate a random graph
+  gxr.clear();
+  gxr.graph().generate({ category: ["Person", "Object", "Location", "Event"] });
+  gxr.graph().randomize("color", ["red", "green", "blue"]);
+  gxr.graph().randomize("number", { min: 1, max: 1000 });
+  gxr.forceLayout();
+
+  // Repeat animation every 5 seconds
+  while (true) {
+    const nodes = gxr.nodes().values();
+    const randomIndex = Math.floor(Math.random() * nodes.length);
+    const randomNode = nodes[randomIndex];
+    // De-select everything
+    gxr.nodes().deselect();
+    // Select the random node
+    gxr.nodes(randomNode).select();
+    // Center To
+    const position = randomNode.position;
+    await gxr.flyToPosition(position);
+    // Trace Neighbor
+    gxr.nodes().alpha(0.3);
+    gxr.edges().alpha(0.3);
+    const highlightedNodes = [];
+    const highlightedEdges = [];
+    for (const { node, edge, depth } of gxr
+      .graph()
+      .traverse({ startNodeId: randomNode.id, depth: 1 })) {
+      highlightedNodes.push(node);
+      if (edge) highlightedEdges.push(edge);
+    }
+    gxr.nodes(highlightedNodes).alpha(1);
+    gxr.edges(highlightedEdges).alpha(1);
+    // Show Quick Info
+    gxr.quickInfoEnabled(true);
+    gxr.showQuickInfo(randomNode);
+    await gxr.sleep(5000);
+    gxr.hideQuickInfo();
+  }
+})
+```
