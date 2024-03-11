@@ -60,13 +60,13 @@ gxr.captionNodesByProperties({category: "Person", properties: ["name", "age"]});
 ### onGraphDataUpdate
 
 ```js
-gxr().onGraphDataUpdate(() => console.log("Graph data updated"));
+gxr.onGraphDataUpdate(() => console.log("Graph data updated"));
 ```
 
 ### onSelect
 
 ```js
-gxr().onSelect((event) => console.log("Selected nodes/edges", event));
+gxr.onSelect((event) => console.log("Selected nodes/edges", event));
 ```
 
 ## Graph
@@ -120,6 +120,12 @@ gxr.getCategoryConfig('Person');
 
 ```js
 gxr.getNode("A")
+```
+
+### getRelationshipConfig
+
+```js
+gxr.getRelationshipConfig("RELATED_TO");
 ```
 
 ### graph
@@ -385,6 +391,12 @@ gxr.neo4j("MATCH (n) RETURN n LIMIT 10");
 
 ## Settings
 
+### setTipsEnabled
+
+```js
+gxr.setTipsEnabled(false);
+```
+
 ### setAutoShowImage
 
 ```js
@@ -424,6 +436,65 @@ gxr.setTheme("dark")
 gxr.colorNodesByProperty('age');
 gxr.colorNodesByProperty({property: 'age'});
 gxr.colorNodesByProperty({property: 'age', scale: 'BuGn'});
+```
+
+### getIcons
+
+Get a list of available icons
+
+```js
+const icons = await gxr.getIcons();
+```
+
+### getIconByName
+
+Get an icon by name
+
+```js
+const icon = await gxr.getIconByName("person");
+```
+
+### setCategoryColor
+
+Set a category's color by hex
+
+```js
+gxr.setCategoryColor("Person", "#00ff00");
+```
+
+### setCategoryIcon
+
+Set a category's icon
+
+```js
+const icon = await gxr.getIconByName("person");
+gxr.setCategoryIcon("Person", icon);
+```
+
+### setCategoryIconByName
+
+Set a category's icon by name
+
+```js
+gxr.setCategoryIconByName("Person", "person");
+```
+
+### setCategoryVisibility
+
+```js
+gxr.setCategoryVisibility("Person", false);
+```
+
+### setRelationshipColor
+
+```js
+gxr.setRelationshipColor("KNOWS", "#00ff00");
+```
+
+### setRelationshipVisibility
+
+```js
+gxr.setRelationshipVisibility("KNOWS", false);
 ```
 
 ### sizeNodesByProperty
@@ -605,7 +676,7 @@ gxr.shortcut({
 ### traverse
 
 ```js
-for (const {node, edge, depth} of gxr.traverse({ startNodeId: "A", depth: 3 }})) {
+for (const {node, edge, depth} of gxr.traverse({ startNodeId: "A", depth: 3 })) {
   console.log(node, edge, depth);
 }
 ```
@@ -625,7 +696,7 @@ gxr.addContextMenuItem({
   enable: () => true,
   action: (name, nodeId, edgeId, props) => {
     console.log("Finding similar to", name, nodeId, edgeId, props);
-  }),
+  },
 })
 ```
 
